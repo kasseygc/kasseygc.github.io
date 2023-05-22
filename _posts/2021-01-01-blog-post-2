@@ -1,0 +1,150 @@
+---
+title: 'A Brief Semantic Analysis of Negative Concord'
+date: 2021-01-01
+permalink: /posts/2021/01/blog-post-2/
+tags:
+  - linguistics
+---
+<!-- wp:paragraph -->
+<p>A double negative is a grammatical negation construction that occurs when two or multiple forms of negation are employed in one sentence. In some languages, double negatives would cancel each other out, leading to an affirmative meaning, while others would strengthen the negation. Negative concord (NC), also known as emphatic negation, refers to cases when double or multiple co-occurring phonologically negative elements (NEs) affirming each other and expressing a single negation (de Swart &amp; Sag, 2002; Herburger, 2001). It has been found that there are numerous languages with NC, for instance, Romance (French, Italian, Spanish), Russian, Greek, Afrikaans and some nonstandard English dialects (Giannakidou, 2000). On the contrary, positive-concord languages in which double negatives would ‘neutralize’ include Chinese, German, Japanese and modern Standard English. Negating an utterance that has already been negated is logically, but not pragmatically, identical to not negating the sentence (Herburger, 2001); hence, how negations in NC function have constantly been under quests by scholars. This article will briefly study the negative concord from a semantic perspective, focusing on negations in French.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Negative elements (NEs) include negative quantifiers (nobody, no one, nothing, nowhere, never), negative determiners (no, none), sentential and constituent negation (not), the negative conjunction neither...nor, the adjectival neither, and less obviously, negative approximatives (hardly, barely, scarcely) (Labov, 1972). They are all in free distribution, which does not have licensing requirements as their counterparts, Negative polarity items (NPIs). NPIs necessitate licensing in negative contexts or downward-entailing environments (Ladusaw, 1980). As den Besten (1986) suggested, there are two forms of NC: negative spread and negative doubling. The former indicates that the negation is ‘spread’ or distributed through indefinite expressions within its scope, and the latter carries negative elements in all sentences containing negative expressions. Languages might incorporate both, either or none of them. Both NC types require only one triggering element and one or more concordant or doubling elements (van der Wouden &amp; Zwarts, 1993).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In French, the salient NEs include the pre-verbal negation particle <em>ne</em>, the n-words like <em>personne</em> (nobody) and <em>rien</em> (nothing), and the negative adverb <em>pas</em> (Richter &amp; Sailer, 2006). It is generally believed that <em>ne</em> does not convey semantic negation, but <em>pas</em> invariably does (Rowlett, 1998). The following examples demonstrated common usages of negations in modern French, adopting a similar approach as Zeijlstra (2004).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As mentioned above, n-words are marked for negation in the syntax level. Thus, they bear the uninterpretable negative feature ([uNEG]), which requires to contain an element having an interpretable feature ([iNEG]). In French, the typical sentential negation (1) contains the negation particle <em>ne</em>, base-generated in the category Neg° with [uNEG], and <em>pas</em>, base-generated in a vP adjunct position, placed on the specifier position of the projection (Spec,NegP) and bearing [iNEG]. Thus, the feature of [uNEG] in <em>ne</em> is cancelled after comparing the feature of [iNEG] feature in <em>pas </em>shown in (2).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pierre <em>ne</em> lit <em>pas</em>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pierre (neg) reads (neg)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>‘Pierre does not read.’</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<sub>NegP</sub> pas<sub>[iNEG]i</sub> [<sub>Neg°</sub> ne lit<sub>[u<s>NEG</s>]</sub>] [<sub>vP</sub> t<sub>i </sub>Pierre]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Note: Neg: negative marker</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Displayed in (3), as <em>pas</em> bears [iNEG], forming an overt recognition of the negative operator (<em>Op</em>¬). Thus, the existential quantifier along with its negation presented by <em>pas</em> (¬∃) join the event variable. In this way, the sentential negation is granted.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¬∃<sub>r </sub>read’ (r, p)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Conventionally, NC structures in French do not acknowledge the presence of <em>pas</em>. Regarding that both <em>ne</em> and n-words carry the [uNEG] feature, the negative operator in French requires to be obtained covertly. Consequently, the syntactic representation in (5) is found in the sentence (4). <em>Op¬</em> produces the negation sententially, which connects all freely distributed variables under the existential closure, forming the derived logical construction shown in (6).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pierre <em>ne</em> lit <em>rien</em>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pierre (neg) reads (n-thing)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>‘Pierre doesn’t read anything.’</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<sub>NegP</sub> <em>Op</em><sub>¬</sub><sub> [iNEG]</sub> [<sub>Neg</sub><sub>°</sub> ne-lit<sub>i<s>[uNEG]</s></sub>] [<sub>vP</sub> rien<s><sub>[uNEG]</sub></s> Pierre t<sub>i</sub>]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (6)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¬∃<sub>r,x </sub>read’ (r, p, x)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The final case with the negative particle <em>ne</em> following the subject is more convoluted, as both <em>Op¬</em> and <em>personne </em>(n-body) are positioned before <em>ne</em>. Also, Spec,NegP seems to be loaded in a double manner. Nevertheless, since <em>personne</em> could be generated on the base in the derivation in Spec,vP, the negative operator in Spec,NegP could license it, as illustrated below in (9).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(7)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>Personne ne</em> lit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(N-body) (neg) reads.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>‘Nobody reads.’</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(8) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<sub>NegP</sub> <em>Op</em><sub>¬</sub><sub> [iNEG]</sub> [<sub>Neg</sub><sub>°</sub> ne-lit<sub>i<s>[uNEG]</s></sub>] [<sub>vP</sub> <em>personne</em><s><sub>[uNEG]</sub></s> [<sub>v</sub><sub>°</sub> t<sub>i</sub>]]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(9) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¬∃<sub>r,x </sub>[Person’(x) &amp; Read’(r, x)]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>However, the construction of (8) fails to match the word order on the surface. Zeijlstra (2004) suggested that the subject would form a compound with the <em>Op</em>¬, consisting of the <em>Op</em>¬ and the n-word <em>personne</em>. The notion still required further investigations, especially cross-linguistically.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>French has been commonly considered the fundamental discussion due to its language norms of applying double negatives in various speech contexts. Regardless, negative concord is undoubtedly one of the complex subtopics in semantics. Inadequate comparisons were conducted between negative concord and positive concord languages outside the semantic and logical framework.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">References</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>de Swart, H., &amp; Sag, I. A. (2002). Negation and negative concord in Romance. <em>Linguistics and Philosophy</em>, 25(4), 373-417.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>den Besten, H. (1986). Double negation and the genesis of Afrikaans. In P. Muysken and N. Smith (Eds.), <em>Substrata versus Universals in Creole Languages</em>. (pp. 185-230).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Herburger, E. (2001). The negative concord puzzle revisited. <em>Natural language semantics</em>, 9(3), 289-333.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Giannakidou, A. (2000). Negative... concord?. <em>Natural Language &amp; Linguistic Theory</em>, 18(3), 457-523.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Labov, W. (1972). Negative Attraction and Negative Concord in English grammar. <em>Language</em>, 48, 773-818.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ladusaw, W. (1980). <em>Polarity Sensitivity as Inherent Scope Relations</em>. PhD dissertation, University of Texas. Garland, New York.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Richter, F., &amp; Sailer, M. (2006). Modeling typological markedness in semantics: The case of negative concord. In Stefan Müller (Ed.), <em>Proceedings of the 13th International Conference on Head-Driven Phrase Structure Grammar, Varna</em> (pp. 305-325). Stanford, CA: CSLI Publications.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Rowlett, P. (1998). A non-overt negative operator in French. <em>PROBUS International Journal of Latin and Romance Linguistics</em>, 10(2), 185-206.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>van der Wouden, T., &amp; Zwarts, F. (1993). A semantic analysis of negative concord. In <em>Proceedings of SALT</em> (Vol. 3, pp. 202-219). Cornell University.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Zeijlstra, H. (2004). <em>Sentential negation and negative concord</em>. Netherlands Graduate School of Linguistics.</p>
+<!-- /wp:paragraph -->
