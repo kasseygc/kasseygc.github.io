@@ -11,49 +11,34 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in Linguistics and Computer Science, Columbia University, 2024
+(expected)
 
-Work experience
+Professional experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2023 - Present: Research Fellow
+  * Department of Psychology, Columbia University
+  * Duties included: Data collection, Data cleaning (Tableau), Data analysis (PsychoPy/Python), Poster presentation
+  * Supervisor: Professor Alfredo Spagna
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Fall 2022: Research Assistant
+  * Department of Psychology, Columbia University
+  * Duties included: Literature review, data entry and data coding
+  * Supervisor: Professor Nora Isacoff
+
+* Summer 2021 - Summer 2022: Research Assistant
+  * Department of Linguistics and Translation, City University of Hong Kong
+  * Duties included: Transcription, translation, data annotation and analysis
+  * Supervisor: Professor Maggie Mai
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Natural Language Processing
+* Linguistic Analysis
+  * Corpus/quantitative analysis (corpus tools & R)
+  * Conversation/Discourse analysis
+* Programming
+  * Python, Java, C
+  * Frontend: HTML, CSS, JavaScript
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
