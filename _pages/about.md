@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am Katherine, usually go by Kassey. I'm a student studying Linguistics and Computer Science at Columbia University.
+Hello! I am Katherine Chang (zoeng1 cing4 man4), usually go by Kassey. I'm an undergraduate student studying Linguistics and Computer Science at Columbia University.
 
 My academic journey is underpinned by the deep-seated belief in the significance and accuracy of data and statistical analysis. I maintain that extracting empirical insights from wide-ranging, objective datasets forms an integral part of creating a resilient foundation for academic investigations. My research approach primarily revolves around a data-driven methodology, with a focus on <b>Corpus Linguistics</b>, which includes corpus design, compilation, and corpus-based studies.
 
