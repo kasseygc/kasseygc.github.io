@@ -7,15 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am Katherine Chang (zoeng1 cing4 man4), usually go by Kassey. I'm an undergraduate student studying Linguistics and Computer Science at Columbia University.
+Hello! I am Katherine Chang (zoeng1 cing4 man4), usually go by **Kassey**. I'm an undergraduate student studying Linguistics and Computer Science at Columbia University.
 
-My academic journey is underpinned by the deep-seated belief in the significance and accuracy of data and statistical analysis. I maintain that extracting empirical insights from wide-ranging, objective datasets forms an integral part of creating a resilient foundation for academic investigations. My research approach primarily revolves around a data-driven methodology, with a focus on <b>Corpus Linguistics</b>, which includes corpus design, compilation, and corpus-based studies.
+My academic journey is underpinned by the deep-seated belief in the significance and accuracy of data and statistical analysis. I maintain that extracting empirical insights from wide-ranging, objective datasets forms an integral part of creating a resilient foundation for academic investigations. My research approach primarily revolves around a data-driven methodology, with a focus on **Corpus Linguistics**, which includes corpus design, compilation, and corpus-based studies.
 
-In the crossroads of Linguistics and Computer Science, my interest has been piqued by <b>Natural Language Processing/Understanding (NLP/NLU)</b>. This interdisciplinary field grants me the opportunity to delve into the intricacies of conversation and discourse analysis. A captivating facet of my academic exploration is understanding the complex mechanisms through which both computers and the human mind decode and comprehend linguistic data, an area that spans both <b>Computational Linguistics and Cognitive Linguistics/Science</b>. My aspiration is to bridge the gap between computational methodologies and linguistic comprehension, with a view to expanding the discussion on how technological advancements can replicate, or perhaps even augment, human cognitive functionalities.
+In the crossroads of Linguistics and Computer Science, my interest has been piqued by **Natural Language Processing/Understanding (NLP/NLU)**. This interdisciplinary field grants me the opportunity to delve into the intricacies of conversation and discourse analysis. A captivating facet of my academic exploration is understanding the complex mechanisms through which both computers and the human mind decode and comprehend linguistic data, an area that spans both **Computational Linguistics and Cognitive Linguistics/Science**. My aspiration is to bridge the gap between computational methodologies and linguistic comprehension, with a view to expanding the discussion on how technological advancements can replicate, or perhaps even augment, human cognitive functionalities.
 
 Currently, I am engaged in two exciting projects:
-* <b>"SFP-based Semantic Annotator: From a Cantonese Perspective"</b> (Tentative Senior Thesis)
-* <b>“Patuá Macaense – The Macanese Creole Portuguese Written Corpus”</b>
+* **"SFP-based Semantic Annotator: From a Cantonese Perspective"** (Tentative Senior Thesis)
+* **“Patuá Macaense – The Macanese Creole Portuguese Written Corpus”**
   * Corpus data collection in progress
   * Aims to compile a digital morphologically annotated corpus demonstrating the influence of superstrate and adstrate languages
 
