@@ -15,7 +15,7 @@ In the crossroads of Linguistics and Computer Science, my interest has been piqu
 
 Currently, I am engaged in two exciting projects:
 * <b>"SFP-based Semantic Annotator: From a Cantonese Perspective"</b> (Tentative Senior Thesis)
-* <b?“Patuá Macaense – The Macanese Creole Portuguese Written Corpus”</b>
+* <b>“Patuá Macaense – The Macanese Creole Portuguese Written Corpus”</b>
   * Corpus data collection in progress
   * Aims to compile a digital morphologically annotated corpus demonstrating the influence of superstrate and adstrate languages
 
