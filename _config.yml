@@ -175,7 +175,7 @@ collections:
   publications:
     output: false
     permalink: /:collection/:path/
-  research:
+  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -204,10 +204,10 @@ defaults:
       layout: single
       author_profile: true
   
-  # _research
+  # _portfolio
   - scope:
       path: ""
-      type: research
+      type: portfolio
     values:
       layout: single
       author_profile: true
