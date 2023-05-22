@@ -82,8 +82,8 @@ author:
   avatar           : "profile.png"
   bio              : "Language, Data, Computation & Cognition"
   location         : "New York, New York"
-  employer         : "Research Fellow at The Living Lab"
-  email            :
+  employer         : 
+  email            : "c.kathe@columbia.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -97,7 +97,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/kasseyc/"
+  linkedin         : "kasseyc"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
