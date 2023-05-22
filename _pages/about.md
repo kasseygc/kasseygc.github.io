@@ -22,7 +22,6 @@ Currently, I am engaged in two exciting projects:
 As a dedicated language enthusiast, I speak Cantonese (Yue), English, German, Mandarin Chinese, and French. I am also in the process of learning Bahasa Indonesian (my heritage language) and Japanese.
 
 When stepping away from my academic pursuits, I enjoy gardening, watching Broadway musicals, and films. 
-Full CV available upon request.
 
 Thank you for visiting my webpage. Please feel free to contact me if you would like to collaborate/have any awesome idea to share!
 
