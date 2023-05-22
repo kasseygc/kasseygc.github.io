@@ -1,0 +1,34 @@
+---
+title: 'This is a Prescriptivist World'
+date: 2023-01-01
+permalink: /posts/2023/01/blog-post-2/
+tags:
+  - sociolinguistics
+---
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lately, TikTok’s and Instagram’s algorithms seem to be messing with me: I kept running myself into these “language teaching” videos in which the content creators are “educating” their audience by babbling “NEVER say this,” “Don’t say this, say this instead,” “STOP saying this in front of native speakers,” etc. One particularly nauseating tape includes the condescending instruction of “STOP pronouncing the ‘t’ in English. Don’t say ‘iden<strong>t</strong>ify.’ Say ‘ide<strong>n</strong>ify.’” This so-called rule is not only an overgeneralization but also reveals deeper problems in society.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a member of the linguistically oppressed, I am fed up with the relentless prescriptivism that plagues our society. For those who are blissfully unaware, prescriptivism is the belief that there is a “correct” way to use language and that deviations from this so-called “correct” usage should be condemned and frowned upon. From the grammar police on social media to the English teachers who insist on strict adherence to arbitrary rules, their underlying belief is that their own variety or “version” of English is the standard form and superior to others. Thus, it should be promoted and widely used. Isn’t that “linguo-centric” or some sort of linguistic imperialism?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>When I was in seventh grade, I submitted an English composition that included the word “ain’t” in a sentence like “That ain’t right.” My teacher marked it with a big red cross, and I still recall the feeling of being scolded. At the time, I thought I had done something wrong, and I never used the word in writing again. It wasn’t until I studied linguistics that I realized there was nothing inherently wrong with using “ain’t.” It is grammatical and doesn’t make the sentence any less understandable; in my case, it could even fulfill my designated purpose of adding tone and <a href="/www.jstor.org/stable/pdf/4167261.pdf">illocutionary force</a>. Looking back, I know that the teacher’s disapproval was unjustified, and I’m sure I’m not the only one who has been reprimanded by a prescriptivist for using so-called “nonstandard” language. The irony is that even as I wrote those “ain’t”s above, they were underlined by red squiggly lines. Why is using our own unique way of speaking considered wrong? We should be allowed to express thoughts in our <a href="/watermark.silverchair.com/250431.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtwwggLYBgkqhkiG9w0BBwagggLJMIICxQIBADCCAr4GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMfG6w734VOL4dO4fiAgEQgIICj-7F67DgrQAeWmY4jpARs7zPjTCAaKP6VyDGhArcLN8pINhcqrRxTT_WcAWNBruwm2eXVcwD18lVwppiGgzIAKnDDiYzCVN2SxqFFOxmjBK66CrJjvzPUM2ZoIDrlRSS3IL9XR3OBdChEQWuSQjDEqNXqxXW0BIB0BibOljBlfegmmZMU_HBkNCGALW4WbTtI_r22stEx3xP5BqSFk0uLaSx7SrAR0bHR_2mIfPrlHV_Ccyqc8HLefdkbJE41nPY7e0JmCx5vG2LemxPCBQ7ST2qs-pvmWHT8FJLXoZdwQKkuTxMamF38xA-NgkKi5tXhVR6N0ROfTgPvIV7yFP26uD-nMVHs0j6DVUuFETS4DPjJPFx7duEYqCr7ti5CB_26fBZAoCVSPMnXlxHZAwfuK_qn5Ro5VsAGPfhaL6GJSnIogMzJKiXeFgyxUBgrWATVeY0VnUNj0TGQB0EP8lIwqMEyWZsxSU7grpj_eYi5yea05MYw7CU8-95jXmG2NoO1mVqCEnSDjj71QaiCOXM75fteHraMX4rOpTU_NpQMy3S_m0Nl0o5ITjMgtXukigawbQqgwrErEiy8GHFW4hp9CiWPJNuGIXdKMvxivhEFPlVKAyBN8KWB7lpYPiEmiqUd0SJEVr507ymLLxutW6L3rS0payTxeDCYr9VblFFDT-8nVsazIGJJur3QdxS8Dj1HSSg1hoRGmgeSOn65CnKAae8HhGT7KW_XqU2ZboQBXt3kEbNSewZah-1IOw2Fx0iwu9NAPbfC7BOXeXrI5qp7tTN94AEH1SeJv8KDodUQ4C2YHOoI2IMlHjlfZKbYQNLWQMKX9hPhkaJI9ZsQbBqcRRBTZjUsRK24ateJlO9Qow">idiolects</a>, our unique use of language featuring our personal preferences. Purists want us to be an ensemble—using the same expression, pronouncing words the same way, and speaking with the same intonation. It almost sounds like we’re in George Orwell’s 1984.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Unsurprisingly, prescriptivism leads to linguistic discrimination and the marginalization of non-dominant varieties. Those in positions of power use it to exclude and belittle those who don’t conform to their arbitrary standards, often judging people’s intelligence or social status based on their accent or dialect. This is particularly evident in the stigmatization of <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=snEEdFKLJ5cC&amp;oi=fnd&amp;pg=PR8&amp;dq=grammaticality+of+african+american+english+labov&amp;ots=AMUfsWE6rK&amp;sig=xKbdPFSVK49ASZmA3lV1K8s_av8#v=onepage&amp;q=grammaticality%20of%20african%20american%20english%20labov&amp;f=false">African American English</a> (AAE), a rich and complex variety of English that has already been proven by linguists to be a legitimate variety with its own grammar and vocabulary. To mock someone for using double negatives or copulas is to reinforce the power dynamics and white supremacy in our society. In this way, prescriptivism is just an embodiment of these more extensive problems, as well as a handy tool for those in power to maintain the status quo and suppress dissent. It’s a win-win for the oppressors: they, who speak “standard” language, get to control and stay at their position in the power hierarchy, while the rest of us are trying hard not to put prepositions at the end of the sentences. But hey, at least our language is “correct,” right?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prescriptivists would use fearmongering tactics to have us believe that without strict rules and standards in language, we would be unable to communicate with or understand each other, and that chaos would ensue. However, this is a gross oversimplification of the way language works. Human beings have an incredible ability to comprehend and adapt to different varieties of language, and mutual intelligibility between these varieties is quite common. Furthermore, a descriptive approach to language does not reject the existence of rules, but advocates for the acceptance and respect of all language varieties, including “standardized” forms.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I’m glad to see parodies made in response to that condescending content of “ide<strong>n</strong>ify”: According to the rule of “t” omission, should we pronounce tomato as “omao”? Or potato as “poao”? It is always great to enjoy comedies and know I’m not the only one who has noticed the problem. The outdated and elitist prescriptivist attitude has no place in a world that is becoming increasingly diverse and inclusive. It’s time to let go of our misguided obsession with “proper” language, be less judgmental, and acknowledge the variety and diversity in language use, as a baby step towards reversing the power dynamics.</p>
+<!-- /wp:paragraph -->
