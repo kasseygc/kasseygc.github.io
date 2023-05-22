@@ -24,3 +24,5 @@ As a dedicated language enthusiast, I speak Cantonese (Yue), English, German, Ma
 When stepping away from my academic pursuits, I enjoy gardening, watching Broadway musicals, and films. 
 Full CV available upon request.
 
+Thank you for visiting my webpage. Please feel free to contact me if you would like to collaborate/have any awesome idea to share!
+
