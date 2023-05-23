@@ -24,12 +24,12 @@ Professional experience
 
 * Fall 2022: Research Assistant
   * Department of Psychology, Columbia University
-  * Duties included: Literature review, data entry and data coding
+  * Duties included: Literature review, Data entry and coding
   * Supervisor: Professor Nora Isacoff
 
 * Summer 2021 - Summer 2022: Research Assistant
   * Department of Linguistics and Translation, City University of Hong Kong
-  * Duties included: Transcription, translation, data annotation and analysis
+  * Duties included: Transcription, Translation, Data annotation and analysis
   * Supervisor: Professor Maggie Mai
 
 
