@@ -48,12 +48,18 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  theme: minimal-mistakes-jekyll
+  minimal_mistakes_skin: "dirt"
+  logo: "/images/sit-logo.png"
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+search: true
+lunr:
+  search_within_pages: true
 
 # Social Sharing
 twitter:
@@ -193,9 +199,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
+      show_date: false
   # _pages
   - scope:
       path: ""
