@@ -49,7 +49,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   
-theme: minimal-mistakes-jekyll
+
   minimal_mistakes_skin: "dirt"
 logo: "/images/sit-logo.png"
 
