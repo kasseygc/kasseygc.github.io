@@ -36,11 +36,13 @@ Professional experience
 Skills
 ======
 * Natural Language Processing
+  * Machine Learning
+  * NLTK, pandas, BERT, PyTorch, TensorFlow, regex, Hugging Face, scikit learn
 * Linguistic Analysis
   * Corpus/quantitative analysis (corpus tools & R)
   * Conversation/Discourse analysis
 * Programming
-  * Python, Java, C
-  * Frontend: HTML, CSS, JavaScript
+  * Python, Java, C/C++
+  * Front-end: HTML, CSS, JavaScript
 
 Full CV available upon request.
