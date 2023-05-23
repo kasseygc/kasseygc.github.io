@@ -37,7 +37,7 @@ Skills
 ======
 * Natural Language Processing
   * Machine Learning
-  * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, seaborn, BERT, regex, Hugging Face, scikit-learn
+  * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, seaborn, BERT, regex, Hugging Face, scikit-learn, matplotlib
 * Linguistic Analysis
   * Corpus/quantitative analysis (corpus tools & R)
   * Conversation/Discourse analysis
