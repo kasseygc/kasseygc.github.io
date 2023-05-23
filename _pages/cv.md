@@ -13,6 +13,7 @@ Education
 ======
 * B.A. in Linguistics and Computer Science, Columbia University, 2024
 (expected)
+* B.A. in Linguistics and Language Applications, City University of Hong Kong, 2022
 
 Professional experience
 ======
