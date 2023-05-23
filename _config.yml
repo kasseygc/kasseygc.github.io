@@ -48,9 +48,10 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  theme: minimal-mistakes-jekyll
+  
+theme: minimal-mistakes-jekyll
   minimal_mistakes_skin: "dirt"
-  logo: "/images/sit-logo.png"
+logo: "/images/sit-logo.png"
 
 # SEO Related
 google_site_verification :
