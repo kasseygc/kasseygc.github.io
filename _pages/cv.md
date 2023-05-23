@@ -18,7 +18,7 @@ Professional experience
 ======
 * Summer 2023 - Present: Research Fellow
   * Department of Psychology, Columbia University
-  * Duties included: Data collection, Data cleaning (Tableau), Data analysis (PsychoPy/Python), Poster presentation
+  * Duties included: Data collection, Data cleaning (Tableau), Data analysis (PsychoPy/Python)
   * Supervisor: Professor Alfredo Spagna
 
 * Fall 2022: Research Assistant
