@@ -45,3 +45,6 @@ Skills
   * Python, Java, C/C++
   * Front-end: HTML, CSS, JavaScript
 
+
+Full version available upon request
+
