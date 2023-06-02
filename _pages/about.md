@@ -15,7 +15,7 @@ My academic pursuits are fundamentally rooted in the importance and precision of
 In the crossroads of Linguistics and Computer Science, I'm drawn to **Natural Language Processing/Understanding (NLP/NLU)**, especially syntax and semantic parsing in low-resource languages. An intriguing aspect of my studies lies in deciphering the sophisticated mechanisms by which both computers and the human brain interpret language data — a realm that extends to **Computational Linguistics and Cognitive Science**. My aspiration is to bridge the gap between computational techniques and theoretical linguistic understanding, with a view to expanding the discussion on how technological advancements can replicate human cognitive functionalities.
 
 Currently, I am working on two projects:
-* **Visual mental imagery: an English-language assessment battery for different perceptual and imagery domains** (Funded by URF Summer Research Fellowship at Columbia)
+* **Visual mental imagery: an English-language assessment battery for different perceptual and imagery domains** (Supported by URF Summer Research Fellowship at Columbia)
 * **SFP-based Semantic Annotator: From a Cantonese Perspective** (Tentative Senior Thesis)
 
 
