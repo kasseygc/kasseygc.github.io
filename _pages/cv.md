@@ -19,7 +19,7 @@ Professional experience
 ======
 * Summer 2023 - Present: Research Fellow
   * Department of Psychology, Columbia University
-  * Duties included: Experiment design, Data collection (PsychoPy/JavaScript), Data cleaning/visualization (Tableau), Data analysis (Python)
+  * Duties included: Data/statistical analysis (Python), Experiment design (PsychoPy/JavaScript), Data cleaning/visualization (Tableau)
   * Supervisor: Professor Alfredo Spagna
 
 * Fall 2022: Research Assistant
@@ -29,7 +29,7 @@ Professional experience
 
 * Summer 2021 - Summer 2022: Research Assistant
   * Department of Linguistics and Translation, City University of Hong Kong
-  * Duties included: Data collection, Transcription, Translation, Data annotation and analysis
+  * Duties included: Data collection, Transcription, Translation, Data annotation and analysis (CLAN)
   * Supervisor: Professor Maggie Mai
 
 
@@ -39,10 +39,11 @@ Skills
   * Machine Learning
   * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, BERT, regex, Hugging Face, scikit-learn, APIs
 * Linguistic Analysis
-  * Corpus/quantitative analysis (corpus tools & R)
+  * Corpus/quantitative analysis (Python, corpus tools & R)
   * Conversation/Discourse analysis
 * Programming
   * Python, Java, C/C++
+  * Back-end: Django, SQL, APIs
   * Front-end: HTML, CSS, JavaScript
  
 
