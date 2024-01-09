@@ -9,28 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.A. in Linguistics and Computer Science, Columbia University, 2024
-(expected)
-* B.A. in Linguistics and Language Applications, City University of Hong Kong, 2024
-
 Professional experience
 ======
-* Summer 2023 - Present: Research Fellow
-  * Department of Psychology, Columbia University
-  * Duties included: Data/statistical analysis (Python), Experiment design (PsychoPy/JavaScript), Data cleaning/visualization (Tableau)
-  * Supervisor: Professor Alfredo Spagna
+Highlighted Roles
 
-* Fall 2022: Research Assistant
-  * Department of Psychology, Columbia University
-  * Duties included: Literature review, Data entry and coding
-  * Supervisor: Professor Nora Isacoff
+* Research Engineer, Columbia University, Department of Psychology
+  * Focused on optimizing experimental protocols using Python and JavaScript, and deploying data analytics infrastructures.
+  * Incorporated advanced unsupervised machine learning algorithms (k-means clustering, nearest neighbor, t-SNE) to analyze intricate data patterns.
+* Research Assistant, City University of Hong Kong, Department of Linguistics and Translation
+  * Conducted computational linguistic analysis and developed an automated transcription system, improving data processing efficiency significantly.
+* UX Researcher, Openground
+  * Collaborated in the design and implementation of a sustainable, modular display solution, applying user-centered design principles to accommodate the unique retail spaces of the neighborhood.
+  * Conducted ethnographic research through in-depth interviews and usability testing with local community members to gather actionable user insights for the iterative design process.
 
-* Summer 2021 - Summer 2022: Research Assistant
-  * Department of Linguistics and Translation, City University of Hong Kong
-  * Duties included: Data collection, Transcription, Translation, Data annotation and analysis (CLAN)
-  * Supervisor: Professor Maggie Mai
 
 
 Skills
