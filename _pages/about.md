@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am Katherine Chang (*zoeng1 cing4 man4*), usually go by **Kassey**. I'm an undergraduate student studying Linguistics and Computer Science at Columbia University.
+Hello! I am Katherine "Kassey" Chang. I'm an undergraduate student studying Linguistics and Computer Science at Columbia University.
 
 My research predominantly follows a data-centric approach, concentrating on **Corpus Linguistics** — from corpus design and compilation to corpus-based studies. At the crossroads of Linguistics and Computer Science, I'm drawn to **Natural Language Processing/Understanding (NLP/NLU)**, especially syntax and semantic parsing in low-resource languages. An intriguing aspect of my studies lies in deciphering the sophisticated mechanisms by which both computers and the human brain interpret language data — a realm that extends to **Computational Linguistics** and **Cognitive Science**. 
 
