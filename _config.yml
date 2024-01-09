@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Katherine (Kassey) Chang"
+title                    : "Katherine "Kassey" Chang"
 title_separator          : "-"
 name                     : &name "Kassey Chang"
 description              : &description "personal description"
@@ -88,8 +88,8 @@ author:
   name             : "Katherine (Kassey) Chang"
   avatar           : "profile.png"
   bio              : "Language, Data, Computation & Cognition"
-  location         : "New York, New York"
-  employer         : "Research Fellow <br>     at The Living Lab"
+  location         : "San Francisco, California"
+  employer         : 
   email            : "c.kathe@columbia.edu"
   uri              :
   bitbucket        :
