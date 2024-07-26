@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am Katherine "Kassey" Chang. I study Linguistics and Computer Science at Columbia University.
+Hello! I am Kassey Chang. I studied Linguistics and Computer Science at Columbia University.
 
 
 
