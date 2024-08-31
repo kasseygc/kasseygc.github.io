@@ -86,11 +86,11 @@ analytics:
 # Site Author
 author:
   name             : "Kassey Chang"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Language, Data, Computation & Cognition"
   location         : "San Francisco, California"
   employer         : 
-  email            : "Kassey.Chang@ucsf,edu"
+  email            : "Kassey.Chang@ucsf.edu"
   uri              :
   bitbucket        :
   codepen          :
