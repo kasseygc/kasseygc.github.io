@@ -12,7 +12,8 @@ redirect_from:
 Professional experience
 ======
 Highlighted Roles
-
+* Clinical Research Coordinator, University of California, San Francisco, Department of Neurology
+  * Coordinated multiple research projects on frontotemporal dementia and primary progressive aphasia
 * Research Engineer, Columbia University, Department of Psychology
   * Focused on optimizing experimental protocols using Python and JavaScript, and deploying data analytics infrastructures.
   * Incorporated advanced unsupervised machine learning algorithms (k-means clustering, nearest neighbor, t-SNE) to analyze intricate data patterns.
