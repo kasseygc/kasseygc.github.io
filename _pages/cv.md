@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+
 Education
 ======
 * MS Bioinformatics, University of London, 2025
