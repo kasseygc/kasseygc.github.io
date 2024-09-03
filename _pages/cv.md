@@ -8,7 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
+Education
+======
+* MS Bioinformatics, University of London, 2025
+* BA Linguistics and Computer Science, Columbia University, 2024
 
+  
 Professional experience
 ======
 Highlighted Roles
@@ -27,16 +32,20 @@ Highlighted Roles
 
 Skills
 ======
+* Programming
+  * Python, Java, C/C++
+  * Back-end: Django, SQL, APIs
+  * Front-end: HTML, CSS, JavaScript
+* Bioinformatics
+  * Sequence Analysis
+  * Genomics
 * Natural Language Processing
   * Machine Learning
   * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, BERT, regex, Hugging Face, scikit-learn, APIs
 * Linguistic Analysis
   * Corpus/quantitative analysis (Python, corpus tools & R)
   * Conversation/Discourse analysis
-* Programming
-  * Python, Java, C/C++
-  * Back-end: Django, SQL, APIs
-  * Front-end: HTML, CSS, JavaScript
+
  
 
 Full version available upon request
