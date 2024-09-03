@@ -39,8 +39,9 @@ Skills
   * Back-end: Django, SQL, APIs
   * Front-end: HTML, CSS, JavaScript
 * Bioinformatics
-  * Sequence Analysis
+  * Sequence Analysis (R)
   * Genomics
+  * Text Mining
 * Natural Language Processing
   * Machine Learning
   * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, BERT, regex, Hugging Face, scikit-learn, APIs
