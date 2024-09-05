@@ -2,6 +2,7 @@
 title: "Correctness and Fluency across Speech Styles: A Study on the Speech Errors made by Cantonese Speakers"
 excerpt: "In the previous decades, speech production and processing have been well-established linguistic topics. Much has been done to map the evidence elicited in speech errors and the mental processing during discourse production. Along with the intensive growth of corpus linguistics, the slips in raw spoken data have been a gateway to studying language performance and actual language use. Speech errors among children and patients with language disorders have played a significant role in investigating early language acquisition and clinical linguistics."
 collection: portfolio
+order: 8
 ---
 
 <!-- wp:paragraph -->
