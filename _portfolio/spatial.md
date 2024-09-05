@@ -2,6 +2,7 @@
 title: "The Effect of Spatial Devices in L1 on the Construal of Spatial Relationships: A Corpus-based Study"
 excerpt: "Cross-linguistic patterns in the human conceptualization of space have been one of the cognitive-linguistic topics frequently discussed by scholars. Despite the presence of universal semantic primes, their syntactic classes and encoding spatial scenes vary from one another (Talmy, 2000). As a primary cognitive and perceptual category, space is regularly encoded by speakers in daily communication. A successful acquisition of spatial relations in the target language (TL) could determine whether the learners have achieved their language goals (Becker &amp; Carroll, 1997). Although various factors could influence the acquisition, the interaction between speakers’ prioritized spatial knowledge, possibly shaped by their native languages (L1), and the TL is crucial in investigating the construal of spatial relationships."
 collection: portfolio
+order: 3
 ---
 
 <!-- wp:paragraph -->
