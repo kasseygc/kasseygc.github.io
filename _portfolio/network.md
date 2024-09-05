@@ -2,6 +2,7 @@
 title: "Scale-free and Small-world Networks in Word Associations"
 excerpt: " The notable theoretical linguist Noam Chomsky (1957) described language as a set of infinite combinations constructed from a finite set of linguistic units. However, these combinations are not formed randomly or unsystematically due to the lexico-syntactical rules and collocations in real-life language use. Along with the rise of quantitative methodology in linguistics, more statistical evidence has proven the mutual information in the co-occurrence of words. This report aims to present a review of the article <em>The small world of human language</em> (Canchon &amp; Solé, 2001) and how the findings in physics interact with the disciplinary knowledge in linguistics."
 collection: portfolio
+order: 4
 ---
 
 <!-- wp:paragraph -->
