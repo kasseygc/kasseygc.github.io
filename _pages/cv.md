@@ -12,7 +12,6 @@ redirect_from:
 
 Education
 ======
-* MS Bioinformatics, University of London, 2025
 * BA Linguistics and Computer Science, Columbia University, 2024
 
   
