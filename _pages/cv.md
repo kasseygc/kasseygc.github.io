@@ -12,6 +12,7 @@ redirect_from:
 
 Education
 ======
+* MS Computer Science, UT Austin, 2025
 * BA Linguistics and Computer Science, Columbia University, 2024
 
   
