@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Technical Skills
-======
+## Technical Skills
+
 ### NLP & Machine Learning
 * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, BERT, regex, Hugging Face, scikit-learn, APIs
 * Machine Learning
@@ -26,17 +26,15 @@ Technical Skills
 * Syntactic & semantic parsing
 * Phonetic/phonological analysis, Conversation/Discourse analysis (Praat, ELAN, CLAN)
 
+## Professional Experience
 
+### Highlighted Roles
 
-Professional experience
-======
-Highlighted Roles
-### Linguistic QA Engineer 
+#### Linguistic QA Engineer 
 * Develop and implement rigorous testing frameworks for evaluating natural language processing systems across multiple languages, ensuring high accuracy in language model outputs and maintaining linguistic consistency
 * Design and execute comprehensive test cases for syntactic parsing and semantic analysis, identifying and resolving complex linguistic edge cases across diverse language families
 
-
-### Research Engineer | Columbia University
+#### Research Engineer | Columbia University
 * Developed and optimized data analytics infrastructure using Python and JavaScript
 * Implemented machine learning algorithms (k-means clustering, t-SNE) for pattern analysis
 * Automated experimental protocols, enhancing research efficiency
@@ -44,23 +42,17 @@ Highlighted Roles
 #### Research Analyst | City University of Hong Kong
 * Conducted computational linguistic analysis and developed an automated transcription system, improving data processing efficiency significantly
 
-
-### UX Researcher | Openground
+#### UX Researcher | Openground
 * Led end-to-end user research for retail display solution, resulting in successful implementation across neighborhood stores
 * Conducted and analyzed user interviews and usability tests to drive iterative design improvements
 * Translated research findings into actionable design recommendations
 
-### Project Manager & Clinical Research Coordinator | UCSF Neurology
+#### Project Manager & Clinical Research Coordinator | UCSF Neurology
 * Managed multiple concurrent research projects on neurodegenerative disorders
 * Coordinated cross-functional teams and stakeholders
 
-Education
-======
+## Education
 * MS Computer Science, UT Austin, 2025
 * BA Linguistics and Computer Science, Columbia University, 2024
 
-
- 
-
-Full version available upon request
-
+*Full version available upon request*
