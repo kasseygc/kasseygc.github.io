@@ -9,45 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
+Technical Skills
+======
+### NLP & Machine Learning
+* PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, BERT, regex, Hugging Face, scikit-learn, APIs
+* Machine Learning
+* Text Mining
+
+### Software Development
+* Languages: Python, Java, C/C++
+* Backend: Django, SQL, APIs
+* Frontend: HTML, CSS, JavaScript
+
+### Linguistic Analysis
+* Corpus/quantitative analysis (Python, corpus tools & R)
+* Syntactic & semantic parsing
+* Phonetic/phonological analysis, Conversation/Discourse analysis (Praat, ELAN, CLAN)
+
+
+
+Professional experience
+======
+Highlighted Roles
+### Linguistic QA Engineer 
+* Develop and implement rigorous testing frameworks for evaluating natural language processing systems across multiple languages, ensuring high accuracy in language model outputs and maintaining linguistic consistency
+* Design and execute comprehensive test cases for syntactic parsing and semantic analysis, identifying and resolving complex linguistic edge cases across diverse language families
+
+
+### Research Engineer | Columbia University
+* Developed and optimized data analytics infrastructure using Python and JavaScript
+* Implemented machine learning algorithms (k-means clustering, t-SNE) for pattern analysis
+* Automated experimental protocols, enhancing research efficiency
+
+#### Research Analyst | City University of Hong Kong
+* Conducted computational linguistic analysis and developed an automated transcription system, improving data processing efficiency significantly
+
+
+### UX Researcher | Openground
+* Led end-to-end user research for retail display solution, resulting in successful implementation across neighborhood stores
+* Conducted and analyzed user interviews and usability tests to drive iterative design improvements
+* Translated research findings into actionable design recommendations
+
+### Project Manager & Clinical Research Coordinator | UCSF Neurology
+* Managed multiple concurrent research projects on neurodegenerative disorders
+* Coordinated cross-functional teams and stakeholders
 
 Education
 ======
 * MS Computer Science, UT Austin, 2025
 * BA Linguistics and Computer Science, Columbia University, 2024
 
-  
-Professional experience
-======
-Highlighted Roles
-* Clinical Research Coordinator, University of California, San Francisco, Department of Neurology
-  * Coordinated multiple research projects on frontotemporal dementia and primary progressive aphasia
-* Research Engineer, Columbia University, Department of Psychology
-  * Focused on optimizing experimental protocols using Python and JavaScript, and deploying data analytics infrastructures.
-  * Incorporated advanced unsupervised machine learning algorithms (k-means clustering, nearest neighbor, t-SNE) to analyze intricate data patterns.
-* Research Assistant, City University of Hong Kong, Department of Linguistics and Translation
-  * Conducted computational linguistic analysis and developed an automated transcription system, improving data processing efficiency significantly.
-* UX Researcher, Openground
-  * Collaborated in the design and implementation of a sustainable, modular display solution, applying user-centered design principles to accommodate the unique retail spaces of the neighborhood.
-  * Conducted ethnographic research through in-depth interviews and usability testing with local community members to gather actionable user insights for the iterative design process.
-
-
-
-Skills
-======
-* Programming
-  * Python, Java, C/C++
-  * Back-end: Django, SQL, APIs
-  * Front-end: HTML, CSS, JavaScript
-* Bioinformatics
-  * Sequence Analysis (R)
-  * Genomics
-  * Text Mining
-* Natural Language Processing
-  * Machine Learning
-  * PyTorch, Tensorflow, NLTK, numpy, pandas, spaCy, BERT, regex, Hugging Face, scikit-learn, APIs
-* Linguistic Analysis
-  * Corpus/quantitative analysis (Python, corpus tools & R)
-  * Conversation/Discourse analysis
 
  
 
