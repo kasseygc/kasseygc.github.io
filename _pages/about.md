@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# About Me
 
 Hello! I am Kassey Chang, an aspiring computational linguist specializing in natural language processing. I combine my expertise in linguistics and computer science to evaluate and improve language technologies.
 
