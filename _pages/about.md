@@ -15,13 +15,6 @@ My work focuses on developing testing frameworks for NLP systems and ensuring li
 
 With a background spanning computational linguistics, UX research, and data analytics, I bring a multifaceted perspective to language technology development. I enjoy solving technical challenges while keeping linguistic precision at the forefront.
 
-## Areas of Expertise
-- Natural Language Processing
-- Computational Linguistics
-- Machine Learning 
-- Linguistic Quality Assurance
-- Cross-linguistic Testing
-- Software Development
 
 Feel free to reach out to discuss language technology or share interesting ideas about NLP!
 
