@@ -30,9 +30,9 @@ redirect_from:
 
 ### Highlighted Roles
 
-#### Linguistic QA Engineer 
-* Develop and implement rigorous testing frameworks for evaluating natural language processing systems across multiple languages, ensuring high accuracy in language model outputs and maintaining linguistic consistency
-* Design and execute comprehensive test cases for syntactic parsing and semantic analysis, identifying and resolving complex linguistic edge cases across diverse language families
+#### QA Engineer 
+* Develop and execute comprehensive UI test automation frameworks for web applications and native apps, while performing thorough cross-browser and cross-device testing to validate interface functionality and responsive design.
+* Implement systematic testing protocols for linguistic accuracy and localization quality across multiple languages, ensuring consistent terminology, cultural appropriateness, and proper text display in UI elements across digital products.
 
 #### Research Engineer | Columbia University
 * Developed and optimized data analytics infrastructure using Python and JavaScript
