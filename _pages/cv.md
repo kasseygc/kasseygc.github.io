@@ -47,7 +47,7 @@ redirect_from:
 * Analyzed linguistic data using NLTK and Python
 
 ## Education
-* MS Computer Science, University of Texas at Austin, 2025
+
 * BA Linguistics and Computer Science, Columbia University, 2024
 
 
