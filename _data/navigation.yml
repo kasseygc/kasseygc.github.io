@@ -1,12 +1,16 @@
 # main links links
 main:
-  - title: "Projects"
+  - title: "Technical Projects"
+    url: /tech/
+  - title: "Linguistics Projects"
     url: /portfolio/
-        
+  - title: "Language Services"
+    url: /langservices/
   - title: "Blog Posts"
     url: /year-archive/
-    
   - title: "CV"
     url: /cv/
-    
+  - title: "Contact"
+    url: /contact/
+
 
