@@ -47,6 +47,6 @@ I provide specialized language services that combine linguistic expertise with t
 
 ## Approach
 
-My services combine linguistic expertise with technical understanding, ensuring accurate communication across languages while maintaining technical precision. I specialize in projects requiring both language skills and technical knowledge, having worked with clients across technology, healthcare, education, and finance sectors. This diverse experience informs my ability to deliver language solutions tailored to specific industry requirements and quality standards.
+My services combine linguistic expertise with technical understanding, ensuring accurate communication across languages while maintaining technical precision. I specialize in projects requiring both language skills and technical knowledge, having worked with clients across technology, healthcare, education, and public sectors. This diverse experience informs my ability to deliver language solutions tailored to specific industry requirements and quality standards.
 
 [Contact me](/contact/) to discuss how my language services can help with your multilingual projects.
