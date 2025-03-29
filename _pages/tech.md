@@ -11,7 +11,7 @@ My technical work focuses on language technology, natural language processing, a
 
 ### NLP & Machine Learning Projects
 
-### [Image Captioning with LSTM](https://github.com/kasseychang/image_captioning)
+### Image Captioning with LSTM
 A deep learning system that generates natural language descriptions for images using a CNN-LSTM architecture.
 - Developed CNN-LSTM model for automated image captioning using Keras and InceptionV3
 - Implemented beam search algorithm to improve caption quality on 8,000+ images
