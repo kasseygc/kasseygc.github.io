@@ -32,7 +32,7 @@ Language technology professional with expertise in software engineering, data sy
 
 ## Professional Experience
 
-### QA Engineer 
+### Software QA Engineer 
 * Execute UI testing for web applications and native apps across platforms
 * Perform comprehensive localization testing for multilingual markets
 * Develop automated validation frameworks for language-related features
