@@ -34,10 +34,10 @@ Computational linguist with expertise in natural language processing, multilingu
 ## Professional Experience
 
 ### Software QA Specialist
-* Execute UI testing for web applications and native apps across platforms
-* Perform comprehensive localization testing for multilingual markets
-* Develop automated validation frameworks for language-related features
-* Implement linguistic quality metrics and reporting systems
+* Execute UI testing for web applications and native apps, utilizing HTML/JavaScript for test string validation
+* Perform systematic testing across browsers and devices to ensure interface functionality and responsive design
+* Test localization across multiple languages, validating text display and UI elements for international markets
+* Evaluate machine translation quality and train AI automation systems using linguistic expertise
 
 ### Clinical Research Data Coordinator | UCSF Neurology
 * Developed data processing pipelines using Python and SQL for medical research
