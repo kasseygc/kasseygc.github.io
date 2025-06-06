@@ -10,25 +10,26 @@ redirect_from:
 
 ## Professional Profile
 
-Language technology professional with expertise in software engineering, data systems, and multilingual applications. Combining background in linguistics and computer science to build and evaluate language technologies that work effectively across languages and cultures.
+Computational linguist with expertise in natural language processing, multilingual system development, and language technology research. Combining deep linguistic knowledge with technical skills to advance language technologies that work effectively across diverse linguistic communities.
 
 ## Technical Skills
 
 ### Software Engineering & Development
-* **Languages**: Python, Java, C/C++
+* **Languages**: Python, Java, C/C++, Kotlin
 * **Backend**: Django, SQL, REST APIs, Docker
-* **Frontend**: HTML/CSS/JavaScript
+* **Frontend**: HTML/CSS/JavaScript, Andriod Development
 * **Tools**: Git, AWS, Unix/Linux, Jupyter
 * **Text Processing**: Regex, Parsing Tools
 
 ### NLP & Machine Learning
 * **Frameworks**: PyTorch, TensorFlow, BERT, Hugging Face
 * **Libraries**: scikit-learn, NLTK, spaCy, NumPy, Pandas
-* **Applications**: Text Mining, Machine Translation, Sentiment Analysis
+* **Applications**: Text Mining, Machine Translation, Sentiment Analysis, Language Modeling
 
-### Multilingual Technologies
+### Multilingual Technologies & Research
 * **Analysis Tools**: ELAN, CLAN, Praat
 * **Data Tools**: R, Corpus Analysis Tools
+* **Research Methods**: Experimental Design, Statistical Modeling, Cross-linguistic Analysis
 
 ## Professional Experience
 
