@@ -53,6 +53,13 @@ Comparative corpus-driven study of sentence-final particle acquisition across di
 
 ### Web & Application Development
 
+### [CantoLeap - Cantonese Vocabulary Learning App](https://github.com/kasseychang/cantoleap)
+A beginner-friendly mobile application designed to help users learn essential Cantonese vocabulary through interactive exercises.
+- Developed vocabulary learning system with flashcard-style exercises
+- Implemented practice quizzes to reinforce learning retention
+- Created community notes feature for users to share learning tips and insights
+- **Technologies**: Kotlin, Android Development
+
 ### [Django Web Application](https://github.com/kasseychang/meta_backend)
 Backend system developed with Django framework.
 - Created RESTful API endpoints and database models
