@@ -7,16 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-
 I'm Kassey Chang, a language technology professional working at the intersection of software engineering, linguistics, and data systems. I combine technical skills and linguistic knowledge to build and improve multilingual technologies.
 
 ### Professional Focus
 
-My expertise spans several domains in language technology:
+My expertise spans several domains in computational linguistics and language technology:
 
-- Software engineering for multilingual applications
 - Natural language processing implementation and validation
+- Software engineering for multilingual applications
 - Data systems for language processing and analysis
 - Cross-cultural technology adaptation and localization
 
