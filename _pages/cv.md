@@ -32,13 +32,13 @@ Language technology professional with expertise in software engineering, data sy
 
 ## Professional Experience
 
-### Software QA Tester 
+### Software QA Specialist
 * Execute UI testing for web applications and native apps across platforms
 * Perform comprehensive localization testing for multilingual markets
 * Develop automated validation frameworks for language-related features
 * Implement linguistic quality metrics and reporting systems
 
-### Clinical Data Engineer (CRC) | UCSF Neurology
+### Clinical Research Data Coordinator | UCSF Neurology
 * Developed data processing pipelines using Python and SQL for medical research
 * Created automated validation systems reducing manual review time by 60%
 * Designed standardized protocols for clinical data collection across systems
