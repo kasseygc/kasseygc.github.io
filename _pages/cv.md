@@ -34,7 +34,7 @@ Computational linguist and language technology specialist with experience in NLP
 ## Professional Experience
 
 ### Software QA Specialist
-* UI/UX and localization testing, automation, and machine translation evaluation
+* Software UI/UX and localization testing, automation, and machine translation evaluation
   
 ### Clinical Research Data Coordinator | UCSF Neurology
 * Automated data pipelines, validation systems, and multilingual data extraction
@@ -43,7 +43,7 @@ Computational linguist and language technology specialist with experience in NLP
 * Machine learning pipelines, data visualization, and real-time data systems
   
 ### Research Data Analyst | City University of Hong Kong
-* Automation for annotation, cross-linguistic analysis, and transcription systems
+* Automation for linguistic annotation, cross-linguistic analysis, and transcription systems
   
 ## Education
 
