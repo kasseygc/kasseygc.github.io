@@ -94,7 +94,7 @@ Implementation of spelling correction algorithms in Java.
 
 ## Technical Approach
 
-My engineering work combines software development best practices with linguistic knowledge to create robust, effective language technology solutions. I focus on building systems that are not only technically sound but also linguistically accurate and user-friendly.
+My engineering work combines software development best practices with linguistic expertise to create robust, user-friendly language technology solutions. I focus on building systems that are technically sound, linguistically accurate, and globally accessible.
 
 
 [View my GitHub](https://github.com/kasseychang) &#124; [Contact me](/contact/) about collaboration opportunities
