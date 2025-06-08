@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Kassey Chang, a language technology professional working at the intersection of software engineering, linguistics, and data systems. I combine technical skills and linguistic knowledge to build and improve multilingual technologies.
+I'm Kassey Chang, a language technology professional working at the intersection of software engineering, linguistics, and data systems. I combine technical skills and linguistic knowledge to build and improve multilingual technologies that are robust, scalable, and user-focused.
 
 ### Professional Focus
 
