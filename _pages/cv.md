@@ -10,7 +10,7 @@ redirect_from:
 
 ## Professional Profile
 
-Computational linguist with expertise in natural language processing, multilingual system development, and language technology research. Combining deep linguistic knowledge with technical skills to advance language technologies that work effectively across diverse linguistic communities.
+Computational linguist and language technology specialist with experience in NLP, multilingual system development, and research. I combine deep linguistic knowledge and technical skills to advance language technologies for diverse communities.
 
 ## Technical Skills
 
@@ -34,29 +34,17 @@ Computational linguist with expertise in natural language processing, multilingu
 ## Professional Experience
 
 ### Software QA Specialist
-* Execute UI testing for web applications and native apps, utilizing HTML/JavaScript for test string validation
-* Perform systematic testing across browsers and devices to ensure interface functionality and responsive design
-* Test localization across multiple languages, validating text display and UI elements for international markets
-* Evaluate machine translation quality and train AI automation systems using linguistic expertise
-
+* UI/UX and localization testing, automation, and machine translation evaluation
+  
 ### Clinical Research Data Coordinator | UCSF Neurology
-* Developed data processing pipelines using Python and SQL for medical research
-* Created automated validation systems reducing manual review time by 60%
-* Designed standardized protocols for clinical data collection across systems
-* Implemented information extraction from multilingual medical texts
+* Automated data pipelines, validation systems, and multilingual data extraction
 
 ### Research Engineer | Columbia University
-* Built data collection platform for visual cognition and perception research
-* Implemented machine learning analysis pipeline with 78% classification accuracy
-* Created visualization dashboards for analyzing complex experimental data
-* Engineered real-time data processing systems for online experiments
-
+* Machine learning pipelines, data visualization, and real-time data systems
+  
 ### Research Data Analyst | City University of Hong Kong
-* Developed automation scripts reducing annotation time by 45% for linguistic data
-* Created shell scripts for batch processing of multilingual corpus files
-* Analyzed cross-linguistic patterns in child language acquisition
-* Implemented transcription and annotation systems for multilingual research
-
+* Automation for annotation, cross-linguistic analysis, and transcription systems
+  
 ## Education
 
 * **BA Linguistics and Computer Science**, Columbia University, 2024
