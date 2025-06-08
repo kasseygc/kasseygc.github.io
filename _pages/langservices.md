@@ -11,13 +11,13 @@ I provide specialized language services that combine linguistic expertise with t
 
 ## Service Areas
 
-* Translation & Localization: Technical documentation, UI, software, and web content
+* **Translation & Localization**: Technical documentation, UI, software, and web content
 
-* Technical Language Consulting: NLP data development, corpus annotation, implementation advice
+* **Technical Language Consulting**: NLP data development, corpus annotation, implementation advice
 
-* Linguistic Quality Assurance: Multilingual UI validation, localization accuracy, terminology consistency
+* **Linguistic Quality Assurance**: Multilingual UI validation, localization accuracy, terminology consistency
 
-* Content Creation: Technical documentation, multilingual SEO, educational materials
+* **Content Creation**: Technical writing, documentation, multilingual SEO, educational materials
 
 
 ## Working Languages
