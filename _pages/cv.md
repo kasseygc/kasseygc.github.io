@@ -49,7 +49,7 @@ Computational linguist and language technology specialist with experience in NLP
 * Automation for linguistic annotation, cross-linguistic analysis, and transcription systems
   
 ## Education
-
+* **MS Computer Science**, University of Texas at Austin, Expected 2026
 * **BA Linguistics and Computer Science**, Columbia University, 2024
 
 *Full version available upon request*
