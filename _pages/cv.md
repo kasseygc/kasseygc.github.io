@@ -34,7 +34,7 @@ Computational linguist and language technology specialist with experience in NLP
 ## Professional Experience
 
 ### Machine Learning Data Linguist | AWS
-* Machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs)
+* Prompt enigneering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs)
 
 ### Software QA Specialist | Apple
 * Software UI/UX and localization testing, automation, and machine translation evaluation
