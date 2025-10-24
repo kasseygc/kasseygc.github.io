@@ -7,7 +7,7 @@ author_profile: true
 
 ## Professional Language Services
 
-I provide specialized language services that combine linguistic expertise with technical precision for clients working with technology, research, and cross-cultural communication.
+I provide specialized language services that combine linguistic expertise with technical precision for clients working with technology, research, and cross-cultural communication. 
 
 ## Service Areas
 
@@ -24,6 +24,7 @@ I provide specialized language services that combine linguistic expertise with t
 
 - **English, Cantonese, Chinese (Traditional & Simplified), Mandarin, German, French**
 
+Currently, I'm leading multilingual localization and translation across text and speech modalities for Air Canada projects, ensuring linguistic accuracy and cultural adaptation between EN-CA, FR-CA and ZH-HK. I also develop localization guidelines and quality standards for cross-modal content delivery.
 
 ## Approach
 
