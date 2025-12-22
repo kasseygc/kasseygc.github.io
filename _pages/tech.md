@@ -18,11 +18,26 @@ My technical work focuses on language technology, natural language processing, a
 - Improved reasoning performance (+2.6% on reasoning questions) while maintaining 77.2% overall accuracy
 - **Technologies**: Python, PyTorch, Transformers, ELECTRA, NLP research methods
 
-### Image Captioning with LSTM
-A deep learning system that generates natural language descriptions for images using a CNN-LSTM architecture.
-- Developed CNN-LSTM model for automated image captioning using Keras and InceptionV3
-- Implemented beam search algorithm to improve caption quality on 8,000+ images
-- **Technologies**: Python, TensorFlow, Keras, OpenCV
+### [Fact-Checking LLM Outputs with Textual Entailment](https://github.com/kasseychang/llmfactcheck)
+An automated verification system that validates ChatGPT-generated biographies against Wikipedia using bag-of-words and neural entailment models.
+- Implemented a verification pipeline to decompose model outputs into atomic facts and validate them against BM25-retrieved Wikipedia passages
+- Developed a high-precision fact-checker using a fine-tuned DeBERTa-v3 model to determine logical entailment between claims and source text
+- Conducted detailed error analysis of false positives and negatives to identify linguistic patterns where LLMs struggle with factual consistency
+- **Technologies**: Python, PyTorch, DeBERTa-v3, Textual Entailment (NLI), FActScore, BM25
+
+### [Transformer-Based Character Language Model](https://github.com/kasseychang/transformer_lm)
+A custom-built Transformer architecture designed for sequence-to-sequence character counting and next-token prediction.
+- Engineered a Transformer encoder from scratch, implementing self-attention, residual connections, and positional encodings without high-level library abstractions
+- Developed a causal-masked language model trained on the text8 Wikipedia collection to predict next-character probability distributions
+- Optimized training performance through hyperparameter tuning and attention map visualization to achieve a target perplexity of less than 7
+- **Technologies**: Python, PyTorch, Transformer Architecture, Self-Attention, Positional Encoding, Language Modeling
+  
+### [Deep Averaging Networks for Robust Sentiment Analysis](https://github.com/kasseychang/neural_sentiment)
+A neural text classification system exploring the impact of word embeddings and architectural depth on sentiment detection.
+- Implemented a Deep Averaging Network (DAN) using GloVe embeddings to classify movie review sentiment into binary positive/negative labels
+- Developed a typo-robust generalization module using prefix embeddings to maintain performance on misspelled text where standard word-level models fail
+- Optimized training performance through mini-batching and dynamic sequence padding in PyTorch to handle varying sentence lengths efficiently
+- **Technologies**: Python, PyTorch, GloVe Embeddings, Deep Averaging Networks, String Edit Distance
 
 ### [Lexical Substitution System](https://github.com/kasseychang/lexical_sub)
 An NLP system that identifies contextually appropriate word replacements using multiple approaches.
@@ -35,12 +50,6 @@ Implementation of the CKY algorithm for parsing with Probabilistic Context-Free 
 - Developed efficient implementation of the CKY dynamic programming algorithm
 - Created probabilistic grammar handling for syntactic analysis
 - **Technologies**: Python, NLTK
-
-### [Sustainability Language Analysis Tool (SLAT)](https://github.com/kasseychang/slat)
-NLP tool developed during a hackathon that analyzes corporate sustainability commitments.
-- Built web scraping and text analysis tool to evaluate sustainability language in business communications
-- Implemented scoring algorithm based on keyword frequency and sentiment analysis
-- **Technologies**: Python, BeautifulSoup, NLTK, scikit-learn
 
 ### Computational Research Projects
 
@@ -78,26 +87,6 @@ Multi-API speech recognition project with sentiment analysis capabilities.
 - Integrated multiple speech recognition APIs for comparative performance
 - Implemented real-time transcription and sentiment analysis
 - **Technologies**: Python, AssemblyAI API, OpenAI API
-
-### [Vocabulary Test and Translation Game](https://github.com/kasseychang/vocab_test)
-Educational web application for language learning.
-- Developed interactive web-based game for vocabulary practice across languages
-- Implemented responsive design for cross-device compatibility
-- **Technologies**: HTML, CSS, JavaScript, LocalStorage
-
-### Language Engineering Tools
-
-### [Grammatical Error Detection](https://github.com/kasseychang/gramerror)
-NLTK-based system for identifying and correcting grammatical errors.
-- Created rule-based and statistical approach to error detection
-- Achieved 20% improvement over baseline methods in accuracy
-- **Technologies**: Python, NLTK, POS tagging
-
-### [Java Spell Checker](https://github.com/kasseychang/spellchecker)
-Implementation of spelling correction algorithms in Java.
-- Developed efficient edit distance algorithms for spelling suggestions
-- Implemented context-aware correction prioritization
-- **Technologies**: Java, String processing, Algorithm optimization
 
 ## Technical Approach
 
