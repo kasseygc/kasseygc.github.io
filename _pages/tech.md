@@ -11,6 +11,13 @@ My technical work focuses on language technology, natural language processing, a
 
 ### NLP & Machine Learning Projects
 
+### [Beyond Pattern Matching: Dataset Artifacts in SQuAD](/files/KasseyChang_SQuAD_artifacts.pdf)
+Systematic analysis of shortcuts in reading comprehension models with two mitigation strategies: adversarial training and question-type aware loss.
+- Uncovered model brittleness through comprehensive testing: 26.1% adversarial vulnerability and 35.5% reasoning gap
+- Achieved 1.4x robustness improvement through adversarial training (50.1% → 72.5% EM)
+- Improved reasoning performance (+2.6% on reasoning questions) while maintaining 77.2% overall accuracy
+- **Technologies**: Python, PyTorch, Transformers, ELECTRA, NLP research methods
+
 ### Image Captioning with LSTM
 A deep learning system that generates natural language descriptions for images using a CNN-LSTM architecture.
 - Developed CNN-LSTM model for automated image captioning using Keras and InceptionV3
