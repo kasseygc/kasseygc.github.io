@@ -10,7 +10,7 @@ redirect_from:
 
 ## Professional Profile
 
-Computational linguist and language technology specialist with experience in NLP, multilingual system development, and research. I combine deep linguistic knowledge and technical skills to advance language technologies for diverse communities.
+Language engineer with expertise in NLP system architecture, multilingual infrastructure development, and machine learning pipelines. I apply engineering principles and linguistic knowledge to design, build, and optimize scalable language technologies for diverse applications.
 
 ## Technical Skills
 
@@ -24,7 +24,7 @@ Computational linguist and language technology specialist with experience in NLP
 ### NLP & Machine Learning
 * **Frameworks**: PyTorch, TensorFlow, BERT, Hugging Face
 * **Libraries**: scikit-learn, NLTK, spaCy, NumPy, Pandas
-* **Applications**: Text Mining, Machine Translation, Sentiment Analysis, Language Modeling
+* **Applications**: NLP Pipeline Development, Machine Translation, LLM Validation, Language Modeling
 
 ### Multilingual Technologies & Research
 * **Analysis Tools**: ELAN, CLAN, Praat
@@ -32,6 +32,9 @@ Computational linguist and language technology specialist with experience in NLP
 * **Research Methods**: Experimental Design, Statistical Modeling, Cross-linguistic Analysis
 
 ## Professional Experience
+
+### Language Engineer | AWS
+* NLP pipeline development, LLM validation workflows, multilingual model evaluation, and system optimization for large language models (LLMs)
 
 ### Machine Learning Data Linguist | AWS
 * Prompt enigneering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs)
