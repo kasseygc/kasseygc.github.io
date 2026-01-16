@@ -7,17 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Kassey Chang, a language technology professional working at the intersection of software engineering, linguistics, and data systems. I combine technical skills and linguistic knowledge to build and improve multilingual technologies that are robust, scalable, and user-focused.
+I'm Kassey Chang, a language engineer building at the intersection of software systems, computational linguistics, and data infrastructure. I apply engineering principles and linguistic expertise to design, develop, and optimize multilingual systems that are robust, scalable, and production-ready.
 
 ### Professional Focus
 
-My expertise spans several domains in computational linguistics and language technology:
+My work spans several domains in language engineering and NLP systems:
 
-- Natural language processing implementation and validation
-- Software engineering for multilingual applications
-- Data systems for language processing and analysis
-- Cross-cultural technology adaptation and localization
+- NLP pipeline architecture and validation
+- Software engineering for multilingual infrastructure
+- Data pipeline design for language processing and analysis
 
-
-With experience in quality assurance, data engineering, and system development, I'm passionate about solving complex language technology challenges.
+With experience in system validation, data pipeline engineering, and end-to-end development, I'm driven to solve complex problems in language technology at scale.
 
