@@ -87,7 +87,7 @@ analytics:
 author:
   name             : "Kassey Chang"
   avatar           : "profile2.jpg"
-  bio              : "Language Technology & Computational Linguistics"
+  bio              : "Language Engineering & NLP Systems"
   location         : "Santa Clara, California"
   employer         : 
   email            : "c.kathe@columbia.edu"
@@ -147,6 +147,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _pages/langservices
 keep_files:
   - .git
   - .svn
