@@ -88,9 +88,5 @@ Multi-API speech recognition project with sentiment analysis capabilities.
 - Implemented real-time transcription and sentiment analysis
 - **Technologies**: Python, AssemblyAI API, OpenAI API
 
-## Technical Approach
 
-My engineering work combines software development best practices with linguistic expertise to create robust, user-friendly language technology solutions. I focus on building systems that are technically sound, linguistically accurate, and globally accessible.
-
-
-[View my GitHub](https://github.com/kasseychang) &#124; [Contact me](/contact/) about collaboration opportunities
+[View my GitHub](https://github.com/kasseychang)
