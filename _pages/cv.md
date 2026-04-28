@@ -46,7 +46,7 @@ Language engineer with expertise in NLP system architecture, multilingual infras
 * Automated data pipelines, validation systems, and multilingual data extraction
 * Related Publication: [Speaking in Tones: The role of lexical tones in Chinese-speaking Primary Progressive Aphasia](https://www.medrxiv.org/content/10.1101/2025.10.24.25338751v1)
 
-### Research Engineer | Columbia University
+### ML Research Engineer | Columbia University
 * Machine learning pipelines, data visualization, and real-time data systems
 * Publication: [Probing the Imaginable: Shared and Distinct Processes Between Imagery and Perception Across Semantic Domains](https://journals.sagepub.com/doi/10.1177/02762366251382836)
   
