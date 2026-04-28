@@ -56,6 +56,7 @@ Language engineer with expertise in NLP system architecture, multilingual infras
 * Related Publication: [Grammatical development of the native L1 in Cantonese–English bilingual children: early costs and long-term gains](https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/grammatical-development-of-the-native-l1-in-cantoneseenglish-bilingual-children-early-costs-and-longterm-gains/3C5CA01F25E0FEBAC2F2045298B7967D)
   
 ## Education
+* **MS Computer Science**, The University of Texas at Austin, 2026
 * **BA Linguistics and Computer Science**, Columbia University, 2024
 
 *Full version available upon request*
