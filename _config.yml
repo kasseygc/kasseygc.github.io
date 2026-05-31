@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kassey Chang"
+title                    : "Kassey Guertin-Chang"
 title_separator          : "-"
-name                     : &name "Kassey Chang"
+name                     : &name "Kassey Guertin-Chang"
 description              : &description "personal description"
-url                      : https://kasseychang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://kasseygc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kasseychang.github.io"
+repository               : "kasseygc/kasseygc.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -51,7 +51,7 @@ atom_feed:
   
 
   minimal_mistakes_skin: "dirt"
-logo: "/images/sit-logo.png"
+logo: "/images/site-logo.png"
 
 # SEO Related
 google_site_verification :
@@ -61,6 +61,13 @@ yandex_site_verification :
 search: true
 lunr:
   search_within_pages: true
+
+# Multilingual (jekyll-polyglot) — requires the GitHub Actions build
+languages: ["en", "fr-CA", "de"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "assets", "files", "talkmap", "talkmap.ipynb", "markdown_generator", "feed.xml", "robots.txt"]
+parallel_localization: true
+lang_from_path: true
 
 # Social Sharing
 twitter:
@@ -85,12 +92,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kassey Chang"
+  name             : "Kassey Guertin-Chang"
   avatar           : "profile2.jpg"
   bio              : "Language Engineering & NLP Systems"
   location         : "Santa Clara, California"
   employer         : 
-  email            : "kasschang10@gmail.com"
+  email            : "kasseyguertin@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -98,7 +105,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kasseychang"
+  github           : "kasseygc"
   google_plus      :
   keybase          :
   instagram        :
@@ -124,9 +131,11 @@ include:
   - _pages
   - files
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .asset-cache
+  - .bundle-gems
+  - Gemfile
+  - Gemfile.lock
+  - _site_test
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
@@ -242,6 +251,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-polyglot
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate

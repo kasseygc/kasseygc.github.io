@@ -1,14 +1,18 @@
-# main links links
+# main links (title is English/default; title_<lang> overrides per language)
 main:
   - title: "Technical Projects"
+    title_fr-CA: "Projets techniques"
+    title_de: "Technische Projekte"
     url: /tech/
   - title: "Linguistics Projects"
+    title_fr-CA: "Projets linguistiques"
+    title_de: "Linguistische Projekte"
     url: /portfolio/
   - title: "Blog Posts"
+    title_fr-CA: "Articles"
+    title_de: "Beiträge"
     url: /year-archive/
   - title: "CV"
+    title_fr-CA: "CV"
+    title_de: "Lebenslauf"
     url: /cv/
-  - title: "Contact"
-    url: /contact/
-
-

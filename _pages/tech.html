@@ -1,0 +1,26 @@
+---
+layout: archive
+permalink: /tech/
+title: "Technical Projects"
+excerpt: "Software engineering and NLP projects"
+eyebrow: "Engineering · Machine Learning"
+deck: "Software, machine-learning, and language-technology projects — from research prototypes to production systems."
+author_profile: false
+---
+
+{% for group in site.data.tech_projects %}
+<h2 class="section-head">{{ group.name }}</h2>
+<div class="card-grid">
+  {% for item in group.items %}
+  <a class="card" id="{{ item.id }}" href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if item.url contains '://' %} target="_blank" rel="noopener"{% endif %}>
+    <div class="card-tag">{{ item.tag }}</div>
+    <h3 class="card-title">{{ item.title }}</h3>
+    <p class="card-desc">{{ item.desc }}</p>
+    {% if item.tech %}<div class="card-meta">{{ item.tech }}</div>{% endif %}
+    <div class="card-arrow">&#8594;</div>
+  </a>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<p class="index-footnote"><a href="https://github.com/kasseygc">View more on GitHub &#8599;</a></p>

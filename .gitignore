@@ -1,2 +1,15 @@
+# Jekyll build output
 _site/
+_site_test/
 
+# Local bundler install (use GitHub Actions / bundle install instead)
+.bundle/
+.bundle-gems/
+vendor/bundle/
+
+# OS / editor
+.DS_Store
+
+# Local design scratch / references (not part of the published site)
+design/
+DESIGN.md

@@ -1,0 +1,88 @@
+# Technical Projects rendered as cards on /tech/. Grouped by category.
+# `id` matches the old kramdown heading anchors so homepage deep-links keep working.
+- name: "NLP & Machine Learning"
+  items:
+    - title: "Skill-Adjusted Expected Goals in the NHL: A Two-Phase Machine Learning Framework"
+      tag: "Machine Learning · Sports Analytics"
+      desc: "A two-phase ML pipeline over ~2M NHL shots; an XGBoost model reaches 0.7900 AUC, extended with shooter and goalie talent adjustments."
+      tech: "Python · XGBoost · LightGBM · scikit-learn · SHAP"
+      url: /files/KasseyChang_NHL_xG.pdf
+      id: skill-adjusted-expected-goals-in-the-nhl-a-two-phase-machine-learning-framework
+    - title: "Vision-Based Autonomous Driving Agent"
+      tag: "Computer Vision · Deep Learning"
+      desc: "End-to-end deep learning for vehicle navigation: a multi-task CNN with U-Net skip connections for segmentation and depth, plus a Transformer waypoint planner."
+      tech: "Python · PyTorch · Transformers · U-Net"
+      url: https://github.com/kasseygc/autonomous_driving
+      id: vision-based-autonomous-driving-agent
+    - title: "Beyond Pattern Matching: Dataset Artifacts in SQuAD"
+      tag: "NLP · Robustness"
+      desc: "Analysis of reading-comprehension shortcuts with adversarial training and a question-type-aware loss — a 1.4× robustness gain on ELECTRA-small."
+      tech: "Python · PyTorch · ELECTRA"
+      url: https://github.com/kasseygc/squad_artifacts
+      id: beyond-pattern-matching-dataset-artifacts-in-squad
+    - title: "Fact-Checking LLM Outputs with Textual Entailment"
+      tag: "NLP · Entailment"
+      desc: "Decomposes LLM outputs into atomic facts and validates them against BM25-retrieved Wikipedia passages with a fine-tuned DeBERTa-v3 model."
+      tech: "Python · DeBERTa-v3 · NLI · BM25"
+      url: https://github.com/kasseygc/llmfactcheck
+      id: fact-checking-llm-outputs-with-textual-entailment
+    - title: "Transformer-Based Character Language Model"
+      tag: "NLP · Architecture"
+      desc: "A Transformer encoder built from scratch — self-attention, residual connections, positional encodings — trained as a causal character LM to under 7 perplexity."
+      tech: "Python · PyTorch · Self-Attention"
+      url: https://github.com/kasseygc/transformer_lm
+      id: transformer-based-character-language-model
+    - title: "Deep Averaging Networks for Robust Sentiment Analysis"
+      tag: "NLP · Sentiment"
+      desc: "A Deep Averaging Network over GloVe embeddings for sentiment classification, with a typo-robust prefix-embedding module for misspelled text."
+      tech: "Python · PyTorch · GloVe"
+      url: https://github.com/kasseygc/neural_sentiment
+      id: deep-averaging-networks-for-robust-sentiment-analysis
+    - title: "Lexical Substitution System"
+      tag: "NLP · Semantics"
+      desc: "Context-aware word substitution combining WordNet, Word2Vec, and BERT — 10% above baseline accuracy."
+      tech: "Python · NLTK · Gensim · BERT"
+      url: https://github.com/kasseygc/lexical_sub
+      id: lexical-substitution-system
+    - title: "PCFG Parsing Implementation"
+      tag: "NLP · Parsing"
+      desc: "The CKY dynamic-programming algorithm for parsing with probabilistic context-free grammars."
+      tech: "Python · NLTK"
+      url: https://github.com/kasseygc/parsing
+      id: pcfg-parsing-implementation
+
+- name: "Computational Research"
+  items:
+    - title: "Neighborhood-based Clustering for Visual Mental Imagery"
+      tag: "Machine Learning · Cognition"
+      desc: "Clustering and dimensionality reduction to categorize visual mental imagery across perceptual domains."
+      tech: "Python · scikit-learn · k-means"
+      url: /portfolio/vmi/
+      id: neighborhood-based-clustering-for-visual-mental-imagery
+    - title: "Multilingual Acquisition Analysis"
+      tag: "Linguistics · Corpus"
+      desc: "Corpus-driven study of sentence-final particle acquisition across language backgrounds, over 10,000+ multilingual utterances."
+      tech: "Python · R · lme4"
+      url: /portfolio/seniorthesis/
+      id: multilingual-acquisition-analysis
+
+- name: "Web & Application Development"
+  items:
+    - title: "CantoLeap — Cantonese Vocabulary Learning App"
+      tag: "Mobile · Android"
+      desc: "A beginner-friendly Android app for learning essential Cantonese vocabulary through flashcards, quizzes, and community notes."
+      tech: "Kotlin · Android"
+      url: https://github.com/kasseygc/cantoleap
+      id: cantoleap-cantonese-vocabulary-learning-app
+    - title: "Django Web Application"
+      tag: "Backend · Web"
+      desc: "A Django backend with RESTful API endpoints, database models, and authentication."
+      tech: "Python · Django · SQL"
+      url: https://github.com/kasseygc/meta_backend
+      id: django-web-application
+    - title: "Speech Recognition System"
+      tag: "Speech · APIs"
+      desc: "Multi-API speech recognition with real-time transcription and sentiment analysis."
+      tech: "Python · AssemblyAI · OpenAI"
+      url: https://github.com/kasseygc/speech_recog
+      id: speech-recognition-system

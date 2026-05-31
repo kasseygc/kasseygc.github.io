@@ -1,8 +1,10 @@
 ---
 layout: archive
 title: "CV"
+eyebrow: "Curriculum Vitæ"
+deck: "Language engineer working across machine learning, NLP, and multilingual systems."
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
  - /resume
 ---

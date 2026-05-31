@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div class="editorial-home">
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    {% if page.hero.ghost %}<div class="ghost">{{ page.hero.ghost }}</div>{% endif %}
+    {% if site.logo %}<img class="hero-mark" src="{{ site.logo | relative_url }}" alt="" aria-hidden="true">{% endif %}
+    <div class="wrap">
+      {% if page.hero.eyebrow %}<div class="hero-eyebrow">{{ page.hero.eyebrow }}</div>{% endif %}
+      <h1>
+        {% for line in page.hero.headline %}
+          <span class="line"><span>{{ line }}</span></span>
+        {% endfor %}
+      </h1>
+      {% if page.hero.subtitle %}<p class="hero-sub">{{ page.hero.subtitle }}</p>{% endif %}
+      <div class="hero-meta">
+        {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn &#8599;</a>{% endif %}
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub &#8599;</a>{% endif %}
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email &#8599;</a>{% endif %}
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="sec" id="about">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-num">01</span>
+        <h2 class="sec-title">{{ page.about.title | default: "About" }}</h2>
+        {% if page.about.meta %}<span class="sec-meta">{{ page.about.meta }}</span>{% endif %}
+      </div>
+      <div class="about-grid reveal">
+        <div>
+          {% if page.about.lead %}<p class="about-lead">{{ page.about.lead }}</p>{% endif %}
+          <div class="about-body" style="margin-top:28px">
+            {{ content }}
+          </div>
+        </div>
+        <div class="about-side">
+          {% if site.author.avatar %}
+          <img class="about-portrait" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+          {% endif %}
+          {% if page.about.focus %}
+          <div class="focus-card">
+            <h4>{{ page.about.focus_title | default: "Professional Focus" }}</h4>
+            <ul class="focus-list">
+              {% for item in page.about.focus %}<li>{{ item }}</li>{% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SELECTED WORK ===================== -->
+  {% if page.selected_work %}
+  <section class="sec" id="work">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-num">02</span>
+        <h2 class="sec-title">{{ page.work_title | default: "Selected Work" }}</h2>
+        {% if page.work_meta %}<span class="sec-meta">{{ page.work_meta }}</span>{% endif %}
+      </div>
+      <div class="cards">
+        {% for proj in page.selected_work %}
+        <a class="card reveal" {% if proj.url %}href="{% if proj.url contains '://' %}{{ proj.url }}{% else %}{{ proj.url | relative_url }}{% endif %}"{% if proj.url contains '://' %} target="_blank" rel="noopener"{% endif %}{% endif %}>
+          <div class="card-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
+          {% if proj.tag %}<div class="card-tag">{{ proj.tag }}</div>{% endif %}
+          <h3 class="card-title">{{ proj.title }}</h3>
+          {% if proj.desc %}<p class="card-desc">{{ proj.desc }}</p>{% endif %}
+          <div class="card-arrow">&#8594;</div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- ===================== QUOTE STRIP ===================== -->
+  {% if page.quote.text %}
+  <div class="editorial-strip">
+    <div class="wrap">
+      <blockquote>{{ page.quote.text }}</blockquote>
+      {% if page.quote.cite %}<cite>&#8212; {{ page.quote.cite }}</cite>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- ===================== WRITING ===================== -->
+  <section class="sec" id="writing">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">{{ page.writing_title | default: "Writing" }}</h2>
+        <span class="sec-meta">{{ page.writing_meta | default: "Notes &amp; essays" }}</span>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-body">
+          <p class="about-lead" style="font-size:24px">{{ page.writing_lead | default: "Occasional notes on language, systems, and the craft of building." }}</p>
+        </div>
+        <div class="writing-links">
+          {% for post in site.posts limit: 3 %}
+            <a href="{{ post.url | relative_url }}">&#8594; {{ post.title }}</a>
+          {% endfor %}
+          <a href="{{ '/year-archive/' | relative_url }}">&#8594; {{ page.writing_all | default: "Read all posts" }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="{{ '/assets/js/editorial.js' | relative_url }}"></script>

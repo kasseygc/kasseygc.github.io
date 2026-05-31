@@ -13,9 +13,14 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$serif                      : "Newsreader", Georgia, Times, serif;
+$sans-serif                 : "Newsreader", Georgia, Times, serif;
+$monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
+
+/* editorial typefaces */
+$display                    : "Fraunces", Georgia, serif;       // headings / display
+$body-serif                 : "Newsreader", Georgia, serif;     // body copy
+$mono                       : "JetBrains Mono", Monaco, monospace; // labels / meta
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -28,9 +33,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $body-serif;
+$header-font-family         : $display;
+$caption-font-family        : $body-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -47,24 +52,34 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Editorial palette -- warm ivory paper + ink + teal accent */
+$ivory                      : #f7f3ea;  // page background
+$ivory-2                    : #efe8da;  // cards, raised surfaces
+$ink                        : #1a1714;  // primary text
+$ink-soft                   : #3b352e;  // secondary text
+$accent                     : #335765;  // accent -- links, highlights (deep teal)
+$accent-deep                : #22414c;  // accent hover / labels
+$line                       : #d8cfbd;  // borders, dividers
+$muted                      : #7a7066;  // meta text
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$gray                       : $muted;
+$dark-gray                  : $ink-soft;
+$darker-gray                : $ink;
+$light-gray                 : $line;
+$lighter-gray               : $ivory-2;
 
-$primary-color              : #7a8288;
+$body-color                 : $ivory;
+$background-color           : $ivory;
+$code-background-color      : $ivory-2;
+$code-background-color-dark : $line;
+$text-color                 : $ink;
+$border-color               : $line;
+
+$primary-color              : $accent;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$info-color                 : $accent;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -90,11 +105,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $accent;
+$link-color-hover           : $accent-deep;
+$link-color-visited         : $accent;
+$masthead-link-color        : $ink-soft;
+$masthead-link-color-hover  : $ink;
 
 
 /*

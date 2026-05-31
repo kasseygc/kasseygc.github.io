@@ -39,3 +39,6 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Editorial redesign -- must be imported last to override the base theme
+@import "editorial";
