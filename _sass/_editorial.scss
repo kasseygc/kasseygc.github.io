@@ -134,6 +134,8 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   /* keep the default table layout greedy-nav measures correctly;
      push it to the right edge with an auto left margin */
   .visible-links { margin-left: auto; }
+  /* MM bolds the first menu item (it used to be the site title); undo it */
+  .visible-links li:first-child { font-weight: inherit; }
 
   a {
     font-family: var(--font-mono);
