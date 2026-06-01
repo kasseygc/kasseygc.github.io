@@ -9,16 +9,16 @@ hero:
   eyebrow: "NLP · Maschinelles Lernen · Computerlinguistik"
   headline:
     - "An der Schnittstelle von"
-    - "<em>Sprache</em>, Daten und Mensch."
+    - "<em>Sprache</em>, Daten und menschlichem Erleben."
   subtitle: "Hallo, ich bin Kassey. Ich schreibe Code und trainiere <strong>Sprachmodelle</strong> — dort, wo maschinelles Lernen, NLP und Linguistik zusammentreffen."
 
 about:
   title: "Über mich"
-  lead: "Als Sprachingenieurin verbinde ich menschliche Sprache mit maschinellem Lernen. Ob ich Sprachmodelle trainiere, Datenpipelines baue oder Evaluierungen entwerfe — mein Ziel ist es, KI ehrlich und in der Realität verankert zu halten."
+  lead: "Als Sprachingenieurin verbinde ich menschliche Sprache mit maschinellem Lernen. Ob ich Sprachmodelle trainiere, Datenpipelines baue oder Evaluationen entwerfe — mein Ziel ist es, KI ehrlich und in der Realität verankert zu halten."
   focus_title: "Schwerpunkte"
   focus:
     - "Training und Feinabstimmung von Sprachmodellen"
-    - "NLP-Pipelines, Daten und Evaluierung"
+    - "NLP-Pipelines, Daten und Evaluationen"
     - "Software-Engineering für ML-Systeme"
     - "Computerlinguistik und mehrsprachiges NLP"
 
@@ -39,12 +39,12 @@ selected_work:
     url: /tech/#vision-based-autonomous-driving-agent
   - title: "A Comparative Study of Sentence-Final Particles Acquisition in Monolingual, Bilingual, and Trilingual Cantonese-Speaking Children: A Corpus-Driven Approach"
     tag: "Linguistik · Mehrsprachigkeit"
-    desc: "Ein statistischer Vergleich, wie ein-, zwei- und dreisprachige kantonesischsprachige Kinder Satzendpartikeln erwerben — auf Basis von über 10.000 mehrsprachigen Äußerungen."
+    desc: "Ein statistischer Vergleich, wie ein-, zwei- und dreisprachige kantonesisch sprechende Kinder Satzendpartikeln erwerben — auf Basis von über 10.000 mehrsprachigen Äußerungen."
     url: /portfolio/seniorthesis/
 
 quote:
   text: "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt."
-  cite: "Ludwig Wittgenstein · <em>Tractatus logico-philosophicus</em>"
+  cite: "Ludwig Wittgenstein · <em>Tractatus Logico-Philosophicus</em>"
 
 writing_title: "Texte"
 writing_meta: "Notizen und Essays"

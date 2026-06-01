@@ -17,10 +17,13 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
+      {% assign t_key = 'title_' | append: site.active_lang %}
+      {% assign e_key = 'eyebrow_' | append: site.active_lang %}
+      {% assign d_key = 'deck_' | append: site.active_lang %}
       <header class="archive__header">
-        {% if page.eyebrow %}<p class="page__eyebrow">{{ page.eyebrow }}</p>{% endif %}
-        <h1 class="page__title">{{ page.title }}</h1>
-        {% if page.deck %}<p class="page__deck">{{ page.deck }}</p>{% endif %}
+        {% if page.eyebrow %}<p class="page__eyebrow">{{ page[e_key] | default: page.eyebrow }}</p>{% endif %}
+        <h1 class="page__title">{{ page[t_key] | default: page.title }}</h1>
+        {% if page.deck %}<p class="page__deck">{{ page[d_key] | default: page.deck }}</p>{% endif %}
       </header>
     {% endunless %}
     {{ content }}

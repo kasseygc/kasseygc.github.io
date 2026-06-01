@@ -25,10 +25,13 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
+        {% assign t_key = 'title_' | append: site.active_lang %}
+        {% assign e_key = 'eyebrow_' | append: site.active_lang %}
+        {% assign d_key = 'deck_' | append: site.active_lang %}
         <header>
-          {% if page.eyebrow %}<p class="page__eyebrow">{{ page.eyebrow }}</p>{% endif %}
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.deck %}<p class="page__deck">{{ page.deck }}</p>{% endif %}
+          {% if page.eyebrow %}<p class="page__eyebrow">{{ page[e_key] | default: page.eyebrow }}</p>{% endif %}
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page[t_key] | default: page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.deck %}<p class="page__deck">{{ page[d_key] | default: page.deck }}</p>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}

@@ -29,9 +29,17 @@
             {% when 'de' %}{% assign label = 'DE' %}
             {% else %}{% assign label = lang | upcase %}
           {% endcase %}
-          {% comment %} Polyglot leaves an absolute href alone when hreflang="<default_lang>" directly precedes it (negative lookbehind in its abs-url regex). Other links start with a lang code, so they're excluded from relativization anyway. {% endcomment %}
-          {% if lang == site.default_lang %}{% assign target = '/' | absolute_url %}{% else %}{% assign target = '/' | append: lang | append: '/' | relative_url %}{% endif %}
-          {% if lang == site.active_lang %}<span class="lang-active">{{ label }}</span>{% else %}<a hreflang="{{ site.default_lang }}" href="{{ target }}" lang="{{ lang }}">{{ label }}</a>{% endif %}
+          {% comment %} Same-page switch. Default lang lives at the root path; polyglot would
+          rewrite a relative root link back to the active lang, so use absolute_url + hreflang
+          (negative lookbehind in polyglot's abs-url regex leaves it alone). Non-default targets
+          start with their lang code, so polyglot's relative regex already excludes them. {% endcomment %}
+          {% if lang == site.active_lang %}
+            <span class="lang-active">{{ label }}</span>
+          {% elsif lang == site.default_lang %}
+            <a hreflang="{{ site.default_lang }}" href="{{ page.url | absolute_url }}" lang="{{ lang }}">{{ label }}</a>
+          {% else %}
+            <a href="{{ page.url | prepend: lang | prepend: '/' | prepend: site.baseurl }}" lang="{{ lang }}">{{ label }}</a>
+          {% endif %}
         {% endfor %}
       </div>
       {% endif %}

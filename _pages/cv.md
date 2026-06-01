@@ -1,5 +1,6 @@
 ---
 layout: archive
+lang: en
 title: "CV"
 eyebrow: "Curriculum Vitæ"
 deck: "Language engineer working across machine learning, NLP, and multilingual systems."
@@ -19,7 +20,7 @@ Language engineer with expertise in NLP system architecture, multilingual infras
 ### Software Engineering & Development
 * **Languages**: Python, Java, C/C++, Kotlin
 * **Backend**: Django, SQL, REST APIs, Docker
-* **Frontend**: HTML/CSS/JavaScript, Andriod Development
+* **Frontend**: HTML/CSS/JavaScript, Android Development
 * **Tools**: Git, AWS, Unix/Linux, Jupyter
 * **Text Processing**: Regex, Parsing Tools
 
@@ -39,7 +40,7 @@ Language engineer with expertise in NLP system architecture, multilingual infras
 * NLP pipeline development, LLM validation workflows, multilingual model evaluation, and system optimization for large language models (LLMs)
 
 ### Machine Learning Data Linguist | AWS
-* Prompt enigneering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs)
+* Prompt engineering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs)
 
 ### Software QA Specialist | Apple
 * Software UI/UX and localization testing, automation, and machine translation evaluation

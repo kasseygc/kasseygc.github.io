@@ -1,6 +1,7 @@
 # Jekyll build output
 _site/
 _site_test/
+_site_dev/
 
 # Local bundler install (use GitHub Actions / bundle install instead)
 .bundle/
