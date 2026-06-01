@@ -700,11 +700,14 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   .greedy-nav { flex: none; min-width: 0; }
   .greedy-nav button { display: none !important; } /* no hamburger; links shown inline */
 
-  /* show both the kept and the JS-overflowed links inline, wrapped */
+  /* show both the kept and the JS-overflowed links inline, wrapped.
+     The greedy-nav collapses overflow into .hidden-links, which MM hides
+     with visibility:hidden (not display:none) -- override both. */
   .greedy-nav .visible-links,
   .greedy-nav .hidden-links {
     position: static !important;
-    display: inline !important;       /* beats .hidden-links.hidden */
+    display: inline !important;
+    visibility: visible !important;
     margin: 0 !important;
     padding: 0;
     border: 0;
@@ -712,6 +715,20 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
     box-shadow: none;
   }
   .greedy-nav .visible-links li,
-  .greedy-nav .hidden-links li { display: inline-block; }
-  .greedy-nav a { margin: 0 18px 0 0; font-size: 13px; line-height: 2.1; padding: 0; }
+  .greedy-nav .hidden-links li {
+    display: inline-block !important;
+    visibility: visible !important;
+    border: 0 !important; /* hidden-menu items carry a separator border */
+  }
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    visibility: visible !important;
+    margin: 0 18px 0 0;
+    font-size: 13px;
+    line-height: 2.1;
+    padding: 0;
+  }
+  /* the collapsed menu adds a dropdown caret/border -- not wanted inline */
+  .greedy-nav .hidden-links:before,
+  .greedy-nav .hidden-links:after { content: none !important; display: none !important; }
 }
