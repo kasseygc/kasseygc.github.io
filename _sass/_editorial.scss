@@ -682,3 +682,34 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   #main { padding: 40px 24px 16px; }
   .lang-switcher { padding-left: 14px; gap: 8px; }
 }
+
+/* ---- Mobile header: brand + switcher on row 1, all nav links on row 2 ---- */
+@media (max-width: 720px) {
+  .masthead__inner-wrap {
+    flex-wrap: wrap;
+    padding: 12px 22px;
+    gap: 10px 14px;
+  }
+  .masthead__brand { font-size: 17px; gap: 8px; }
+  .masthead__brand .site-logo { height: 24px; }
+  .lang-switcher { order: 1; margin-left: auto; padding-left: 12px; }
+
+  .masthead__menu { order: 2; flex: 1 0 100%; width: 100%; }
+  .greedy-nav { flex: none; min-width: 0; }
+  .greedy-nav button { display: none !important; } /* no hamburger; links shown inline */
+
+  /* show both the kept and the JS-overflowed links inline, wrapped */
+  .greedy-nav .visible-links,
+  .greedy-nav .hidden-links {
+    position: static !important;
+    display: inline !important;       /* beats .hidden-links.hidden */
+    margin: 0 !important;
+    padding: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+  }
+  .greedy-nav .visible-links li,
+  .greedy-nav .hidden-links li { display: inline-block; }
+  .greedy-nav a { margin: 0 18px 0 0; font-size: 13px; line-height: 2.1; padding: 0; }
+}
