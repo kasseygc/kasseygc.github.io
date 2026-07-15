@@ -333,7 +333,7 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   /* ---- PROJECT CARDS: see shared .card-grid / .card block below ---- */
 
   /* ---- WRITING ---- */
-  .writing-links { display: flex; flex-direction: column; gap: 16px; }
+  .writing-links { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
   .writing-links a {
     font-family: var(--font-mono);
     font-size: 15px;
@@ -423,7 +423,7 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   .foot-grid .big em { font-style: italic; color: var(--accent); }
   .foot-grid .big a { color: inherit; text-decoration: none; transition: opacity .3s; }
   .foot-grid .big a:hover { opacity: .75; }
-  .foot-links { display: flex; flex-direction: column; gap: 10px; text-align: right; }
+  .foot-links { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; text-align: right; }
   .foot-links a {
     font-family: var(--font-mono);
     font-size: 14px;

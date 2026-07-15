@@ -1,21 +1,218 @@
 /* ==========================================================================
-   ANIMATIONS
+   ANIMATIONS — enhanced motion layer
+   Drop-in replacement for _animations.scss
+   Pairs with editorial.js (enhanced version)
    ========================================================================== */
 
-@-webkit-keyframes intro {
-  0% {
-    opacity: 0;
+/* ---- Base keyframes ---- */
+
+@keyframes intro {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes ed-reveal {
+  to { transform: translateY(0); }
+}
+
+@keyframes ed-rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---- NEW: Scroll progress bar ---- */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: var(--accent);
+  z-index: 200;
+  transition: none;                       /* JS drives width directly */
+  will-change: width;
+  pointer-events: none;
+}
+
+/* ---- NEW: Section heading line-draw ---- */
+.sec-head {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--line);
+    transition: width 1s cubic-bezier(.2,.8,.2,1);
   }
-  100% {
-    opacity: 1;
+
+  &.drawn::after {
+    width: 100%;
   }
 }
 
-@keyframes intro {
-  0% {
-    opacity: 0;
+/* ---- NEW: Focus-list item stagger ---- */
+.focus-list li {
+  opacity: 0;
+  transform: translateX(-12px);
+  transition: opacity .5s cubic-bezier(.2,.8,.2,1),
+              transform .5s cubic-bezier(.2,.8,.2,1);
+}
+.focus-list.in li {
+  opacity: 1;
+  transform: none;
+}
+/* stagger each child — generated for up to 8 items */
+@for $i from 1 through 8 {
+  .focus-list.in li:nth-child(#{$i}) {
+    transition-delay: #{$i * 0.08}s;
   }
-  100% {
-    opacity: 1;
+}
+
+/* ---- NEW: Card entrance stagger ---- */
+.card.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity .7s cubic-bezier(.2,.8,.2,1),
+              transform .7s cubic-bezier(.2,.8,.2,1),
+              box-shadow .5s,
+              border-color .5s;
+}
+.card.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---- NEW: Writing link slide-in ---- */
+.writing-links a {
+  opacity: 0;
+  transform: translateX(-18px);
+  transition: opacity .5s cubic-bezier(.2,.8,.2,1),
+              transform .5s cubic-bezier(.2,.8,.2,1),
+              color .3s;
+}
+.writing-links.in a {
+  opacity: 1;
+  transform: none;
+}
+@for $i from 1 through 6 {
+  .writing-links.in a:nth-child(#{$i}) {
+    transition-delay: #{$i * 0.1}s;
+  }
+}
+
+/* ---- NEW: Hand-drawn ink underline (JS injects the <svg> per link) ---- */
+.ink-uline {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 6px;
+
+  svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    overflow: visible;
+    pointer-events: none;
+  }
+  svg path {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-dasharray: var(--len);
+    stroke-dashoffset: var(--len);
+    transition: stroke-dashoffset .5s cubic-bezier(.6,.1,.2,1);
+  }
+  &:hover svg path { stroke-dashoffset: 0; }
+}
+
+/* ---- NEW: Quote strip text fade on scroll ---- */
+.editorial-strip blockquote,
+.editorial-strip cite {
+  transition: opacity .4s, transform .4s;
+  will-change: opacity, transform;
+}
+
+/* ---- NEW: Nav shadow on scroll ---- */
+.masthead {
+  transition: box-shadow .4s, background .4s;
+}
+.masthead.scrolled {
+  box-shadow: 0 1px 20px rgba(26, 23, 20, .06);
+  background: rgba(247, 243, 234, .94);
+}
+
+/* ---- NEW: Footer CTA letter-spacing animation ---- */
+.editorial-footer .big a {
+  transition: letter-spacing .5s cubic-bezier(.2,.8,.2,1), opacity .3s;
+}
+.editorial-footer .big a:hover {
+  letter-spacing: .02em;
+}
+
+/* ---- NEW: Hero eyebrow subtle pulse ---- */
+@keyframes ed-eyebrow-dot {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: .4; }
+}
+.hero-eyebrow {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-right: 10px;
+    vertical-align: middle;
+    animation: ed-eyebrow-dot 2.8s ease-in-out infinite;
+    animation-delay: 1.6s;    /* wait for the eyebrow fade-in */
+  }
+}
+
+/* ---- NEW: About portrait reveal ---- */
+.about-portrait {
+  opacity: 0;
+  transform: scale(.92);
+  transition: opacity .8s cubic-bezier(.2,.8,.2,1),
+              transform .8s cubic-bezier(.2,.8,.2,1);
+}
+.about-portrait.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---- NEW: Smooth page entrance ---- */
+@keyframes ed-page-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.editorial-home {
+  animation: ed-page-in .6s ease-out;
+}
+
+/* ---- Reduced-motion override (keep at end) ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .scroll-progress { display: none !important; }
+
+  .focus-list li,
+  .card.reveal,
+  .writing-links a,
+  .about-portrait {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
