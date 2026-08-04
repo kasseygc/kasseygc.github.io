@@ -10,19 +10,20 @@ redirect_from:
   - /about.html
 
 hero:
-  eyebrow: "NLP · Machine Learning · Computational Linguistics"
+  eyebrow: "Machine Learning · NLP · Responsible AI · Evaluation &amp; Governance"
   headline:
     - "Building at the intersection of"
     - "<em>language</em>, data &amp; human experience."
-  subtitle: "Hi, I'm Kassey. I write code and train <strong>language models</strong>, working where machine learning, NLP, and linguistics meet."
+  subtitle: "Hi, I'm Kassey. I build and evaluate <strong>language models</strong>, as well as the guardrails, evaluations, and data practices that keep them safe, fair, and accountable."
 
 about:
-  lead: "As a language engineer, I spend my time bridging the gap between human language and machine learning. Whether I'm training language models, building data pipelines, or designing evaluations, my goal is to keep AI honest and grounded in reality."
+  lead: "As a language engineer, I spend my time bridging the gap between human language and machine learning. Whether I'm training language models, building data pipelines, or designing evaluations, my goal is to keep AI honest, safe, and accountable, both technically and in how it's governed."
   focus_title: "Professional Focus"
   focus:
     - "Training &amp; fine-tuning language models"
-    - "NLP pipelines, data &amp; evaluation"
-    - "Software engineering for ML systems"
+    - "Model evaluation, red-teaming &amp; robustness"
+    - "AI governance, safety &amp; responsible-AI practices"
+    - "Data quality, provenance &amp; pipelines for ML"
     - "Computational linguistics &amp; multilingual NLP"
 
 work_title: "Selected Work"

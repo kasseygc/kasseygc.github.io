@@ -6,20 +6,21 @@ layout: home
 lang: de
 
 hero:
-  eyebrow: "NLP · Maschinelles Lernen · Computerlinguistik"
+  eyebrow: "Maschinelles Lernen · NLP · Verantwortungsvolle KI · Evaluation und Governance"
   headline:
     - "An der Schnittstelle von"
     - "<em>Sprache</em>, Daten und menschlichem Erleben."
-  subtitle: "Hallo, ich bin Kassey. Ich schreibe Code und trainiere <strong>Sprachmodelle</strong> — dort, wo maschinelles Lernen, NLP und Linguistik zusammentreffen."
+  subtitle: "Hallo, ich bin Kassey. Ich entwickle und evaluiere <strong>Sprachmodelle</strong> — und ebenso die Leitplanken, Evaluationen und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
 
 about:
   title: "Über mich"
-  lead: "Als Sprachingenieurin verbinde ich menschliche Sprache mit maschinellem Lernen. Ob ich Sprachmodelle trainiere, Datenpipelines baue oder Evaluationen entwerfe — mein Ziel ist es, KI ehrlich und in der Realität verankert zu halten."
+  lead: "Als Sprachingenieurin verbinde ich menschliche Sprache mit maschinellem Lernen. Ob ich Sprachmodelle trainiere, Datenpipelines baue oder Evaluationen entwerfe — mein Ziel ist es, KI ehrlich, sicher und verantwortungsvoll zu halten, sowohl technisch als auch in ihrer Governance."
   focus_title: "Schwerpunkte"
   focus:
     - "Training und Feinabstimmung von Sprachmodellen"
-    - "NLP-Pipelines, Daten und Evaluationen"
-    - "Software-Engineering für ML-Systeme"
+    - "Modellevaluation, Red-Teaming und Robustheit"
+    - "KI-Governance, Sicherheit und verantwortungsvolle KI-Praktiken"
+    - "Datenqualität, -herkunft und -pipelines für ML"
     - "Computerlinguistik und mehrsprachiges NLP"
 
 work_title: "Ausgewählte Arbeiten"

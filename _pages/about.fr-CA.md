@@ -6,20 +6,21 @@ layout: home
 lang: fr-CA
 
 hero:
-  eyebrow: "TAL · Apprentissage automatique · Linguistique informatique"
+  eyebrow: "Apprentissage automatique · TAL · IA responsable · Évaluation et gouvernance"
   headline:
     - "À l'intersection de la"
     - "<em>langue</em>, des données et de l'expérience humaine."
-  subtitle: "Bonjour, je suis Kassey. J'écris du code et j'entraîne des <strong>modèles de langue</strong>, à la rencontre de l'apprentissage automatique, du TAL et de la linguistique."
+  subtitle: "Bonjour, je suis Kassey. Je conçois et j'évalue des <strong>modèles de langue</strong>, ainsi que les garde-fous, les évaluations et les pratiques de données qui les gardent sûrs, équitables et responsables."
 
 about:
   title: "À propos"
-  lead: "Ingénieure TAL, je passe mon temps à relier le langage humain et l'apprentissage automatique. Que j'entraîne des modèles de langue, que je construise des pipelines de données ou que je conçoive des évaluations, mon objectif est de garder l'IA honnête et ancrée dans le réel."
+  lead: "Ingénieure TAL, je passe mon temps à relier le langage humain et l'apprentissage automatique. Que j'entraîne des modèles de langue, que je construise des pipelines de données ou que je conçoive des évaluations, mon objectif est de garder l'IA honnête, sûre et responsable, tant sur le plan technique que dans sa gouvernance."
   focus_title: "Domaines d'expertise"
   focus:
     - "Entraînement et ajustement fin de modèles de langue"
-    - "Pipelines de TAL, données et évaluation"
-    - "Génie logiciel pour systèmes d'apprentissage automatique"
+    - "Évaluation de modèles, red-teaming et robustesse"
+    - "Gouvernance de l'IA, sûreté et pratiques d'IA responsable"
+    - "Qualité, provenance et pipelines de données pour le ML"
     - "Linguistique informatique et TAL multilingue"
 
 work_title: "Travaux choisis"
