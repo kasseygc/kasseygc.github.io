@@ -3,7 +3,7 @@ layout: archive
 lang: fr-CA
 title: "CV"
 eyebrow: "Curriculum vitæ"
-deck: "Ingénieure TAL travaillant à la croisée de l'apprentissage automatique, du traitement automatique des langues et des systèmes multilingues."
+deck: "Ingénieure TAL travaillant à la croisée de l'apprentissage automatique, du TAL et de l'évaluation et la gouvernance de l'IA responsable."
 permalink: /cv/
 author_profile: false
 ---
@@ -34,10 +34,10 @@ Ingénieure TAL spécialisée en architecture de systèmes de TAL, en développe
 ## Expérience professionnelle
 
 ### Ingénieure TAL | AWS
-* Développement de pipelines de TAL, optimisation des flux de validation de LLM, évaluation de modèles multilingues et optimisation de systèmes pour grands modèles de langue (LLM)
+* Conception de flux d'évaluation, d'analyse comparative et de validation de LLM mesurant l'exactitude, la qualité de la récupération et les régressions comportementales entre versions de modèles — avec des mises en production conditionnées à des seuils de qualité propres à chaque tâche; évaluation de modèles multilingues et optimisation de systèmes pour LLM
 
 ### Linguiste de données en apprentissage automatique | AWS
-* Conception d'invites (Prompt engineering), annotation de données pour l'apprentissage automatique, entraînement et évaluation de modèles multilingues, et optimisation pour grands modèles de langue (LLM)
+* Conception d'invites (Prompt engineering), annotation de données pour l'apprentissage automatique, entraînement et évaluation de modèles multilingues, et optimisation pour grands modèles de langue (LLM); notation de la qualité des données et détection du bruit d'étiquetage pour les pipelines d'annotation
 
 ### Spécialiste en assurance qualité logicielle | Apple
 * Réalisation de tests d'interface (UI/UX) et de localisation, automatisation et évaluation de la traduction automatique

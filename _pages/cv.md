@@ -3,7 +3,7 @@ layout: archive
 lang: en
 title: "CV"
 eyebrow: "Curriculum Vitæ"
-deck: "Language engineer working across machine learning, NLP, and multilingual systems."
+deck: "Language engineer working across machine learning, NLP, and responsible-AI evaluation and governance."
 permalink: /cv/
 author_profile: false
 redirect_from:
@@ -37,10 +37,10 @@ Language engineer with expertise in NLP system architecture, multilingual infras
 ## Professional Experience
 
 ### Language Engineer | AWS
-* NLP pipeline development, LLM validation workflows, multilingual model evaluation, and system optimization for large language models (LLMs)
+* Built LLM evaluation, benchmarking, and validation workflows measuring accuracy, retrieval quality, and behavioral regressions across model versions — gating releases on task-specific quality thresholds; multilingual model evaluation and system optimization for LLMs
 
 ### Machine Learning Data Linguist | AWS
-* Prompt engineering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs)
+* Prompt engineering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs); data-quality scoring and label-noise detection for annotation pipelines
 
 ### Software QA Specialist | Apple
 * Software UI/UX and localization testing, automation, and machine translation evaluation

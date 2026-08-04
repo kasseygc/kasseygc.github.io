@@ -3,7 +3,7 @@ layout: archive
 lang: de
 title: "Lebenslauf"
 eyebrow: "Curriculum Vitæ"
-deck: "Sprachingenieurin an der Schnittstelle von maschinellem Lernen, NLP und mehrsprachigen Systemen."
+deck: "Sprachingenieurin an der Schnittstelle von maschinellem Lernen, NLP sowie Evaluation und Governance verantwortungsvoller KI."
 permalink: /cv/
 author_profile: false
 ---
@@ -34,10 +34,10 @@ Sprachingenieurin mit Expertise in der Architektur von NLP-Systemen, der Entwick
 ## Berufserfahrung
 
 ### Sprachingenieurin | AWS
-* Entwicklung von NLP-Pipelines, Optimierung von LLM-Validierungsabläufen, Evaluation mehrsprachiger Modelle sowie Systemoptimierung für große Sprachmodelle (LLMs)
+* Aufbau von LLM-Evaluations-, Benchmarking- und Validierungsabläufen, die Genauigkeit, Retrieval-Qualität und Verhaltensregressionen über Modellversionen hinweg messen — mit Releases, die an aufgabenspezifische Qualitätsschwellen gekoppelt sind; Evaluation mehrsprachiger Modelle und Systemoptimierung für LLMs
 
 ### Machine-Learning-Datenlinguistin | AWS
-* Prompt-Engineering, Datenannotation für maschinelles Lernen, Training und Evaluation mehrsprachiger Modelle sowie Optimierung für große Sprachmodelle (LLMs)
+* Prompt-Engineering, Datenannotation für maschinelles Lernen, Training und Evaluation mehrsprachiger Modelle sowie Optimierung für große Sprachmodelle (LLMs); Datenqualitäts-Scoring und Label-Noise-Erkennung für Annotationspipelines
 
 ### Spezialistin für Software-Qualitätssicherung | Apple
 * Durchführung von UI/UX- und Lokalisierungstests, Automatisierung und Evaluation maschineller Übersetzung
