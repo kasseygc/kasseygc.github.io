@@ -2,6 +2,18 @@
 # `id` matches the old kramdown heading anchors so homepage deep-links keep working.
 - name: "NLP & Machine Learning"
   items:
+    - title: "Teaching Small Language Models to Reason: SFT and Rejection-Sampling Fine-Tuning"
+      tag: "NLP · Fine-Tuning & RL"
+      desc: "Fine-tuned SmolLM2 to perform well-reasoned unit conversions, progressing from chain-of-thought prompting to LoRA supervised fine-tuning and rejection-sampling fine-tuning (RFT), an offline RL method that self-distills correct reasoning traces, with from-scratch batched generation for fast rollouts."
+      tech: "Python · PyTorch · Hugging Face · PEFT/LoRA · SmolLM2"
+      url: https://github.com/kasseygc/llm_reasoning
+      id: teaching-small-language-models-to-reason
+    - title: "Memory-Efficient LLM Fine-Tuning: Quantization, LoRA & QLoRA from Scratch"
+      tag: "ML Systems · Efficiency"
+      desc: "Reimplemented the building blocks of efficient LLM training from scratch in PyTorch: half-precision inference, 4-bit block quantization, LoRA, and QLoRA, cutting a 73 MB network's footprint ~7× while matching full-precision outputs within tolerance."
+      tech: "Python · PyTorch · Quantization · LoRA/QLoRA"
+      url: https://github.com/kasseygc/efficient_llm
+      id: memory-efficient-llm-fine-tuning
     - title: "Skill-Adjusted Expected Goals in the NHL: A Two-Phase Machine Learning Framework"
       tag: "Machine Learning · Sports Analytics"
       desc: "A two-phase ML pipeline over ~2M NHL shots; an XGBoost model reaches 0.7900 AUC, extended with shooter and goalie talent adjustments."
@@ -44,12 +56,6 @@
       tech: "Python · NLTK · Gensim · BERT"
       url: https://github.com/kasseygc/lexical_sub
       id: lexical-substitution-system
-    - title: "PCFG Parsing Implementation"
-      tag: "NLP · Parsing"
-      desc: "The CKY dynamic-programming algorithm for parsing with probabilistic context-free grammars."
-      tech: "Python · NLTK"
-      url: https://github.com/kasseygc/parsing
-      id: pcfg-parsing-implementation
 
 - name: "Computational Research"
   items:
@@ -74,15 +80,3 @@
       tech: "Kotlin · Android"
       url: https://github.com/kasseygc/cantoleap
       id: cantoleap-cantonese-vocabulary-learning-app
-    - title: "Django Web Application"
-      tag: "Backend · Web"
-      desc: "A Django backend with RESTful API endpoints, database models, and authentication."
-      tech: "Python · Django · SQL"
-      url: https://github.com/kasseygc/meta_backend
-      id: django-web-application
-    - title: "Speech Recognition System"
-      tag: "Speech · APIs"
-      desc: "Multi-API speech recognition with real-time transcription and sentiment analysis."
-      tech: "Python · AssemblyAI · OpenAI"
-      url: https://github.com/kasseygc/speech_recog
-      id: speech-recognition-system
