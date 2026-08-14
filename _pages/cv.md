@@ -37,16 +37,16 @@ Language engineer with expertise in NLP system architecture, multilingual infras
 ## Professional Experience
 
 ### Language Engineer | AWS
-* Built LLM evaluation, benchmarking, and validation workflows measuring accuracy, retrieval quality, and behavioral regressions across model versions — gating releases on task-specific quality thresholds; multilingual model evaluation and system optimization for LLMs
+* Built LLM evaluation, benchmarking, and validation workflows measuring accuracy, retrieval quality, and behavioral regressions across model versions — gating releases on task-specific quality thresholds; multilingual model evaluation and system optimization for LLMs; cross-functional leadership across data, engineering, and product, scaling and directing the data workstream, setting technical standards, and owning end-to-end delivery and stakeholder alignment
 
 ### Machine Learning Data Linguist | AWS
-* Prompt engineering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs); data-quality scoring and label-noise detection for annotation pipelines
+* Prompt engineering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs); data-quality scoring and label-noise detection for annotation pipelines; annotation team leadership across the full task lifecycle (task design, workload assignment, quality standards, stakeholder delivery)
 
 ### Software QA Specialist | Apple
-* Software UI/UX and localization testing, automation, and machine translation evaluation
+* Software UI/UX and localization testing, automation, and machine translation evaluation; hands-on quality control and debugging across the full release cycle
   
 ### Clinical Research Data Coordinator | UCSF Neurology
-* Automated data pipelines, validation systems, and multilingual data extraction
+* Automated data pipelines, validation systems, and multilingual data extraction; research participant coordination (scheduling, consent, follow-up) under IRB and HIPAA protocols
 * Related Publication: [Speaking in Tones: The role of lexical tones in Chinese-speaking Primary Progressive Aphasia](https://www.medrxiv.org/content/10.1101/2025.10.24.25338751v1)
 
 ### ML Research Engineer | Columbia University

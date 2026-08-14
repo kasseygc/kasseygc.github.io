@@ -34,16 +34,16 @@ Ingénieure TAL spécialisée en architecture de systèmes de TAL, en développe
 ## Expérience professionnelle
 
 ### Ingénieure TAL | AWS
-* Conception de flux d'évaluation, d'analyse comparative et de validation de LLM mesurant l'exactitude, la qualité de la récupération et les régressions comportementales entre versions de modèles — avec des mises en production conditionnées à des seuils de qualité propres à chaque tâche; évaluation de modèles multilingues et optimisation de systèmes pour LLM
+* Conception de flux d'évaluation, d'analyse comparative et de validation de LLM mesurant l'exactitude, la qualité de la récupération et les régressions comportementales entre versions de modèles — avec des mises en production conditionnées à des seuils de qualité propres à chaque tâche; évaluation de modèles multilingues et optimisation de systèmes pour LLM; leadership transversal auprès des équipes de données, d'ingénierie et de produit, mise à l'échelle et pilotage du chantier de données, définition de normes techniques et responsabilité de la livraison de bout en bout et de l'alignement des parties prenantes
 
 ### Linguiste de données en apprentissage automatique | AWS
-* Conception d'invites (Prompt engineering), annotation de données pour l'apprentissage automatique, entraînement et évaluation de modèles multilingues, et optimisation pour grands modèles de langue (LLM); notation de la qualité des données et détection du bruit d'étiquetage pour les pipelines d'annotation
+* Conception d'invites (Prompt engineering), annotation de données pour l'apprentissage automatique, entraînement et évaluation de modèles multilingues, et optimisation pour grands modèles de langue (LLM); notation de la qualité des données et détection du bruit d'étiquetage pour les pipelines d'annotation; direction d'une équipe d'annotation sur l'ensemble du cycle de vie des tâches (conception des tâches, répartition de la charge, normes de qualité, livraison aux parties prenantes)
 
 ### Spécialiste en assurance qualité logicielle | Apple
-* Réalisation de tests d'interface (UI/UX) et de localisation, automatisation et évaluation de la traduction automatique
+* Réalisation de tests d'interface (UI/UX) et de localisation, automatisation et évaluation de la traduction automatique; contrôle qualité pratique et débogage tout au long du cycle de publication
 
 ### Coordonnatrice de données de recherche clinique | UCSF Neurology
-* Mise en place de pipelines de données automatisés, de systèmes de validation et extraction de données multilingues
+* Mise en place de pipelines de données automatisés, de systèmes de validation et extraction de données multilingues; coordination des participants de recherche (planification, consentement, suivi) conformément aux protocoles IRB et HIPAA
 * Publication associée : [Speaking in Tones: The role of lexical tones in Chinese-speaking Primary Progressive Aphasia](https://www.medrxiv.org/content/10.1101/2025.10.24.25338751v1)
 
 ### Ingénieure de recherche en apprentissage automatique | Columbia University

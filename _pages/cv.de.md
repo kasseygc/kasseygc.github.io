@@ -34,16 +34,16 @@ Sprachingenieurin mit Expertise in der Architektur von NLP-Systemen, der Entwick
 ## Berufserfahrung
 
 ### Sprachingenieurin | AWS
-* Aufbau von LLM-Evaluations-, Benchmarking- und Validierungsabläufen, die Genauigkeit, Retrieval-Qualität und Verhaltensregressionen über Modellversionen hinweg messen — mit Releases, die an aufgabenspezifische Qualitätsschwellen gekoppelt sind; Evaluation mehrsprachiger Modelle und Systemoptimierung für LLMs
+* Aufbau von LLM-Evaluations-, Benchmarking- und Validierungsabläufen, die Genauigkeit, Retrieval-Qualität und Verhaltensregressionen über Modellversionen hinweg messen — mit Releases, die an aufgabenspezifische Qualitätsschwellen gekoppelt sind; Evaluation mehrsprachiger Modelle und Systemoptimierung für LLMs; funktionsübergreifende Leitung über Daten-, Engineering- und Produktteams hinweg, Skalierung und Steuerung des Daten-Workstreams, Festlegung technischer Standards sowie Verantwortung für die End-to-End-Lieferung und die Stakeholder-Abstimmung
 
 ### Machine-Learning-Datenlinguistin | AWS
-* Prompt-Engineering, Datenannotation für maschinelles Lernen, Training und Evaluation mehrsprachiger Modelle sowie Optimierung für große Sprachmodelle (LLMs); Datenqualitäts-Scoring und Label-Noise-Erkennung für Annotationspipelines
+* Prompt-Engineering, Datenannotation für maschinelles Lernen, Training und Evaluation mehrsprachiger Modelle sowie Optimierung für große Sprachmodelle (LLMs); Datenqualitäts-Scoring und Label-Noise-Erkennung für Annotationspipelines; Leitung eines Annotationsteams über den gesamten Aufgabenlebenszyklus (Aufgabendesign, Arbeitsverteilung, Qualitätsstandards, Lieferung an Stakeholder)
 
 ### Spezialistin für Software-Qualitätssicherung | Apple
-* Durchführung von UI/UX- und Lokalisierungstests, Automatisierung und Evaluation maschineller Übersetzung
+* Durchführung von UI/UX- und Lokalisierungstests, Automatisierung und Evaluation maschineller Übersetzung; praktische Qualitätskontrolle und Debugging über den gesamten Release-Zyklus
 
 ### Koordinatorin für klinische Forschungsdaten | UCSF Neurology
-* Aufbau automatisierter Datenpipelines, Validierungssysteme und mehrsprachiger Datenextraktion
+* Aufbau automatisierter Datenpipelines, Validierungssysteme und mehrsprachiger Datenextraktion; Koordination von Studienteilnehmenden (Terminplanung, Einwilligung, Nachverfolgung) gemäß IRB- und HIPAA-Protokollen
 * Zugehörige Publikation: [Speaking in Tones: The role of lexical tones in Chinese-speaking Primary Progressive Aphasia](https://www.medrxiv.org/content/10.1101/2025.10.24.25338751v1)
 
 ### Forschungsingenieurin (ML) | Columbia University
