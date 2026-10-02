@@ -20,7 +20,6 @@
             {% endif %}
           {% endfor %}
         </ul>
-        
         <!-- Language Dropdown Selector -->
         {% if site.languages.size > 1 %}
           {% assign current_lang = site.active_lang | default: site.default_lang %}
@@ -31,15 +30,6 @@
             {% when 'zh-HK' %}{% assign active_label = '中文' %}
             {% else %}{% assign active_label = current_lang | upcase %}
           {% endcase %}
-
-          {% comment %}
-            Safely strip the active language prefix from the current URL to get the pure path slug
-          {% endcomment %}
-          {% assign clean_slug = page.url %}
-          {% if current_lang != site.default_lang %}
-            {% assign lang_token = '/' | append: current_lang | append: '/' %}
-            {% assign clean_slug = clean_slug | replace_first: lang_token, '/' %}
-          {% endif %}
 
           <div class="lang-dropdown">
             <div class="lang-dropdown__toggle" tabindex="0" role="button" aria-label="Select Language">
@@ -62,18 +52,45 @@
                 <li>
                   {% if lang == site.active_lang %}
                     <span class="lang-active">{{ label }}</span>
-                  {% elsif lang == site.default_lang %}
-                    <!-- English lives at the root path -->
-                    <a hreflang="{{ site.default_lang }}" href="{{ clean_slug | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% else %}
-                    <!-- Other languages are prefixed with /lang-code/ -->
-                    {% assign target_path = '/' | append: lang | append: clean_slug | replace: '//', '/' %}
-                    <a hreflang="{{ lang }}" href="{{ target_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    <a href="#" class="lang-switcher-link" data-lang="{{ lang }}" data-default-lang="{{ site.default_lang }}" data-baseurl="{{ site.baseurl | default: '' }}">{{ label }}</a>
                   {% endif %}
                 </li>
               {% endfor %}
             </ul>
           </div>
+
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const currentPath = window.location.pathname;
+              const langs = ['fr-CA', 'de', 'zh-HK']; // Add any other language codes you have here
+              
+              // Clean the current path by stripping any existing language prefix
+              let cleanPath = currentPath;
+              langs.forEach(function(l) {
+                cleanPath = cleanPath.replace('/' + l + '/', '/').replace('/' + l, '/');
+              });
+
+              document.querySelectorAll('.lang-switcher-link').forEach(function(link) {
+                const targetLang = link.getAttribute('data-lang');
+                const defaultLang = link.getAttribute('data-default-lang');
+                const baseurl = link.getAttribute('data-baseurl') || '';
+
+                let targetUrl = '';
+                if (targetLang === defaultLang) {
+                  // English/default points to root clean path
+                  targetUrl = baseurl + cleanPath;
+                } else {
+                  // Other languages prepend /lang-code/
+                  targetUrl = baseurl + '/' + targetLang + cleanPath;
+                }
+
+                // Ensure no double slashes except protocol
+                targetUrl = targetUrl.replace(/([^:]\/)\/+/g, '$1');
+                link.setAttribute('href', targetUrl);
+              });
+            });
+          </script>
         {% endif %}
 
         <button><div class="navicon"></div></button>
