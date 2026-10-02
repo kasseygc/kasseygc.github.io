@@ -34,7 +34,7 @@
           {% comment %}
             Safely strip ANY known language prefix from the current page URL 
             to isolate the pure relative path slug (e.g., /about/ instead of /fr-CA/about/)
-          % endcomment %}
+          {% endcomment %}
           {% assign pure_path = page.url %}
           {% for l in site.languages %}
             {% assign l_prefix_slash = '/' | append: l | append: '/' %}
@@ -43,8 +43,8 @@
               {% assign pure_path = pure_path | replace_first: l_prefix_slash, '/' %}
             {% elsif pure_path == l_prefix_exact %}
               {% assign pure_path = '/' %}
-            % endif
-          % endfor %}
+            {% endif %}
+          {% endfor %}
           {% if pure_path == "" %}{% assign pure_path = "/" %}{% endif %}
 
           <div class="lang-dropdown">
