@@ -2,7 +2,29 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <a class="masthead__brand" href="{{ '/' | relative_url }}">{% if site.logo %}<img class="site-logo" src="{{ site.logo | relative_url }}" alt="">{% endif %}<span class="site-name">{{ site.title }}</span></a>
+    <div class="masthead-top-row">
+      <a class="masthead__brand" href="{{ '/' | relative_url }}">{% if site.logo %}<img class="site-logo" src="{{ site.logo | relative_url }}" alt="">{% endif %}<span class="site-name">{{ site.title }}</span></a>
+      {% if site.languages.size > 1 %}
+      <div class="lang-switcher">
+        {% for lang in site.languages %}
+          {% case lang %}
+            {% when 'en' %}{% assign label = 'EN' %}
+            {% when 'fr-CA' %}{% assign label = 'FR' %}
+            {% when 'de' %}{% assign label = 'DE' %}
+            {% when 'zh-HK' %}{% assign label = '中' %}
+            {% else %}{% assign label = lang | upcase %}
+          {% endcase %}
+          {% if lang == site.active_lang %}
+            <span class="lang-active">{{ label }}</span>
+          {% elsif lang == site.default_lang %}
+            <a hreflang="{{ site.default_lang }}" href="{{ page.url | absolute_url }}" lang="{{ lang }}">{{ label }}</a>
+          {% else %}
+            <a href="{{ page.url | prepend: lang | prepend: '/' | prepend: site.baseurl }}" lang="{{ lang }}">{{ label }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
@@ -20,29 +42,5 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-    {% if site.languages.size > 1 %}
-      <div class="lang-switcher">
-        {% for lang in site.languages %}
-          {% case lang %}
-            {% when 'en' %}{% assign label = 'EN' %}
-            {% when 'fr-CA' %}{% assign label = 'FR' %}
-            {% when 'de' %}{% assign label = 'DE' %}
-            {% when 'zh-HK' %}{% assign label = '中' %}
-            {% else %}{% assign label = lang | upcase %}
-          {% endcase %}
-          {% comment %} Same-page switch. Default lang lives at the root path; polyglot would
-          rewrite a relative root link back to the active lang, so use absolute_url + hreflang
-          (negative lookbehind in polyglot's abs-url regex leaves it alone). Non-default targets
-          start with their lang code, so polyglot's relative regex already excludes them. {% endcomment %}
-          {% if lang == site.active_lang %}
-            <span class="lang-active">{{ label }}</span>
-          {% elsif lang == site.default_lang %}
-            <a hreflang="{{ site.default_lang }}" href="{{ page.url | absolute_url }}" lang="{{ lang }}">{{ label }}</a>
-          {% else %}
-            <a href="{{ page.url | prepend: lang | prepend: '/' | prepend: site.baseurl }}" lang="{{ lang }}">{{ label }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-      {% endif %}
   </div>
 </div>
