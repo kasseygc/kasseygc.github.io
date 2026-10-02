@@ -3,16 +3,25 @@ main:
   - title: "Technical Projects"
     title_fr-CA: "Projets techniques"
     title_de: "Technische Projekte"
+    title_zh-HK: "技術項目"
     url: /tech/
   - title: "Linguistics Projects"
     title_fr-CA: "Projets linguistiques"
     title_de: "Linguistische Projekte"
+    title_zh-HK: "語言學項目"
     url: /portfolio/
   - title: "Blog Posts"
     title_fr-CA: "Articles"
     title_de: "Beiträge"
+    title_zh-HK: "文章"
     url: /year-archive/
+  - title: "Language Services"
+    title_fr-CA: "Services linguistiques"
+    title_de: "Sprachdienstleistungen"
+    title_zh-HK: "語言服務"
+    url: /langservices/
   - title: "CV"
     title_fr-CA: "CV"
     title_de: "Lebenslauf"
+    title_zh-HK: "履歷"
     url: /cv/
