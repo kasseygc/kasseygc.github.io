@@ -681,7 +681,27 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 
 @media (max-width: 820px) {
   body { font-size: 18px; }
-  .masthead__inner-wrap { padding-left: 24px; padding-right: 24px; }
+  .masthead__inner-wrap {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 14px 40px;
+  gap: 12px;
+
+  /* Top sub-row: Brand and Language Switcher */
+  .masthead__header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Bottom sub-row: Navigation links */
+  .masthead__menu {
+    width: 100%;
+    border-top: 1px solid var(--line);
+    padding-top: 10px;
+  }
+}
   .editorial-home {
     .wrap { padding: 0 24px; }
     .about-grid { grid-template-columns: 1fr; gap: 36px; }
