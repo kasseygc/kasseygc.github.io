@@ -69,8 +69,10 @@
                   {% if lang == site.active_lang %}
                     <span class="lang-active">{{ label }}</span>
                   {% elsif lang == site.default_lang %}
-                    <!-- English (default) target URL points to the root path without any language code -->
-                    <a hreflang="{{ site.default_lang }}" href="{{ pure_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    <!-- English (default) target: ABSOLUTE url so polyglot's abs-regex applies and
+                         its `hreflang="en"` lookbehind leaves it alone. A relative /path/ would be
+                         re-prefixed to the active language (e.g. /fr-CA/cv/), which breaks EN. -->
+                    <a hreflang="{{ site.default_lang }}" href="{{ site.url }}{{ pure_path }}" lang="{{ lang }}">{{ label }}</a>
                   {% else %}
                     <!-- Other translated languages prepend their respective code -->
                     {% assign translated_url = '/' | append: lang | append: pure_path | replace: '//', '/' %}
