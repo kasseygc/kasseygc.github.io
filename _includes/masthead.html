@@ -27,6 +27,7 @@
             {% when 'en' %}{% assign label = 'EN' %}
             {% when 'fr-CA' %}{% assign label = 'FR' %}
             {% when 'de' %}{% assign label = 'DE' %}
+            {% when 'zh-HK' %}{% assign label = '中' %}
             {% else %}{% assign label = lang | upcase %}
           {% endcase %}
           {% comment %} Same-page switch. Default lang lives at the root path; polyglot would

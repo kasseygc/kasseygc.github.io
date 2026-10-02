@@ -732,3 +732,37 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   .greedy-nav .hidden-links:before,
   .greedy-nav .hidden-links:after { content: none !important; display: none !important; }
 }
+
+
+/* ==========================================================================
+   Traditional Chinese (zh-HK) typography
+   Latin runs keep Fraunces / Newsreader; CJK glyphs fall through to Noto Serif HK.
+   CJK has no true italics and needs looser tracking and leading than the Latin design.
+   ========================================================================== */
+html:lang(zh-HK) {
+  --font-display: "Fraunces", "Noto Serif HK", "Noto Serif TC", "Songti TC", "PMingLiU", "MingLiU_HKSCS", Georgia, serif;
+  --font-body:    "Newsreader", "Noto Serif HK", "Noto Serif TC", "Songti TC", "PMingLiU", "MingLiU_HKSCS", Georgia, serif;
+}
+html:lang(zh-HK) body { line-height: 1.8; }
+html:lang(zh-HK) em { font-style: normal !important; }
+html:lang(zh-HK) h1,
+html:lang(zh-HK) h2,
+html:lang(zh-HK) h3,
+html:lang(zh-HK) h4,
+html:lang(zh-HK) .masthead__brand,
+html:lang(zh-HK) .sec-title,
+html:lang(zh-HK) .about-lead,
+html:lang(zh-HK) .hero-sub,
+html:lang(zh-HK) blockquote,
+html:lang(zh-HK) .foot-grid .big,
+html:lang(zh-HK) .card-title,
+html:lang(zh-HK) .page__title,
+html:lang(zh-HK) .page__deck,
+html:lang(zh-HK) .archive__item-title { letter-spacing: 0 !important; }
+html:lang(zh-HK) .hero h1 { line-height: 1.35; }
+html:lang(zh-HK) .page__title { line-height: 1.3; }
+html:lang(zh-HK) .card-title { line-height: 1.45; }
+html:lang(zh-HK) .about-lead,
+html:lang(zh-HK) .page__deck { line-height: 1.7; }
+html:lang(zh-HK) .card-desc,
+html:lang(zh-HK) .page__content { line-height: 1.8; }

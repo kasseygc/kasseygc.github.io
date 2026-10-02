@@ -63,7 +63,7 @@ lunr:
   search_within_pages: true
 
 # Multilingual (jekyll-polyglot) — requires the GitHub Actions build
-languages: ["en", "fr-CA", "de"]
+languages: ["en", "fr-CA", "de", "zh-HK"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "assets", "files", "talkmap", "talkmap.ipynb", "markdown_generator", "feed.xml", "robots.txt"]
 parallel_localization: true
@@ -95,7 +95,7 @@ author:
   name             : "Kassey Guertin-Chang"
   avatar           : "profile2.jpg"
   bio              : "Language Engineering & NLP Systems"
-  location         : "Santa Clara, California"
+  location         : "Canada"
   employer         : 
   email            : "kasseyguertin@gmail.com"
   uri              :
