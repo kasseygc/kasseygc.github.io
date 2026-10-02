@@ -2,7 +2,7 @@
 layout: archive
 lang: en
 title: "Language Services"
-eyebrow: "Linguistics · Localization"
+eyebrow: "Linguistics · Localization · Project Management"
 deck: "Specialized language services that combine linguistic expertise with technical precision, for technology, research, and cross-cultural communication."
 excerpt: "Professional language services"
 permalink: /langservices/
@@ -16,7 +16,7 @@ I provide specialized language services for clients working with technology, res
   <div class="card">
     <div class="card-num">01</div>
     <h3 class="card-title">Translation &amp; Localization</h3>
-    <p class="card-desc">Technical documentation, UI, software, and web content.</p>
+    <p class="card-desc">Technical documentation, UI, software, web, and spoken content.</p>
   </div>
   <div class="card">
     <div class="card-num">02</div>
@@ -40,8 +40,8 @@ I provide specialized language services for clients working with technology, res
   </div>
   <div class="card">
     <div class="card-num">06</div>
-    <h3 class="card-title">Content Creation</h3>
-    <p class="card-desc">Technical writing, documentation, multilingual SEO, and educational materials.</p>
+    <h3 class="card-title">Localization Project Management</h3>
+    <p class="card-desc">End-to-end delivery of multilingual projects: vendor and linguist management, workflow design, budgets and schedules, and quality standards.</p>
   </div>
 </div>
 
@@ -49,7 +49,11 @@ I provide specialized language services for clients working with technology, res
 
 **English, Cantonese, Chinese (Traditional & Simplified), Mandarin, German, French**
 
-Currently, I'm leading multilingual localization and translation across text and speech modalities for Air Canada projects, ensuring linguistic accuracy and cultural adaptation between EN-CA, FR-CA and ZH-HK. I also develop localization guidelines and quality standards for cross-modal content delivery.
+Currently, I'm leading multilingual localization and translation across text and speech modalities for Air Canada projects via Powerling (OXO Innovation), ensuring linguistic accuracy and cultural adaptation between EN-CA, FR-CA and ZH-HK. I also develop localization guidelines and quality standards for cross-modal content delivery.
+
+## Tools
+
+**CAT tools:** memoQ, Phrase (Memsource), RWS Trados · **TMS:** Smartling, Crowdin · **Project management:** Plunet
 
 ## Approach
 

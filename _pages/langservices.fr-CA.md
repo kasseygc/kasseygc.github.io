@@ -2,7 +2,7 @@
 layout: archive
 lang: fr-CA
 title: "Services linguistiques"
-eyebrow: "Linguistique · Localisation"
+eyebrow: "Linguistique · Localisation · Gestion de projets"
 deck: "Des services linguistiques spécialisés alliant expertise langagière et précision technique, pour la technologie, la recherche et la communication interculturelle."
 excerpt: "Services linguistiques professionnels"
 permalink: /langservices/
@@ -16,7 +16,7 @@ Je propose des services linguistiques spécialisés aux clients actifs en techno
   <div class="card">
     <div class="card-num">01</div>
     <h3 class="card-title">Traduction et localisation</h3>
-    <p class="card-desc">Documentation technique, interfaces, logiciels et contenu Web.</p>
+    <p class="card-desc">Documentation technique, interfaces, logiciels, contenu Web et contenu vocal.</p>
   </div>
   <div class="card">
     <div class="card-num">02</div>
@@ -40,8 +40,8 @@ Je propose des services linguistiques spécialisés aux clients actifs en techno
   </div>
   <div class="card">
     <div class="card-num">06</div>
-    <h3 class="card-title">Création de contenu</h3>
-    <p class="card-desc">Rédaction technique, documentation, référencement multilingue et matériel pédagogique.</p>
+    <h3 class="card-title">Gestion de projets de localisation</h3>
+    <p class="card-desc">Prise en charge de bout en bout de projets multilingues : gestion des fournisseurs et des linguistes, conception des flux de travail, budgets et échéanciers, et normes de qualité.</p>
   </div>
 </div>
 
@@ -49,7 +49,11 @@ Je propose des services linguistiques spécialisés aux clients actifs en techno
 
 **Anglais, cantonais, chinois (traditionnel et simplifié), mandarin, allemand, français**
 
-À l'heure actuelle, je dirige la localisation et la traduction multilingues de contenus textuels et vocaux pour des projets d'Air Canada, en assurant l'exactitude linguistique et l'adaptation culturelle entre l'EN-CA, le FR-CA et le ZH-HK. J'élabore aussi des lignes directrices de localisation et des normes de qualité pour la diffusion de contenu multimodal.
+À l'heure actuelle, je dirige la localisation et la traduction multilingues de contenus textuels et vocaux pour des projets d'Air Canada, par l'intermédiaire de Powerling (OXO Innovation), en assurant l'exactitude linguistique et l'adaptation culturelle entre l'EN-CA, le FR-CA et le ZH-HK. J'élabore aussi des lignes directrices de localisation et des normes de qualité pour la diffusion de contenu multimodal.
+
+## Outils
+
+**Outils de TAO** : memoQ, Phrase (Memsource), RWS Trados · **TMS** : Smartling, Crowdin · **Gestion de projets** : Plunet
 
 ## Approche
 

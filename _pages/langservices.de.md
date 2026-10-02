@@ -2,7 +2,7 @@
 layout: archive
 lang: de
 title: "Sprachdienstleistungen"
-eyebrow: "Linguistik · Lokalisierung"
+eyebrow: "Linguistik · Lokalisierung · Projektmanagement"
 deck: "Spezialisierte Sprachdienstleistungen, die linguistische Expertise mit technischer Präzision verbinden, für Technologie, Forschung und interkulturelle Kommunikation."
 excerpt: "Professionelle Sprachdienstleistungen"
 permalink: /langservices/
@@ -16,7 +16,7 @@ Ich biete spezialisierte Sprachdienstleistungen für Kundinnen und Kunden aus Te
   <div class="card">
     <div class="card-num">01</div>
     <h3 class="card-title">Übersetzung und Lokalisierung</h3>
-    <p class="card-desc">Technische Dokumentation, Benutzeroberflächen, Software und Webinhalte.</p>
+    <p class="card-desc">Technische Dokumentation, Benutzeroberflächen, Software, Webinhalte und gesprochene Inhalte.</p>
   </div>
   <div class="card">
     <div class="card-num">02</div>
@@ -40,8 +40,8 @@ Ich biete spezialisierte Sprachdienstleistungen für Kundinnen und Kunden aus Te
   </div>
   <div class="card">
     <div class="card-num">06</div>
-    <h3 class="card-title">Content-Erstellung</h3>
-    <p class="card-desc">Technisches Schreiben, Dokumentation, mehrsprachiges SEO und Lehrmaterialien.</p>
+    <h3 class="card-title">Projektmanagement für Lokalisierung</h3>
+    <p class="card-desc">Durchgängige Betreuung mehrsprachiger Projekte: Dienstleister- und Linguistenmanagement, Workflow-Gestaltung, Budget- und Terminplanung sowie Qualitätsstandards.</p>
   </div>
 </div>
 
@@ -49,7 +49,11 @@ Ich biete spezialisierte Sprachdienstleistungen für Kundinnen und Kunden aus Te
 
 **Englisch, Kantonesisch, Chinesisch (traditionell und vereinfacht), Mandarin, Deutsch, Französisch**
 
-Derzeit leite ich die mehrsprachige Lokalisierung und Übersetzung von Text- und Sprachinhalten für Projekte von Air Canada und sorge für sprachliche Genauigkeit sowie kulturelle Anpassung zwischen EN-CA, FR-CA und ZH-HK. Außerdem entwickle ich Lokalisierungsrichtlinien und Qualitätsstandards für die modalitätsübergreifende Bereitstellung von Inhalten.
+Derzeit leite ich im Auftrag von Powerling (OXO Innovation) die mehrsprachige Lokalisierung und Übersetzung von Text- und Sprachinhalten für Projekte von Air Canada und sorge für sprachliche Genauigkeit sowie kulturelle Anpassung zwischen EN-CA, FR-CA und ZH-HK. Außerdem entwickle ich Lokalisierungsrichtlinien und Qualitätsstandards für die modalitätsübergreifende Bereitstellung von Inhalten.
+
+## Tools
+
+**CAT-Tools:** memoQ, Phrase (Memsource), RWS Trados · **TMS:** Smartling, Crowdin · **Projektmanagement:** Plunet
 
 ## Vorgehensweise
 
