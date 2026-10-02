@@ -33,18 +33,13 @@
           {% endcase %}
 
           {% comment %}
-            Extract pure relative path without any language prefixes or leading baseurl
+            Safely strip the active language prefix from the current URL to get the pure path slug
           {% endcomment %}
-          {% assign page_path = page.url %}
-          {% for l in site.languages %}
-            {% assign prefix_with_slash = '/' | append: l | append: '/' %}
-            {% assign prefix_exact = '/' | append: l %}
-            {% if page_path == prefix_exact %}
-              {% assign page_path = '/' %}
-            {% else %}
-              {% assign page_path = page_path | replace: prefix_with_slash, '/' %}
-            {% endif %}
-          {% endfor %}
+          {% assign clean_slug = page.url %}
+          {% if current_lang != site.default_lang %}
+            {% assign lang_token = '/' | append: current_lang | append: '/' %}
+            {% assign clean_slug = clean_slug | replace_first: lang_token, '/' %}
+          {% endif %}
 
           <div class="lang-dropdown">
             <div class="lang-dropdown__toggle" tabindex="0" role="button" aria-label="Select Language">
@@ -68,9 +63,11 @@
                   {% if lang == site.active_lang %}
                     <span class="lang-active">{{ label }}</span>
                   {% elsif lang == site.default_lang %}
-                    <a hreflang="{{ site.default_lang }}" href="{{ page_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    <!-- English lives at the root path -->
+                    <a hreflang="{{ site.default_lang }}" href="{{ clean_slug | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% else %}
-                    {% assign target_path = '/' | append: lang | append: page_path | replace: '//', '/' %}
+                    <!-- Other languages are prefixed with /lang-code/ -->
+                    {% assign target_path = '/' | append: lang | append: clean_slug | replace: '//', '/' %}
                     <a hreflang="{{ lang }}" href="{{ target_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% endif %}
                 </li>
