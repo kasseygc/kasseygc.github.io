@@ -2,7 +2,10 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <a class="masthead__brand" href="{{ '/' | relative_url }}">{% if site.logo %}<img class="site-logo" src="{{ site.logo | relative_url }}" alt="">{% endif %}<span class="site-name">{{ site.title }}</span></a>
+    <a class="masthead__brand" href="{{ '/' | relative_url }}">
+      {% if site.logo %}<img class="site-logo" src="{{ site.logo | relative_url }}" alt="">{% endif %}
+      <span class="site-name">{{ site.title }}</span>
+    </a>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <!-- Primary Content Navigation -->
@@ -29,9 +32,20 @@
             {% else %}{% assign active_label = current_lang | upcase %}
           {% endcase %}
 
+          {% comment %}
+            Compute clean un-prefixed page path for language routing
+          {% endcomment %}
+          {% assign clean_url = page.url %}
+          {% for l in site.languages %}
+            {% if l != site.default_lang %}
+              {% assign lang_prefix = '/' | append: l %}
+              {% assign clean_url = clean_url | replace: lang_prefix, '' %}
+            {% endif %}
+          {% endfor %}
+
           <div class="lang-dropdown">
             <div class="lang-dropdown__toggle" tabindex="0" role="button" aria-label="Select Language">
-              <svg class="lang-globe-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor">
+              <svg class="lang-globe-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor" style="display: inline-block; vertical-align: middle; width: 16px; height: 16px; min-width: 16px; min-height: 16px;">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
               </svg>
               <span>{{ active_label }}</span>
@@ -51,11 +65,12 @@
                   {% if lang == site.active_lang %}
                     <span class="lang-active">{{ label }}</span>
                   {% elsif lang == site.default_lang %}
-                    <!-- Explicitly routes back to the default language path by stripping other lang codes -->
-                    <a hreflang="{{ site.default_lang }}" href="{{ site.baseurl }}{{ page.url | replace: '/fr-CA', '' | replace: '/de', '' | replace: '/zh-HK', '' }}" lang="{{ lang }}">{{ label }}</a>
+                    {% assign target_en_url = clean_url %}
+                    {% if target_en_url == "" %}{% assign target_en_url = "/" %}{% endif %}
+                    <a hreflang="{{ site.default_lang }}" href="{{ target_en_url | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% else %}
-                    <!-- Routes to non-default languages -->
-                    <a hreflang="{{ lang }}" href="{{ site.baseurl }}/{{ lang }}{{ page.url | replace: '/fr-CA', '' | replace: '/de', '' | replace: '/zh-HK', '' }}" lang="{{ lang }}">{{ label }}</a>
+                    {% assign target_lang_url = '/' | append: lang | append: clean_url %}
+                    <a hreflang="{{ lang }}" href="{{ target_lang_url | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% endif %}
                 </li>
               {% endfor %}
