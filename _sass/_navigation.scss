@@ -358,9 +358,12 @@
     }
 
     .lang-globe-icon {
-      display: inline-block;
+      display: inline-block !important;
       vertical-align: middle;
       flex-shrink: 0;
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
     }
   }
 
