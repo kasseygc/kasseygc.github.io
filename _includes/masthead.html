@@ -33,13 +33,16 @@
           {% endcase %}
 
           {% comment %}
-            Compute clean un-prefixed page path for language routing
+            Extract pure relative path without any language prefixes or leading baseurl
           {% endcomment %}
-          {% assign clean_url = page.url %}
+          {% assign page_path = page.url %}
           {% for l in site.languages %}
-            {% if l != site.default_lang %}
-              {% assign lang_prefix = '/' | append: l %}
-              {% assign clean_url = clean_url | replace: lang_prefix, '' %}
+            {% assign prefix_with_slash = '/' | append: l | append: '/' %}
+            {% assign prefix_exact = '/' | append: l %}
+            {% if page_path == prefix_exact %}
+              {% assign page_path = '/' %}
+            {% else %}
+              {% assign page_path = page_path | replace: prefix_with_slash, '/' %}
             {% endif %}
           {% endfor %}
 
@@ -65,12 +68,10 @@
                   {% if lang == site.active_lang %}
                     <span class="lang-active">{{ label }}</span>
                   {% elsif lang == site.default_lang %}
-                    {% assign target_en_url = clean_url %}
-                    {% if target_en_url == "" %}{% assign target_en_url = "/" %}{% endif %}
-                    <a hreflang="{{ site.default_lang }}" href="{{ target_en_url | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    <a hreflang="{{ site.default_lang }}" href="{{ page_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% else %}
-                    {% assign target_lang_url = '/' | append: lang | append: clean_url %}
-                    <a hreflang="{{ lang }}" href="{{ target_lang_url | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    {% assign target_path = '/' | append: lang | append: page_path | replace: '//', '/' %}
+                    <a hreflang="{{ lang }}" href="{{ target_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% endif %}
                 </li>
               {% endfor %}
