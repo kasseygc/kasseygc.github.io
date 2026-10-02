@@ -5,7 +5,7 @@
     <a class="masthead__brand" href="{{ '/' | relative_url }}">{% if site.logo %}<img class="site-logo" src="{{ site.logo | relative_url }}" alt="">{% endif %}<span class="site-name">{{ site.title }}</span></a>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <!-- Primary Content Navigation -->
         <ul class="visible-links">
           {% assign title_key = 'title_' | append: site.active_lang %}
           {% for link in site.data.navigation.main %}
@@ -18,31 +18,50 @@
           {% endfor %}
         </ul>
         
+        <!-- Language Dropdown Selector -->
         {% if site.languages.size > 1 %}
-          <ul class="lang-switcher">
+          <div class="lang-dropdown">
             {% for lang in site.languages %}
-              {% case lang %}
-                {% when 'en' %}{% assign label = 'EN' %}
-                {% when 'fr-CA' %}{% assign label = 'FR' %}
-                {% when 'de' %}{% assign label = 'DE' %}
-                {% when 'zh-HK' %}{% assign label = '中文' %}
-                {% else %}{% assign label = lang | upcase %}
-              {% endcase %}
-              
-              <li class="lang-switcher__item">
-                {% if lang == site.active_lang %}
-                  <span class="lang-active">{{ label }}</span>
-                {% elsif lang == site.default_lang %}
-                  <a hreflang="{{ site.default_lang }}" href="{{ site.baseurl }}{{ page.url }}" lang="{{ lang }}">{{ label }}</a>
-                {% else %}
-                  <a hreflang="{{ lang }}" href="{{ site.baseurl }}/{{ lang }}{{ page.url }}" lang="{{ lang }}">{{ label }}</a>
-                {% endif %}
-              </li>
-              {% unless forloop.last %}<li class="lang-switcher__separator">|</li>{% endunless %}
+              {% if lang == site.active_lang %}
+                {% case lang %}
+                  {% when 'en' %}{% assign active_label = 'EN' %}
+                  {% when 'fr-CA' %}{% assign active_label = 'FR' %}
+                  {% when 'de' %}{% assign active_label = 'DE' %}
+                  {% when 'zh-HK' %}{% assign active_label = '中文' %}
+                  {% else %}{% assign active_label = lang | upcase %}
+                {% endcase %}
+              {% endif %}
             {% endfor %}
-          </ul>
+            
+            <button class="lang-dropdown__toggle" aria-expanded="false">
+              <span class="lang-globe">🌐</span> {{ active_label }}
+            </button>
+            
+            <ul class="lang-dropdown__menu">
+              {% for lang in site.languages %}
+                {% case lang %}
+                  {% when 'en' %}{% assign label = 'EN' %}
+                  {% when 'fr-CA' %}{% assign label = 'FR' %}
+                  {% when 'de' %}{% assign label = 'DE' %}
+                  {% when 'zh-HK' %}{% assign label = '中文' %}
+                  {% else %}{% assign label = lang | upcase %}
+                {% endcase %}
+                
+                <li>
+                  {% if lang == site.active_lang %}
+                    <span class="lang-active">{{ label }}</span>
+                  {% elsif lang == site.default_lang %}
+                    <a hreflang="{{ site.default_lang }}" href="{{ site.baseurl }}{{ page.url }}" lang="{{ lang }}">{{ label }}</a>
+                  {% else %}
+                    <a hreflang="{{ lang }}" href="{{ site.baseurl }}/{{ lang }}{{ page.url }}" lang="{{ lang }}">{{ label }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         {% endif %}
 
+        <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
