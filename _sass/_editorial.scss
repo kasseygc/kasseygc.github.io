@@ -69,30 +69,37 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 }
 
 /* ==========================================================================
-   NAV (sticky translucent masthead)
+   NAV (Two-Tier Masthead to prevent link/hamburger collision)
    ========================================================================== */
 .masthead {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(247, 243, 234, .82);
+  background: rgba(247, 243, 234, .92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
   animation: none;
 
   &__inner-wrap {
-    padding: 18px 40px;
+    padding: 14px 40px;
     font-family: var(--font-mono);
     max-width: 1180px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
   }
 }
 
-/* Brand sits outside the greedy-nav so its width math stays correct */
+/* Top Row: Brand on left, Language Switcher on right */
+.masthead-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .masthead__brand {
   display: inline-flex;
   align-items: center;
@@ -108,41 +115,48 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 .masthead__brand .site-name { color: var(--ink); }
 .site-logo { height: 28px; width: auto; display: block; } /* schwa mark */
 
-.masthead__menu { margin: 0; flex: 1; }
-
 /* Language switcher */
 .lang-switcher {
   display: flex;
   align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
+  gap: 10px;
   font-family: var(--font-mono);
   font-size: 13px;
   letter-spacing: .04em;
   white-space: nowrap;
-  padding-left: 16px;
-  border-left: 1px solid var(--line);
 }
 .lang-switcher a { color: var(--muted); text-decoration: none; transition: color .3s; }
 .lang-switcher a:hover { color: var(--accent); }
 .lang-switcher .lang-active { color: var(--ink); font-weight: 500; }
 
+/* Bottom Row: Full navigation menu */
+.masthead__menu {
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
 .greedy-nav {
   background: transparent;
-  flex: 1;
+  width: 100%;
 
-  /* keep the default table layout greedy-nav measures correctly;
-     push it to the right edge with an auto left margin */
-  .visible-links { margin-left: auto; }
+  .visible-links { 
+    margin-left: 0; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
   /* MM bolds the first menu item (it used to be the site title); undo it */
   .visible-links li:first-child { font-weight: inherit; }
 
   a {
     font-family: var(--font-mono);
-    font-size: 13px;
+    font-size: 13.5px;
     letter-spacing: .01em;
     color: var(--ink-soft);
-    margin: 0 .45rem;
+    margin: 0;
     transition: color .3s;
 
     &:before {
@@ -669,39 +683,9 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 /* ==========================================================================
    RESPONSIVE
    ========================================================================== */
-@media (max-width: 1100px) {
-  /* Trigger the greedy-nav collapse earlier before links collide with the mobile toggle */
-  .greedy-nav .visible-links {
-    display: none !important;
-  }
-  .greedy-nav .greedy-nav__toggle {
-    display: block !important;
-  }
-}
-
 @media (max-width: 820px) {
   body { font-size: 18px; }
-  .masthead__inner-wrap {
-  flex-direction: column;
-  align-items: stretch;
-  padding: 14px 40px;
-  gap: 12px;
-
-  /* Top sub-row: Brand and Language Switcher */
-  .masthead__header-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-  /* Bottom sub-row: Navigation links */
-  .masthead__menu {
-    width: 100%;
-    border-top: 1px solid var(--line);
-    padding-top: 10px;
-  }
-}
+  .masthead__inner-wrap { padding-left: 24px; padding-right: 24px; }
   .editorial-home {
     .wrap { padding: 0 24px; }
     .about-grid { grid-template-columns: 1fr; gap: 36px; }
@@ -712,22 +696,18 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
   .page__footer footer { padding: 50px 24px 40px; }
   .editorial-footer .foot-links { text-align: left; }
   #main { padding: 40px 24px 16px; }
-  .lang-switcher { padding-left: 14px; gap: 8px; }
 }
 
 /* ---- Mobile header: brand + switcher on row 1, all nav links on row 2 ---- */
 @media (max-width: 720px) {
   .masthead__inner-wrap {
-    flex-wrap: wrap;
     padding: 12px 22px;
-    gap: 10px 14px;
+    gap: 10px;
   }
   .masthead__brand { font-size: 17px; gap: 8px; }
   .masthead__brand .site-logo { height: 24px; }
-  .lang-switcher { order: 1; margin-left: auto; padding-left: 12px; }
+  .lang-switcher { padding-left: 0; gap: 8px; }
 
-  .masthead__menu { order: 2; flex: 1 0 100%; width: 100%; }
-  .greedy-nav { flex: none; min-width: 0; }
   .greedy-nav button { display: none !important; } /* no hamburger; links shown inline */
 
   /* show both the kept and the JS-overflowed links inline, wrapped.
