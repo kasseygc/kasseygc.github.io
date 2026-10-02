@@ -21,7 +21,7 @@ author_profile: false
   <div class="card">
     <div class="card-num">02</div>
     <h3 class="card-title">機器翻譯譯後編輯（MTPE）</h3>
-    <p class="card-desc">修訂機器翻譯產出，由輕度到全面編輯，確保準確、流暢、術語統一。</p>
+    <p class="card-desc">修訂機器翻譯文案，由輕度到全面編輯，確保準確、流暢、術語統一。</p>
   </div>
   <div class="card">
     <div class="card-num">03</div>
@@ -36,7 +36,7 @@ author_profile: false
   <div class="card">
     <div class="card-num">05</div>
     <h3 class="card-title">語言質素保證 (LQA)</h3>
-    <p class="card-desc">多語言用戶界面驗證、本地化準確度和術語一致。</p>
+    <p class="card-desc">多語言用戶界面測試和驗證、本地化準確度和術語一致。</p>
   </div>
   <div class="card">
     <div class="card-num">06</div>
