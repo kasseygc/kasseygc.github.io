@@ -2,7 +2,7 @@
 layout: archive
 lang: zh-HK
 title: "語言服務"
-eyebrow: "語言學 · 本地化"
+eyebrow: "語言學 · 本地化 · 項目管理"
 deck: "結合語言專業及技術嚴謹的語言服務，涵蓋科技、研究和跨文化溝通。"
 excerpt: "專業語言服務"
 permalink: /langservices/
@@ -16,7 +16,7 @@ author_profile: false
   <div class="card">
     <div class="card-num">01</div>
     <h3 class="card-title">翻譯及本地化</h3>
-    <p class="card-desc">技術文件、用戶界面、軟件和網站內容。</p>
+    <p class="card-desc">技術文件、用戶界面、軟件、網站內容和語音內容。</p>
   </div>
   <div class="card">
     <div class="card-num">02</div>
@@ -40,8 +40,8 @@ author_profile: false
   </div>
   <div class="card">
     <div class="card-num">06</div>
-    <h3 class="card-title">內容創作</h3>
-    <p class="card-desc">技術寫作、文件撰寫、多語言 SEO 和教育材料。</p>
+    <h3 class="card-title">本地化項目管理</h3>
+    <p class="card-desc">全程統籌多語言項目，包括管理供應商和語言專家、設計工作流程、控制預算和進度，以及制訂質素標準。</p>
   </div>
 </div>
 
@@ -49,7 +49,11 @@ author_profile: false
 
 **英語、粵語、中文（繁體及簡體）、普通話、德語、法語**
 
-我目前為客戶之一 Air Canada 負責多語言本地化和翻譯，涵蓋文字和語音內容，確保 EN-CA、FR-CA 和 ZH-HK 之間的語言準確，並貼合當地文化。我亦為客戶制訂本地化指引和質素標準。
+我目前透過 Powerling（OXO Innovation）為客戶之一 Air Canada 負責多語言本地化和翻譯，涵蓋文字和語音內容，確保 EN-CA、FR-CA 和 ZH-HK 之間的語言準確，並貼合當地文化。我亦為客戶制訂本地化指引和質素標準。
+
+## 工具
+
+**電腦輔助翻譯（CAT）：** memoQ、Phrase (Memsource)、RWS Trados · **翻譯管理系統（TMS）：** Smartling、Crowdin · **項目管理：** Plunet
 
 ## 服務理念
 
