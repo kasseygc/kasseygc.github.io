@@ -19,8 +19,7 @@
         </ul>
         
         {% if site.languages.size > 1 %}
-          <!-- Inline Buttons / Text Links Pattern -->
-          <ul class="visible-links lang-switcher" style="margin-left: auto; display: flex; align-items: center; gap: 0.5rem;">
+          <ul class="lang-switcher">
             {% for lang in site.languages %}
               {% case lang %}
                 {% when 'en' %}{% assign label = 'EN' %}
@@ -30,16 +29,16 @@
                 {% else %}{% assign label = lang | upcase %}
               {% endcase %}
               
-              <li class="masthead__menu-item" style="margin: 0;">
+              <li class="lang-switcher__item">
                 {% if lang == site.active_lang %}
-                  <span class="lang-active" style="font-weight: bold; text-decoration: underline;">{{ label }}</span>
+                  <span class="lang-active">{{ label }}</span>
                 {% elsif lang == site.default_lang %}
                   <a hreflang="{{ site.default_lang }}" href="{{ site.baseurl }}{{ page.url }}" lang="{{ lang }}">{{ label }}</a>
                 {% else %}
                   <a hreflang="{{ lang }}" href="{{ site.baseurl }}/{{ lang }}{{ page.url }}" lang="{{ lang }}">{{ label }}</a>
                 {% endif %}
               </li>
-              {% unless forloop.last %}<span class="separator" style="color: #ccc;">|</span>{% endunless %}
+              {% unless forloop.last %}<li class="lang-switcher__separator">|</li>{% endunless %}
             {% endfor %}
           </ul>
         {% endif %}
