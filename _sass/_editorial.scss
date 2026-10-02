@@ -114,13 +114,13 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 .lang-switcher {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   flex-shrink: 0;
   font-family: var(--font-mono);
   font-size: 13px;
   letter-spacing: .04em;
   white-space: nowrap;
-  padding-left: 22px;
+  padding-left: 16px;
   border-left: 1px solid var(--line);
 }
 .lang-switcher a { color: var(--muted); text-decoration: none; transition: color .3s; }
@@ -139,10 +139,10 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 
   a {
     font-family: var(--font-mono);
-    font-size: 13.5px;
+    font-size: 13px;
     letter-spacing: .01em;
     color: var(--ink-soft);
-    margin: 0 .7rem;
+    margin: 0 .45rem;
     transition: color .3s;
 
     &:before {
@@ -669,6 +669,16 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 /* ==========================================================================
    RESPONSIVE
    ========================================================================== */
+@media (max-width: 1100px) {
+  /* Trigger the greedy-nav collapse earlier before links collide with the mobile toggle */
+  .greedy-nav .visible-links {
+    display: none !important;
+  }
+  .greedy-nav .greedy-nav__toggle {
+    display: block !important;
+  }
+}
+
 @media (max-width: 820px) {
   body { font-size: 18px; }
   .masthead__inner-wrap { padding-left: 24px; padding-right: 24px; }
