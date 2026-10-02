@@ -32,15 +32,20 @@
           {% endcase %}
 
           {% comment %}
-            Determine the clean base slug without any language prefix.
-            We strip the active language prefix from page.url if it exists.
-          {% endcomment %}
-          {% assign clean_url = page.url %}
-          {% if current_lang != site.default_lang %}
-            {% assign active_prefix = '/' | append: current_lang %}
-            {% assign clean_url = clean_url | remove_first: active_prefix %}
-          {% endif %}
-          {% if clean_url == "" %}{% assign clean_url = "/" %}{% endif %}
+            Safely strip ANY known language prefix from the current page URL 
+            to isolate the pure relative path slug (e.g., /about/ instead of /fr-CA/about/)
+          % endcomment %}
+          {% assign pure_path = page.url %}
+          {% for l in site.languages %}
+            {% assign l_prefix_slash = '/' | append: l | append: '/' %}
+            {% assign l_prefix_exact = '/' | append: l %}
+            {% if pure_path contains l_prefix_slash %}
+              {% assign pure_path = pure_path | replace_first: l_prefix_slash, '/' %}
+            {% elsif pure_path == l_prefix_exact %}
+              {% assign pure_path = '/' %}
+            % endif
+          % endfor %}
+          {% if pure_path == "" %}{% assign pure_path = "/" %}{% endif %}
 
           <div class="lang-dropdown">
             <div class="lang-dropdown__toggle" tabindex="0" role="button" aria-label="Select Language">
@@ -64,12 +69,12 @@
                   {% if lang == site.active_lang %}
                     <span class="lang-active">{{ label }}</span>
                   {% elsif lang == site.default_lang %}
-                    <!-- English (default) target URL -->
-                    <a hreflang="{{ site.default_lang }}" href="{{ clean_url | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    <!-- English (default) target URL points to the root path without any language code -->
+                    <a hreflang="{{ site.default_lang }}" href="{{ pure_path | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% else %}
-                    <!-- Translated language target URL -->
-                    {% assign lang_target = '/' | append: lang | append: clean_url | replace: '//', '/' %}
-                    <a hreflang="{{ lang }}" href="{{ lang_target | relative_url }}" lang="{{ lang }}">{{ label }}</a>
+                    <!-- Other translated languages prepend their respective code -->
+                    {% assign translated_url = '/' | append: lang | append: pure_path | replace: '//', '/' %}
+                    <a hreflang="{{ lang }}" href="{{ translated_url | relative_url }}" lang="{{ lang }}">{{ label }}</a>
                   {% endif %}
                 </li>
               {% endfor %}
