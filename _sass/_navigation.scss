@@ -326,6 +326,94 @@
 
 
 /*
+   Language Dropdown Selector
+   ========================================================================== */
+
+.lang-dropdown {
+  position: relative;
+  margin-left: auto;
+  margin-right: 3rem; /* Leaves room for the greedy nav toggle button */
+  display: flex;
+  align-items: center;
+
+  &__toggle {
+    background: transparent !important;
+    position: static !important;
+    height: auto !important;
+    padding: 0.4rem 0.6rem !important;
+    color: $masthead-link-color;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-weight: bold;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    &:hover,
+    &:focus-visible {
+      color: $masthead-link-color-hover;
+      border-color: $primary-color;
+    }
+
+    .lang-globe {
+      font-size: 0.9em;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    padding: 5px 0;
+    min-width: 90px;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 12px rgba(#000, 0.1);
+    list-style: none;
+    display: none;
+    z-index: 20;
+
+    li {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    a, span {
+      display: block;
+      padding: 6px 14px;
+      font-size: $type-size-6;
+      color: $text-color;
+      text-decoration: none;
+      white-space: nowrap;
+
+      &:hover {
+        background: mix(#fff, $primary-color, 85%);
+        color: $link-color-hover;
+      }
+    }
+
+    .lang-active {
+      font-weight: bold;
+      color: $primary-color;
+      background: $lighter-gray;
+    }
+  }
+
+  /* Show dropdown on hover or focus */
+  &:hover &__menu,
+  &:focus-within &__menu {
+    display: block;
+  }
+}
+
+
+/*
    Navigation list
    ========================================================================== */
 
