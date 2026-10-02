@@ -33,7 +33,11 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll (jekyll-polyglot)
-        run: bundle exec jekyll build --destination ./_site --baseurl "${{ steps.pages.outputs.base_path }}"
+        # NOTE: do NOT pass --destination here. jekyll-polyglot does not build
+        # correctly with a CLI --destination (it produces an empty _site, so the
+        # artifact upload then fails). Jekyll's default destination is _site,
+        # which is what "Upload artifact" reads.
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
