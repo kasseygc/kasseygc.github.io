@@ -1,0 +1,20 @@
+{%- comment -%}
+  Language switcher. Every target goes through static_href so polyglot does
+  not prefix it with the current language (which would break the EN link).
+{%- endcomment -%}
+<ul class="langs" aria-label="Language">
+  {%- for l in site.languages -%}
+    {%- case l -%}
+      {%- when 'zh-HK' -%}{%- assign label = '中' -%}{%- assign name = '中文（香港）' -%}
+      {%- when 'fr-CA' -%}{%- assign label = 'fr' -%}{%- assign name = 'Français (Canada)' -%}
+      {%- when 'de' -%}{%- assign label = 'de' -%}{%- assign name = 'Deutsch' -%}
+      {%- else -%}{%- assign label = 'en' -%}{%- assign name = 'English' -%}
+    {%- endcase -%}
+    {%- if l == site.default_lang -%}{%- assign target = pure_path -%}{%- else -%}{%- assign target = '/' | append: l | append: pure_path -%}{%- endif -%}
+    {%- if l == lang %}
+  <li><span class="lang is-current" lang="{{ l }}" title="{{ name }}" aria-current="true">{{ label }}</span></li>
+    {%- else %}
+  <li><a class="lang" {% static_href %}href="{{ target }}"{% endstatic_href %} hreflang="{{ l }}" lang="{{ l }}" title="{{ name }}">{{ label }}</a></li>
+    {%- endif -%}
+  {%- endfor %}
+</ul>

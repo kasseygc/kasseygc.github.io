@@ -1,11 +1,11 @@
 ---
-layout: archive
 permalink: /year-archive/
+wide: true
 title: "Writing"
 title_fr-CA: "Écrits"
 title_de: "Texte"
 title_zh-HK: "文章"
-eyebrow: "Notes & Essays"
+eyebrow: "Notes & essays"
 eyebrow_fr-CA: "Notes et essais"
 eyebrow_de: "Notizen und Essays"
 eyebrow_zh-HK: "筆記及隨筆"
@@ -13,25 +13,9 @@ deck: "Occasional notes on linguistics, languages, arts, and history."
 deck_fr-CA: "Notes occasionnelles sur la linguistique, les langues, les arts et l'histoire."
 deck_de: "Gelegentliche Notizen zu Linguistik, Sprachen, Kunst und Geschichte."
 deck_zh-HK: "不定期分享語言學、語言、藝術與歷史方面的筆記。"
-author_profile: false
 redirect_from:
   - /wordpress/blog-posts/
 ---
-
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    {% unless forloop.first %}</div>{% endunless %}
-<h2 class="section-head" id="{{ year | slugify }}">{{ year }}</h2>
-<div class="card-grid">
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  <a class="card" href="{{ post.url | relative_url }}">
-    <div class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
-    <h3 class="card-title">{{ post.title }}</h3>
-    <p class="card-desc">{{ post.excerpt | strip_html | strip_newlines | truncate: 140 }}</p>
-    <div class="card-arrow">&#8594;</div>
-  </a>
-{% endfor %}
-{% if site.posts.size > 0 %}</div>{% endif %}
+{%- include vars.html -%}
+<p class="sec-lead">{{ t.kwic_hint }}</p>
+{% include kwic.html limit=0 %}

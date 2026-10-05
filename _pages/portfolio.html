@@ -1,29 +1,61 @@
 ---
-layout: archive
-title: "Linguistics Projects"
-title_fr-CA: "Projets linguistiques"
-title_de: "Linguistische Projekte"
-title_zh-HK: "語言學項目"
-eyebrow: "Linguistics · Research"
-eyebrow_fr-CA: "Linguistique · Recherche"
-eyebrow_de: "Linguistik · Forschung"
-eyebrow_zh-HK: "語言學 · 研究"
-deck: "Selected research in semantics, phonetics, language acquisition, and multilingualism."
-deck_fr-CA: "Travaux de recherche en sémantique, phonétique, acquisition du langage et multilinguisme."
-deck_de: "Ausgewählte Forschung zu Semantik, Phonetik, Spracherwerb und Mehrsprachigkeit."
-deck_zh-HK: "研究項目，涵蓋語義學、語音學、語言習得和多語現象。"
 permalink: /portfolio/
-author_profile: false
+wide: true
+title: "Linguistics"
+title_fr-CA: "Linguistique"
+title_de: "Linguistik"
+title_zh-HK: "語言學"
+excerpt: "Research in semantics, phonology, language acquisition, and multilingualism."
+eyebrow: "Research · Papers · Theses"
+eyebrow_fr-CA: "Recherche · Articles · Mémoires"
+eyebrow_de: "Forschung · Aufsätze · Abschlussarbeiten"
+eyebrow_zh-HK: "研究 · 論文"
+deck: "Selected research in semantics, phonology, language acquisition, and multilingualism — much of it on Cantonese."
+deck_fr-CA: "Travaux de recherche en sémantique, phonologie, acquisition du langage et multilinguisme — souvent sur le cantonais."
+deck_de: "Ausgewählte Forschung zu Semantik, Phonologie, Spracherwerb und Mehrsprachigkeit — vieles davon zum Kantonesischen."
+deck_zh-HK: "語義學、音系學、語言習得及多語現象方面的研究，當中不少以粵語為題。"
 ---
+{%- include vars.html -%}
+{%- assign papers = site.portfolio | sort: 'order' -%}
+{%- assign filter_langs = "Cantonese,Mandarin,English,Japanese,Yorùbá,Patuá" | split: ',' -%}
+<div class="ix" data-ix data-open="{{ t.idx_open }}">
+  <div class="ix-controls">
+    <div class="ix-filters" role="group" aria-label="{{ t.idx_filter }}">
+      <span class="ix-label">{{ t.idx_lang | downcase }}:</span>
+      <button type="button" class="chip" data-filter="*" aria-pressed="true">{{ t.idx_all }} <span class="chip-n">{{ papers.size }}</span></button>
+      {%- for fl in filter_langs %}
+      {%- assign hits = papers | where_exp: "p", "p.studied contains fl" %}
+      <button type="button" class="chip" data-filter="{{ fl | slugify: 'latin' }}" aria-pressed="false">{{ fl }} <span class="chip-n">{{ hits.size }}</span></button>
+      {%- endfor %}
+    </div>
+    <label class="ix-grep"><span class="ix-prompt">{{ t.idx_grep }}&gt;</span><input type="search" data-ix-search autocomplete="off" spellcheck="false" aria-label="{{ t.idx_grep }}"></label>
+    <span class="ix-count" data-ix-count aria-live="polite">{{ papers.size }} / {{ papers.size }}</span>
+  </div>
 
-{% assign sorted = site.portfolio | sort: "order" %}
-<div class="card-grid">
-  {% for post in sorted %}
-  <a class="card" href="{{ post.url | relative_url }}">
-    <div class="card-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
-    <h3 class="card-title">{{ post.title }}</h3>
-    <p class="card-desc">{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
-    <div class="card-arrow">&#8594;</div>
-  </a>
-  {% endfor %}
+  <div class="ix-body">
+    <ol class="ix-list" data-ix-list>
+      {%- for p in papers %}
+      {%- capture groups -%}{% for fl in filter_langs %}{% if p.studied contains fl %}{{ fl | slugify: 'latin' }} {% endif %}{% endfor %}{%- endcapture %}
+      <li class="ix-row" id="{{ p.slug }}" data-group="{{ groups | strip }}">
+        <a class="ix-link" href="{{ p.url | relative_url }}">
+          <span class="ix-no">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="ix-title">{{ p.title }}</span>
+          <span class="ix-meta">{{ p.studied }}</span>
+          <span class="ix-go" aria-hidden="true">→</span>
+        </a>
+        <div class="ix-detail">
+          <p class="ix-desc">{{ p.excerpt | strip_html | normalize_whitespace | truncate: 300 }}</p>
+          <dl class="kv">
+            <div><dt>{{ t.idx_field }}</dt><dd>{{ p.field }}</dd></div>
+            <div><dt>{{ t.idx_lang }}</dt><dd>{{ p.studied }}</dd></div>
+            <div><dt>type</dt><dd>{{ p.kind }}{% if p.pdfs %} · pdf{% endif %}</dd></div>
+          </dl>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+    <aside class="ix-preview" data-ix-preview aria-hidden="true"></aside>
+  </div>
+  <p class="ix-empty" data-ix-empty hidden>{{ t.idx_none }}</p>
+  <p class="ix-keys" aria-hidden="true">{{ t.idx_keys }}</p>
 </div>

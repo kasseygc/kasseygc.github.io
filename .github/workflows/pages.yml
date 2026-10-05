@@ -3,6 +3,9 @@ name: Build and deploy to GitHub Pages
 on:
   push:
     branches: ["master", "main"]
+  # Pull requests only build (no deploy), so a broken build shows up before merge.
+  pull_request:
+    branches: ["master", "main"]
   workflow_dispatch:
 
 permissions:
@@ -10,9 +13,10 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment, don't cancel in-progress runs
+# Allow one concurrent deployment, don't cancel in-progress runs.
+# PR builds get their own group so they never queue behind a deploy.
 concurrency:
-  group: "pages"
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.ref) || 'pages' }}
   cancel-in-progress: false
 
 jobs:
@@ -30,6 +34,7 @@ jobs:
 
       - name: Setup Pages
         id: pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll (jekyll-polyglot)
@@ -42,11 +47,13 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

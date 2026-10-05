@@ -1,21 +1,68 @@
-{% include base_path %}
-
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- if page.layout == 'home' -%}
+  {%- capture doc_title -%}{{ site.title }} — {{ page.tagline }}{%- endcapture -%}
+{%- else -%}
+  {%- capture doc_title -%}{{ page_title | strip_html }} — {{ site.title }}{%- endcapture -%}
+{%- endif -%}
+{%- assign desc = page.deck | default: page.role | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 180 -%}
+<title>{{ doc_title }}</title>
+<meta name="description" content="{{ desc | escape }}">
+<meta name="author" content="{{ site.author.name }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f2f1ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1011" media="(prefers-color-scheme: dark)">
 
-{% include seo.html %}
+{%- comment -%}
+  static_href stops polyglot from re-prefixing these URLs. Keep href before
+  hreflang: polyglot skips any href directly preceded by hreflang="en".
+{%- endcomment %}
+<link rel="canonical" {% static_href %}href="{{ site.url }}{{ prefix }}{{ pure_path }}"{% endstatic_href %}>
+{%- for l in site.languages -%}
+  {%- if l == site.default_lang -%}{%- assign alt = pure_path -%}{%- else -%}{%- assign alt = '/' | append: l | append: pure_path -%}{%- endif %}
+<link rel="alternate" {% static_href %}href="{{ site.url }}{{ alt }}"{% endstatic_href %} hreflang="{{ l }}">
+{%- endfor %}
+<link rel="alternate" {% static_href %}href="{{ site.url }}{{ pure_path }}"{% endstatic_href %} hreflang="x-default">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="{% if page.collection %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ doc_title | escape }}">
+<meta property="og:description" content="{{ desc | escape }}">
+<meta property="og:url" content="{{ site.url }}{{ prefix }}{{ pure_path }}">
+<meta property="og:image" content="{{ site.url }}/images/portrait-crop.jpg">
+<meta property="og:locale" content="{{ lang | replace: '-', '_' }}">
+<meta name="twitter:card" content="summary">
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  /* Theme before first paint: explicit choice (localStorage) beats the OS setting. */
+  (function () {
+    var d = document.documentElement;
+    d.className = d.className.replace('no-js', 'js');
+    try { var th = localStorage.getItem('theme'); if (th === 'light' || th === 'dark') d.setAttribute('data-theme', th); } catch (e) {}
+  })();
 </script>
+<link rel="preload" href="{{ '/assets/fonts/source-code-pro.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-<meta http-equiv="cleartype" content="on">
+{%- if page.layout == 'home' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ site.url | append: '/' | jsonify }},
+  "image": {{ site.url | append: '/images/portrait-crop.jpg' | jsonify }},
+  "jobTitle": "Language Engineer",
+  "email": {{ site.author.email | prepend: 'mailto:' | jsonify }},
+  "sameAs": ["https://github.com/{{ site.author.github }}", "https://www.linkedin.com/in/{{ site.author.linkedin }}"],
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "The University of Texas at Austin"},
+    {"@type": "CollegeOrUniversity", "name": "Columbia University"}
+  ],
+  "knowsLanguage": ["en", "yue", "cmn", "de", "fr"]
+}
+</script>
+{%- endif %}

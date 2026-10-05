@@ -1,11 +1,9 @@
 ---
-layout: archive
 lang: zh-HK
 title: "履歷"
 eyebrow: "履歷 · Curriculum Vitæ"
 deck: "語言工程師，專注機器學習、NLP，以及負責任 AI 的評估與治理。"
 permalink: /cv/
-author_profile: false
 ---
 
 ## 專業簡介

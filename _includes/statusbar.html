@@ -1,0 +1,14 @@
+{%- case page.layout -%}
+  {%- when 'home' -%}{%- assign sb_mode = 'index' -%}
+  {%- when 'post' -%}{%- if page.collection == 'portfolio' -%}{%- assign sb_mode = 'paper' -%}{%- else -%}{%- assign sb_mode = 'essay' -%}{%- endif -%}
+  {%- else -%}{%- assign sb_mode = 'page' -%}
+{%- endcase -%}
+<div class="statusbar" aria-hidden="true">
+  <span class="sb-mode">{{ sb_mode }}</span>
+  <span class="sb-path">~{{ pure_path }}</span>
+  <span class="sb-section" data-sb="section"></span>
+  <span class="sb-fill"></span>
+  <span class="sb-hint" data-sb="hint">ctrl K · /</span>
+  <span class="sb-lang">{{ lang }} · utf-8</span>
+  <span class="sb-pos" data-sb="pos">0%</span>
+</div>

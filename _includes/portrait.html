@@ -1,0 +1,13 @@
+{%- comment -%}
+  Portrait drawn in IPA glyphs (72×50 cells, generated from images/profile2.jpg
+  with a person mask). One version per theme; the photo is revealed under a
+  circular lens that follows the pointer.
+{%- endcomment -%}
+<figure class="portrait" data-portrait>
+  <div class="portrait-box">
+    <pre class="portrait-ascii is-light" aria-hidden="true">{% include portrait/light.txt %}</pre>
+    <pre class="portrait-ascii is-dark" aria-hidden="true">{% include portrait/dark.txt %}</pre>
+    <img class="portrait-photo" src="{{ '/images/portrait-crop.jpg' | relative_url }}" alt="{{ site.author.name }}" width="500" height="580" loading="lazy" decoding="async">
+  </div>
+  <figcaption>{{ t.portrait_caption }}</figcaption>
+</figure>

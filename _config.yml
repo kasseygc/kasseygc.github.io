@@ -1,297 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Site settings. Jekyll does not reload this file while `jekyll serve` runs;
+# restart the server after editing it.
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Kassey Guertin-Chang"
-title_separator          : "-"
-name                     : &name "Kassey Guertin-Chang"
-description              : &description "personal description"
-url                      : https://kasseygc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kasseygc/kasseygc.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-  
+title       : "Kassey Guertin-Chang"
+description : "Language engineer working across machine learning, NLP, and the evaluation and governance of language models."
+url         : https://kasseygc.github.io
+baseurl     : ""
+repository  : "kasseygc/kasseygc.github.io"
+timezone    : America/Los_Angeles
+future      : true
 
-  minimal_mistakes_skin: "dirt"
-logo: "/images/site-logo.png"
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-search: true
-lunr:
-  search_within_pages: true
-
-# Multilingual (jekyll-polyglot) — requires the GitHub Actions build
-languages: ["en", "fr-CA", "de", "zh-HK"]
-default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "assets", "files", "talkmap", "talkmap.ipynb", "markdown_generator", "feed.xml", "robots.txt"]
-parallel_localization: true
-lang_from_path: true
-
-# Social Sharing
-twitter:
-  username               : &twitter
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-
-
-# Site Author
 author:
-  name             : "Kassey Guertin-Chang"
-  avatar           : "profile2.jpg"
-  bio              : "Language Engineering & NLP Systems"
-  location         : "Canada"
-  employer         : 
-  email            : "kasseyguertin@gmail.com"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "kasseygc"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "kasseyc"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name     : "Kassey Guertin-Chang"
+  email    : "kasseyguertin@gmail.com"
+  github   : "kasseygc"
+  linkedin : "kasseyc"
+  location : "Canada"
+  avatar   : "/images/profile2.jpg"
 
+# Multilingual (jekyll-polyglot). Not on the GitHub Pages allowlist, so the
+# site is built by .github/workflows/pages.yml instead of the classic builder.
+languages                 : ["en", "fr-CA", "de", "zh-HK"]
+default_lang              : "en"
+exclude_from_localization : ["assets", "images", "files", "feed.xml", "robots.txt", "sitemap.xml"]
+parallel_localization     : true
+lang_from_path            : true
 
-# Reading Files
 include:
-  - .htaccess
   - _pages
   - files
 exclude:
-  - .asset-cache
-  - .bundle-gems
   - Gemfile
   - Gemfile.lock
-  - _site_test
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
   - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
+  - README.md
   - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+  - node_modules
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - design
+  - DESIGN.md
+  - scripts
 
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
+markdown    : kramdown
+highlighter : rouge
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input          : GFM
+  hard_wrap      : false
+  auto_ids       : true
+  footnote_nr    : 1
+  entity_output  : as_char
+  smart_quotes   : lsquo,rsquo,ldquo,rdquo
+excerpt_separator: "\n\n"
 
-
-# Collections
 collections:
-  teaching:
-    output: false
-    permalink: /:collection/:path/
-  publications:
-    output: false
-    permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
+    output    : true
+    permalink : /:collection/:path/
 
-
-# Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-      show_date: false
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
- 
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "", type: portfolio }
+    values: { layout: post }
+  - scope: { path: "", type: pages }
+    values: { layout: page }
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
   - jekyll-polyglot
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+feed:
+  path: feed.xml

@@ -1,15 +1,12 @@
 ---
-layout: archive
 lang: en
 title: "CV"
 eyebrow: "Curriculum Vitæ"
 deck: "Language engineer working across machine learning, NLP, and responsible-AI evaluation and governance."
 permalink: /cv/
-author_profile: false
 redirect_from:
  - /resume
 ---
-{% include base_path %}
 
 ## Professional Profile
 
