@@ -1,0 +1,67 @@
+---
+layout: default
+---
+{%- include vars.html -%}
+{%- if page.collection == 'portfolio' -%}
+  {%- assign is_paper = true -%}{%- assign back_url = '/portfolio/' -%}{%- assign back_label = t.back_research -%}{%- assign crumb = '~/linguistics/' -%}
+{%- else -%}
+  {%- assign is_paper = false -%}{%- assign back_url = '/year-archive/' -%}{%- assign back_label = t.back_writing -%}{%- assign crumb = '~/writing/' -%}
+{%- endif -%}
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 220 | plus: 1 -%}
+<article class="post" data-section="{{ page.title | strip_html | truncate: 48 }}">
+  <header class="post-head wrap">
+    <p class="crumbs"><a href="{{ back_url | relative_url }}">{{ crumb }}</a><span aria-hidden="true">{{ page.slug }}</span></p>
+    <h1 class="post-title" lang="en">{{ page.title }}</h1>
+    <dl class="kv post-meta">
+      {%- if is_paper %}
+      <div><dt>{{ t.idx_field }}</dt><dd>{{ page.field }}</dd></div>
+      <div><dt>{{ t.idx_lang }}</dt><dd>{{ page.studied }}</dd></div>
+      <div><dt>type</dt><dd>{{ page.kind }}</dd></div>
+      {%- else %}
+      <div><dt>{{ t.published }}</dt><dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y-%m-%d' }}</time></dd></div>
+      <div><dt>{{ t.tags }}</dt><dd>{{ page.tags | join: ' · ' | downcase }}</dd></div>
+      {%- endif %}
+      {%- if words > 80 %}
+      <div><dt>{{ t.words }}</dt><dd>{{ words }} · {{ minutes }} {{ t.min_read }}</dd></div>
+      {%- endif %}
+      {%- if page.pdfs %}
+      <div><dt>{{ t.pdf }}</dt><dd>{% for f in page.pdfs %}<a href="{{ f | relative_url | uri_escape }}">{{ f | split: '/' | last }} ↗</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}</dd></div>
+      {%- endif %}
+    </dl>
+  </header>
+
+  <div class="post-grid wrap">
+    <aside class="post-aside">
+      <nav class="toc" data-toc aria-label="{{ t.contents }}" hidden>
+        <p class="toc-title">{{ t.contents }}</p>
+        <ol></ol>
+      </nav>
+    </aside>
+    <div class="post-body prose" lang="{{ page.lang | default: 'en' }}">
+      {%- if words < 80 and page.excerpt %}
+      <p class="abstract">{{ page.excerpt | strip_html | strip }}</p>
+      {%- endif %}
+{{ content }}
+      {%- for f in page.pdfs %}
+      {%- assign f_url = f | relative_url | uri_escape %}
+      <figure class="pdf">
+        <object data="{{ f_url }}" type="application/pdf" aria-label="{{ f | split: '/' | last }}">
+          <p>{{ t.pdf_fallback }} <a href="{{ f_url }}">{{ t.open_pdf }} ↗</a></p>
+        </object>
+        <figcaption><span>{{ f | split: '/' | last }}</span> <a href="{{ f_url }}">{{ t.open_pdf }} ↗</a></figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+
+  <nav class="post-nav wrap" aria-label="{{ t.prev }} / {{ t.next }}">
+    {%- if page.previous %}
+    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}"><span class="post-nav-dir">← {{ t.prev }}</span><span class="post-nav-title">{{ page.previous.title }}</span></a>
+    {%- else %}<span></span>{% endif %}
+    <a class="post-nav-up" href="{{ back_url | relative_url }}">{{ back_label }}</a>
+    {%- if page.next %}
+    <a class="post-nav-next" href="{{ page.next.url | relative_url }}"><span class="post-nav-dir">{{ t.next }} →</span><span class="post-nav-title">{{ page.next.title }}</span></a>
+    {%- else %}<span></span>{% endif %}
+  </nav>
+</article>

@@ -1,0 +1,14 @@
+---
+permalink: /404.html
+title: "404"
+sitemap: false
+wide: true
+---
+{%- include vars.html -%}
+<div class="nf">
+  <pre class="nf-trace" aria-hidden="true">&gt;&gt;&gt; vocab[path]
+KeyError: '<span data-nf-path>{{ page.url }}</span>'  →  &lt;unk&gt;  (id 0)</pre>
+  <h2 class="nf-title">{{ t.nf_title }}</h2>
+  <p>{{ t.nf_text | escape }}</p>
+  <p class="more-links"><a href="{{ '/' | relative_url }}">{{ t.nf_back }} →</a> <a href="#" data-action="palette">ctrl K</a></p>
+</div>

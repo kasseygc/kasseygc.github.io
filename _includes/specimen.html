@@ -1,0 +1,34 @@
+{%- comment -%}
+  Interactive parse of one sentence (data: _data/specimen.yml).
+  Without JS it reads as a plain sentence; site.js draws the dependency arcs.
+{%- endcomment -%}
+{%- assign sp = site.data.specimen[lang] | default: site.data.specimen.en -%}
+{%- assign tokens_note = t.tokens_note | replace: '{n}', sp.tokens.size -%}
+<figure class="specimen" data-specimen data-mode="deps" aria-labelledby="specimen-label">
+  <div class="sp-bar">
+    <span class="sp-label" id="specimen-label">fig. 0 — {{ t.specimen }}</span>
+    <div class="sp-modes" role="tablist" aria-label="{{ t.specimen }}">
+      <button type="button" role="tab" data-mode="deps" aria-selected="true">{{ t.mode_deps }}</button>
+      <button type="button" role="tab" data-mode="pos" aria-selected="false">{{ t.mode_pos }}</button>
+      <button type="button" role="tab" data-mode="tokens" aria-selected="false">{{ t.mode_tokens }}</button>
+    </div>
+  </div>
+  <div class="sp-stage">
+    <svg class="sp-arcs" aria-hidden="true" focusable="false"></svg>
+    <p class="sp-sent" lang="{{ lang }}" tabindex="0">
+      {%- for w in sp.words -%}
+      <span class="w{% if w[5] == 0 %} w-tight{% endif %}" data-i="{{ forloop.index }}" data-pos="{{ w[1] }}" data-head="{{ w[2] }}" data-rel="{{ w[3] }}" data-lemma="{{ w[4] }}"><span class="w-form">{{ w[0] }}</span><span class="w-pos" aria-hidden="true">{{ w[1] }}</span><span class="w-lemma" aria-hidden="true">{{ w[4] }}</span></span>{% if w[5] == 1 %} {% endif %}
+      {%- endfor -%}
+    </p>
+    <p class="sp-tokens" lang="{{ lang }}" hidden>
+      {%- for tk in sp.tokens -%}
+      {%- assign tk_first = tk[1] | slice: 0 -%}
+      <span class="tok" data-id="{{ tk[0] }}" data-text="{{ tk[1] | escape }}"><span class="tok-text">{% if tk_first == ' ' %}<span class="tok-sp">·</span>{{ tk[1] | remove_first: ' ' }}{% else %}{{ tk[1] }}{% endif %}</span><span class="tok-id">{{ tk[0] }}</span></span>
+      {%- endfor -%}
+    </p>
+  </div>
+  <figcaption class="sp-readout" aria-live="polite"
+    data-note-deps="{{ t.specimen_note | escape }}"
+    data-note-tokens="{{ tokens_note | escape }}"
+    data-head="{{ t.head }}" data-deps="{{ t.dependents }}">{{ t.specimen_note }}</figcaption>
+</figure>

@@ -1,23 +1,23 @@
-# main links (title is English/default; title_<lang> overrides per language)
+# Header navigation. `title` is the English label; `title_<lang>` overrides it.
 main:
-  - title: "Technical Projects"
-    title_fr-CA: "Projets techniques"
-    title_de: "Technische Projekte"
-    title_zh-HK: "技術項目"
+  - title: "Engineering"
+    title_fr-CA: "Ingénierie"
+    title_de: "Technik"
+    title_zh-HK: "工程"
     url: /tech/
-  - title: "Linguistics Projects"
-    title_fr-CA: "Projets linguistiques"
-    title_de: "Linguistische Projekte"
-    title_zh-HK: "語言學項目"
+  - title: "Linguistics"
+    title_fr-CA: "Linguistique"
+    title_de: "Linguistik"
+    title_zh-HK: "語言學"
     url: /portfolio/
-  - title: "Blog Posts"
-    title_fr-CA: "Articles"
-    title_de: "Beiträge"
+  - title: "Writing"
+    title_fr-CA: "Écrits"
+    title_de: "Texte"
     title_zh-HK: "文章"
     url: /year-archive/
-  - title: "Language Services"
-    title_fr-CA: "Services linguistiques"
-    title_de: "Sprachdienstleistungen"
+  - title: "Services"
+    title_fr-CA: "Services"
+    title_de: "Sprachdienste"
     title_zh-HK: "語言服務"
     url: /langservices/
   - title: "CV"

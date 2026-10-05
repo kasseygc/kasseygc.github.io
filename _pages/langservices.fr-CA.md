@@ -1,49 +1,24 @@
 ---
-layout: archive
 lang: fr-CA
 title: "Services linguistiques"
 eyebrow: "Linguistique · Localisation"
 deck: "Des services linguistiques spécialisés alliant expertise langagière et précision technique, pour la technologie, la recherche et la communication interculturelle."
 excerpt: "Services linguistiques professionnels"
 permalink: /langservices/
-author_profile: false
 ---
 
 Je propose des services linguistiques spécialisés aux clients actifs en technologie, en recherche et en communication interculturelle.
 
-<h2 class="section-head">Domaines de service</h2>
-<div class="card-grid">
-  <div class="card">
-    <div class="card-num">01</div>
-    <h3 class="card-title">Traduction et localisation</h3>
-    <p class="card-desc">Documentation technique, interfaces, logiciels et contenu Web.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">02</div>
-    <h3 class="card-title">Post-édition de traduction automatique (MTPE)</h3>
-    <p class="card-desc">Post-édition légère ou complète de contenu traduit automatiquement, pour l'exactitude, la fluidité et la terminologie.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">03</div>
-    <h3 class="card-title">Révision linguistique</h3>
-    <p class="card-desc">Révision de textes traduits ou originaux en matière d'exactitude, de style, de terminologie et de cohérence.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">04</div>
-    <h3 class="card-title">Conseil linguistique technique</h3>
-    <p class="card-desc">Développement de données pour le TAL, annotation de corpus et conseils de mise en œuvre.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">05</div>
-    <h3 class="card-title">Assurance qualité linguistique (LQA)</h3>
-    <p class="card-desc">Validation d'interfaces multilingues, exactitude de la localisation et cohérence terminologique.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">06</div>
-    <h3 class="card-title">Création de contenu</h3>
-    <p class="card-desc">Rédaction technique, documentation, référencement multilingue et matériel pédagogique.</p>
-  </div>
-</div>
+## Domaines de service
+
+<ol class="svc-list">
+  <li><span class="svc-name">Traduction et localisation</span><span class="svc-desc">Documentation technique, interfaces, logiciels et contenu Web.</span></li>
+  <li><span class="svc-name">Post-édition de traduction automatique (MTPE)</span><span class="svc-desc">Post-édition légère ou complète de contenu traduit automatiquement, pour l'exactitude, la fluidité et la terminologie.</span></li>
+  <li><span class="svc-name">Révision linguistique</span><span class="svc-desc">Révision de textes traduits ou originaux en matière d'exactitude, de style, de terminologie et de cohérence.</span></li>
+  <li><span class="svc-name">Conseil linguistique technique</span><span class="svc-desc">Développement de données pour le TAL, annotation de corpus et conseils de mise en œuvre.</span></li>
+  <li><span class="svc-name">Assurance qualité linguistique (LQA)</span><span class="svc-desc">Validation d'interfaces multilingues, exactitude de la localisation et cohérence terminologique.</span></li>
+  <li><span class="svc-name">Création de contenu</span><span class="svc-desc">Rédaction technique, documentation, référencement multilingue et matériel pédagogique.</span></li>
+</ol>
 
 ## Langues de travail
 
@@ -55,4 +30,4 @@ Je propose des services linguistiques spécialisés aux clients actifs en techno
 
 Mes services allient expertise linguistique et compréhension technique afin d'assurer une communication exacte entre les langues tout en préservant la précision technique. Je me spécialise dans les projets qui exigent à la fois des compétences linguistiques et des connaissances techniques, ayant travaillé auprès de clients des secteurs de la technologie, de la santé, de l'éducation et du secteur public. Cette diversité d'expérience nourrit ma capacité à proposer des solutions langagières adaptées aux exigences et aux normes de qualité de chaque secteur.
 
-<p class="index-footnote"><a href="mailto:{{ site.author.email }}">Parlons de votre projet multilingue &#8599;</a></p>
+<p class="cta"><a href="mailto:{{ site.author.email }}">Parlons de votre projet multilingue ↗</a></p>

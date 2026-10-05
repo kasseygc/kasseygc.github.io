@@ -1,11 +1,9 @@
 ---
-layout: archive
 lang: de
 title: "Lebenslauf"
 eyebrow: "Curriculum Vitæ"
 deck: "Sprachingenieurin an der Schnittstelle von maschinellem Lernen, NLP sowie Evaluation und Governance verantwortungsvoller KI."
 permalink: /cv/
-author_profile: false
 ---
 
 ## Berufsprofil

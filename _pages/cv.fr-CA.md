@@ -1,11 +1,9 @@
 ---
-layout: archive
 lang: fr-CA
 title: "CV"
 eyebrow: "Curriculum vitæ"
 deck: "Ingénieure TAL travaillant à la croisée de l'apprentissage automatique, du TAL et de l'évaluation et la gouvernance de l'IA responsable."
 permalink: /cv/
-author_profile: false
 ---
 
 ## Profil professionnel
