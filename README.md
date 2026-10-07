@@ -19,13 +19,6 @@ Personal site of Kassey Guertin-Chang. Jekyll 3.10 + [jekyll-polyglot](https://g
 Fields ending in `_<lang>` (for example `title_fr-CA`, `role_de`) override the English value
 for that language.
 
-## Artwork
-
-Kassey's photographs and paintings live in `images/art/` and are listed in `_data/art.yml`.
-They are decoration only and each piece appears once: `sky` and `blinds` on the home page,
-`chandelier` on Engineering, `cable_car` on Linguistics, `painting` on Writing (set with
-`decor: <key>` in a page's front matter).
-
 ## Look
 
 `assets/css/site.css` and `assets/js/site.js` — no build step, no dependencies. Type is
