@@ -21,7 +21,9 @@ focus:
 facts:
   now: "AWS"
   before: "Apple、UCSF、Columbia"
-  education: "電腦科學碩士，UT Austin · 語言學及電腦科學學士，Columbia"
+  education:
+    - "電腦科學碩士，UT Austin"
+    - "語言學及電腦科學學士，Columbia"
 
 # Selected work, in display order. kind: eng | ling
 selected_work:

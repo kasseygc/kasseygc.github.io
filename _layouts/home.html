@@ -27,7 +27,7 @@ layout: default
     <dl class="facts">
       <div><dt>{{ t.fact_now }}</dt><dd>{{ page.facts.now }}</dd></div>
       <div><dt>{{ t.fact_before }}</dt><dd>{{ page.facts.before }}</dd></div>
-      <div><dt>{{ t.education }}</dt><dd>{{ page.facts.education }}</dd></div>
+      <div><dt>{{ t.education }}</dt><dd>{% for e in page.facts.education %}<span class="fact-line">{{ e }}</span>{% endfor %}</dd></div>
       <div><dt>{{ t.languages }}</dt><dd>{{ t.language_list }}</dd></div>
     </dl>
   </div>

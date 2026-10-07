@@ -2,7 +2,7 @@
 # restart the server after editing it.
 
 title       : "Kassey Guertin-Chang"
-description : "Kassey Guertin-Chang builds and evaluates language models, and the guardrails and data practices that keep them safe, fair and accountable."
+description : "Kassey Guertin-Chang builds and evaluates language models, as well as the guardrails and data practices that keep them safe, fair and accountable."
 url         : https://kasseygc.github.io
 baseurl     : ""
 repository  : "kasseygc/kasseygc.github.io"

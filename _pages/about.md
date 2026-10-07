@@ -10,11 +10,11 @@ redirect_from:
   - /about.html
 
 # Hero: one sentence in your own voice (HTML links allowed); role = meta description
-intro: "Hi, I’m Kassey. I build and evaluate <a href=\"/tech/\">language models</a>, and the guardrails and data practices that keep them safe, fair and accountable."
-role: "Kassey Guertin-Chang builds and evaluates language models, and the guardrails and data practices that keep them safe, fair and accountable."
+intro: "Hi, I’m Kassey. I build and evaluate <a href=\"/tech/\">language models</a>, as well as the guardrails and data practices that keep them safe, fair and accountable."
+role: "Kassey Guertin-Chang builds and evaluates language models, as well as the guardrails and data practices that keep them safe, fair and accountable."
 
 # About: two sentences
-lead: "I spend my time bridging the gap between human language and machine learning. My work spans the whole lifecycle of an NLP system, from validating messy, multilingual data to engineering end-to-end ML pipelines."
+lead: "I spend my time bridging the gap between human language and machine learning. My work spans the whole lifecycle of an NLP system, from validating messy multilingual data to engineering end-to-end ML pipelines."
 focus:
   - "Training & fine-tuning language models"
   - "Model evaluation, red-teaming & robustness"
@@ -24,7 +24,9 @@ focus:
 facts:
   now: "AWS"
   before: "Apple, UCSF, Columbia"
-  education: "MS Computer Science, UT Austin · BA Linguistics and Computer Science, Columbia"
+  education:
+    - "MS Computer Science, UT Austin"
+    - "BA Linguistics and Computer Science, Columbia"
 
 # Selected work, in display order. kind: eng | ling
 selected_work:

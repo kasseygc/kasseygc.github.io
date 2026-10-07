@@ -22,7 +22,7 @@ painting:
   width: 459
   height: 612
 chandelier:
-  file: /images/art/chandelier.jpg
+  file: /images/art/chandelier-cropped.jpg
   tint: "#eee7dc"
   alt: "A small black beaded chandelier, out of focus, against a pale wall."
   width: 412
