@@ -1,6 +1,13 @@
-# Technical Projects rendered as cards on /tech/. Grouped by category.
-# `id` matches the old kramdown heading anchors so homepage deep-links keep working.
+# Engineering projects, listed on /tech/ and in the command palette. Grouped by
+# category (`name_<lang>` overrides the English group name). `id` matches the old
+# kramdown heading anchors so existing deep links keep working. Several GitHub repos
+# are private (school requirement), so those links 404 for visitors; items without
+# a `url` are listed without a link.
 - name: "NLP & Machine Learning"
+  name_fr-CA: "TAL et apprentissage automatique"
+  name_de: "NLP & Maschinelles Lernen"
+  name_zh-HK: "NLP 及機器學習"
+  key: nlp
   items:
     - title: "Teaching Small Language Models to Reason: SFT and Rejection-Sampling Fine-Tuning"
       tag: "NLP · Fine-Tuning & RL"
@@ -58,6 +65,10 @@
       id: lexical-substitution-system
 
 - name: "Computational Research"
+  name_fr-CA: "Recherche computationnelle"
+  name_de: "Computergestützte Forschung"
+  name_zh-HK: "計算研究"
+  key: research
   items:
     - title: "Neighborhood-based Clustering for Visual Mental Imagery"
       tag: "Machine Learning · Cognition"
@@ -73,6 +84,10 @@
       id: multilingual-acquisition-analysis
 
 - name: "Web & Application Development"
+  name_fr-CA: "Développement web et applications"
+  name_de: "Web- & Anwendungsentwicklung"
+  name_zh-HK: "網頁及應用程式開發"
+  key: apps
   items:
     - title: "CantoLeap — Cantonese Vocabulary Learning App"
       tag: "Mobile · Android"

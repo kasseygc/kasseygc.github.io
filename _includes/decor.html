@@ -1,0 +1,5 @@
+{%- comment -%} One of Kassey's artworks as quiet decoration: {% include decor.html key="blinds" %} {%- endcomment -%}
+{%- assign d = site.data.art[include.key] -%}
+{%- if d -%}
+<img class="decor{% if include.class %} {{ include.class }}{% endif %}" src="{{ d.file | relative_url }}" alt="{{ d.alt }}" width="{{ d.width }}" height="{{ d.height }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+{%- endif -%}

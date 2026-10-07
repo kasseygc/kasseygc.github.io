@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- include vars.html -%}
+{%- assign deck_key = 'deck_' | append: lang -%}
+{%- assign deck = page[deck_key] | default: page.deck -%}
+<article class="page" data-tint="{{ page_tint }}">
+  <header class="block-side page-side">
+    <h1 class="page-title">{{ page.title_display | default: page_title }}</h1>
+    {%- if deck %}
+    <p class="page-deck">{{ deck }}</p>
+    {%- endif %}
+    {% include decor.html key=page.decor %}
+  </header>
+  <div class="block-body page-main{% if page.wide != true %} doc{% endif %}">
+{{ content }}
+  </div>
+</article>

@@ -1,62 +1,29 @@
 ---
-layout: archive
 lang: de
 title: "Sprachdienstleistungen"
+title_display: "Sprach&shy;dienst&shy;leistungen"
 eyebrow: "Linguistik · Lokalisierung · Projektmanagement"
 deck: "Spezialisierte Sprachdienstleistungen, die linguistische Expertise mit technischer Präzision verbinden, für Technologie, Forschung und interkulturelle Kommunikation."
 excerpt: "Professionelle Sprachdienstleistungen"
 permalink: /langservices/
-author_profile: false
 ---
 
-Ich biete spezialisierte Sprachdienstleistungen für Kundinnen und Kunden aus Technologie, Forschung und interkultureller Kommunikation.
+## Leistungsbereiche
 
-<h2 class="section-head">Leistungsbereiche</h2>
-<div class="card-grid">
-  <div class="card">
-    <div class="card-num">01</div>
-    <h3 class="card-title">Übersetzung und Lokalisierung</h3>
-    <p class="card-desc">Technische Dokumentation, Benutzeroberflächen, Software, Webinhalte und gesprochene Inhalte.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">02</div>
-    <h3 class="card-title">Post-Editing maschineller Übersetzung (MTPE)</h3>
-    <p class="card-desc">Leichtes bis vollständiges Post-Editing maschinell übersetzter Inhalte hinsichtlich Genauigkeit, Sprachfluss und Terminologie.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">03</div>
-    <h3 class="card-title">Sprachliches Lektorat und Revision</h3>
-    <p class="card-desc">Lektorat und Revision übersetzter sowie originaler Texte hinsichtlich Genauigkeit, Stil, Terminologie und Konsistenz.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">04</div>
-    <h3 class="card-title">Technische Sprachberatung</h3>
-    <p class="card-desc">NLP-Datenentwicklung, Korpusannotation und Beratung zur Umsetzung.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">05</div>
-    <h3 class="card-title">Linguistische Qualitätssicherung (LQA)</h3>
-    <p class="card-desc">Validierung mehrsprachiger Benutzeroberflächen, Lokalisierungsgenauigkeit und terminologische Konsistenz.</p>
-  </div>
-  <div class="card">
-    <div class="card-num">06</div>
-    <h3 class="card-title">Projektmanagement für Lokalisierung</h3>
-    <p class="card-desc">Durchgängige Betreuung mehrsprachiger Projekte: Dienstleister- und Linguistenmanagement, Workflow-Gestaltung, Budget- und Terminplanung sowie Qualitätsstandards.</p>
-  </div>
-</div>
+<ol class="svc-list">
+  <li><span class="svc-name">Übersetzung und Lokalisierung</span><span class="svc-desc">Technische Dokumentation, Benutzeroberflächen, Software, Webinhalte und gesprochene Inhalte.</span></li>
+  <li><span class="svc-name">Post-Editing maschineller Übersetzung (MTPE)</span><span class="svc-desc">Leichtes bis vollständiges Post-Editing maschinell übersetzter Inhalte hinsichtlich Genauigkeit, Sprachfluss und Terminologie.</span></li>
+  <li><span class="svc-name">Sprachliches Lektorat und Revision</span><span class="svc-desc">Lektorat und Revision übersetzter sowie originaler Texte hinsichtlich Genauigkeit, Stil, Terminologie und Konsistenz.</span></li>
+  <li><span class="svc-name">Technische Sprachberatung</span><span class="svc-desc">NLP-Datenentwicklung, Korpusannotation und Beratung zur Umsetzung.</span></li>
+  <li><span class="svc-name">Linguistische Qualitätssicherung (LQA)</span><span class="svc-desc">Validierung mehrsprachiger Benutzeroberflächen, Lokalisierungsgenauigkeit und terminologische Konsistenz.</span></li>
+  <li><span class="svc-name">Projektmanagement für Lokalisierung</span><span class="svc-desc">Durchgängige Betreuung mehrsprachiger Projekte: Dienstleister- und Linguistenmanagement, Workflow-Gestaltung, Budget- und Terminplanung sowie Qualitätsstandards.</span></li>
+</ol>
 
 ## Arbeitssprachen
 
 **Englisch, Kantonesisch, Chinesisch (traditionell und vereinfacht), Mandarin, Deutsch, Französisch**
 
-Derzeit leite ich im Auftrag von Powerling (OXO Innovation) die mehrsprachige Lokalisierung und Übersetzung von Text- und Sprachinhalten für Projekte von Air Canada und sorge für sprachliche Genauigkeit sowie kulturelle Anpassung zwischen EN-CA, FR-CA und ZH-HK. Außerdem entwickle ich Lokalisierungsrichtlinien und Qualitätsstandards für die modalitätsübergreifende Bereitstellung von Inhalten.
+Derzeit leite ich im Auftrag von Powerling (OXO Innovation) die Text- und Sprachlokalisierung für Air Canada in EN-CA, FR-CA und ZH-HK, einschließlich Styleguides und Qualitätsstandards.
 
-## Tools
 
-**CAT-Tools:** memoQ, Phrase (Memsource), RWS Trados · **TMS:** Smartling, Crowdin · **Projektmanagement:** Plunet
-
-## Vorgehensweise
-
-Meine Dienstleistungen verbinden linguistische Expertise mit technischem Verständnis und sichern eine präzise Kommunikation über Sprachgrenzen hinweg. Ich spezialisiere mich auf Projekte, die sowohl Sprachkompetenz als auch technisches Wissen erfordern, und habe für Kunden aus Technologie, Gesundheitswesen, Bildung und öffentlichem Sektor gearbeitet. Diese vielfältige Erfahrung hilft mir, Sprachlösungen zu liefern, die auf die Anforderungen und Qualitätsstandards der jeweiligen Branche zugeschnitten sind.
-
-<p class="index-footnote"><a href="mailto:{{ site.author.email }}">Sprechen wir über Ihr mehrsprachiges Projekt &#8599;</a></p>
+<p class="cta"><a href="mailto:{{ site.author.email }}">Sprechen wir über Ihr mehrsprachiges Projekt ↗</a></p>

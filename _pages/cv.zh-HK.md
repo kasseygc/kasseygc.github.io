@@ -1,16 +1,13 @@
 ---
-layout: archive
 lang: zh-HK
 title: "履歷"
 eyebrow: "履歷 · Curriculum Vitæ"
-deck: "語言工程師，專注機器學習、NLP，以及負責任 AI 的評估與治理。"
 permalink: /cv/
-author_profile: false
 ---
 
 ## 專業簡介
 
-語言工程師，專長包括 NLP 系統架構、多語言基礎設施開發及機器學習 pipeline。結合工程原則及語言學知識，設計、開發和優化可擴展的語言科技，以應用於各種場景。
+我的專長包括 NLP 系統架構、多語言基礎設施開發及機器學習 pipeline。結合工程原則及語言學知識，設計、開發和優化可擴展的語言科技，以應用於各種場景。
 
 ## 技術技能
 
