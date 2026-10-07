@@ -1,30 +1,20 @@
-{%- if page.layout == 'home' -%}{%- assign foot_num = '05' -%}{%- else -%}{%- assign foot_num = nil -%}{%- endif -%}
-<footer class="site-footer" id="contact" data-section="{{ t.sec_contact }}" aria-labelledby="contact-title">
-  <div class="wrap">
-    {% include sec-head.html num=foot_num id="contact" title=t.sec_contact meta="mailto · github · linkedin" %}
-    <div class="contact-grid">
-      <p class="contact-lead">{{ t.contact_lead }}</p>
-      <dl class="kv contact-list">
-        <div><dt>email</dt><dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> <button class="copy" type="button" data-copy="{{ site.author.email }}" data-done="{{ t.copied }}">{{ t.copy }}</button></dd></div>
-        <div><dt>github</dt><dd><a href="https://github.com/{{ site.author.github }}" rel="me">github.com/{{ site.author.github }} ↗</a></dd></div>
-        <div><dt>linkedin</dt><dd><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">linkedin.com/in/{{ site.author.linkedin }} ↗</a></dd></div>
-        <div><dt>cv</dt><dd><a href="{{ '/cv/' | relative_url }}">~/cv</a></dd></div>
-        <div><dt>feed</dt><dd><a href="{{ '/feed.xml' | relative_url }}">atom ↗</a></dd></div>
-      </dl>
-    </div>
-
-    <figure class="epigraph">
-      <blockquote lang="de">Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.</blockquote>
-      <figcaption>
-        {%- if t.epigraph_tr %}<span class="epigraph-tr">{{ t.epigraph_tr }}</span>{% endif -%}
-        <cite>Wittgenstein, <i lang="la">Tractatus logico-philosophicus</i> 5.6</cite>
-      </figcaption>
-    </figure>
-
-    <div class="colophon">
-      <span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
-      <span>{{ t.colophon }}</span>
-      <span>{{ t.built }} <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y-%m-%d' }}</time></span>
-    </div>
+<footer class="site-footer">
+  <div class="foot-col">
+    <p>{{ site.author.name }}</p>
+    <p class="muted">{{ t.tagline }}</p>
+    <p class="muted">{{ t.based }}</p>
+  </div>
+  <div class="foot-col">
+    <p>{{ t.contact }}</p>
+    <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+    <p><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">LinkedIn ↗</a></p>
+    <p><a href="https://github.com/{{ site.author.github }}" rel="me">GitHub ↗</a></p>
+  </div>
+  <div class="foot-col">
+    <p>{{ t.language }}</p>
+    {% include lang-switch.html %}
+  </div>
+  <div class="foot-col foot-end">
+    <p class="muted">© {{ site.time | date: '%Y' }}</p>
   </div>
 </footer>

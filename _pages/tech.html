@@ -1,67 +1,36 @@
 ---
 permalink: /tech/
 wide: true
+decor: chandelier
 title: "Engineering"
 title_fr-CA: "Ingénierie"
 title_de: "Technik"
 title_zh-HK: "工程"
 excerpt: "Software, machine-learning, and language-technology projects."
-eyebrow: "Machine learning · NLP · Systems"
-eyebrow_fr-CA: "Apprentissage automatique · TAL · Systèmes"
-eyebrow_de: "Maschinelles Lernen · NLP · Systeme"
-eyebrow_zh-HK: "機器學習 · NLP · 系統"
-deck: "Software, machine-learning, and language-technology projects — from research prototypes to production systems."
-deck_fr-CA: "Projets logiciels, d'apprentissage automatique et de technologies langagières — des prototypes de recherche aux systèmes de production."
-deck_de: "Software-, Machine-Learning- und Sprachtechnologie-Projekte — vom Forschungsprototyp bis zum Produktivsystem."
+deck: "Software, machine-learning, and language-technology projects, from research prototypes to production systems."
+deck_fr-CA: "Projets logiciels, d'apprentissage automatique et de technologies langagières, des prototypes de recherche aux systèmes de production."
+deck_de: "Software-, Machine-Learning- und Sprachtechnologie-Projekte, vom Forschungsprototyp bis zum Produktivsystem."
 deck_zh-HK: "涵蓋軟件、機器學習及語言科技的項目，由研究原型以至生產系統。"
 ---
 {%- include vars.html -%}
 {%- assign name_key = 'name_' | append: lang -%}
-{%- assign total = 0 -%}
-{%- for g in site.data.tech_projects -%}{%- assign total = total | plus: g.items.size -%}{%- endfor -%}
-<div class="ix" data-ix data-open="{{ t.idx_open }}">
-  <div class="ix-controls">
-    <div class="ix-filters" role="group" aria-label="{{ t.idx_filter }}">
-      <span class="ix-label">{{ t.idx_filter }}:</span>
-      <button type="button" class="chip" data-filter="*" aria-pressed="true">{{ t.idx_all }} <span class="chip-n">{{ total }}</span></button>
-      {%- for g in site.data.tech_projects %}
-      <button type="button" class="chip" data-filter="{{ g.key }}" aria-pressed="false">{{ g[name_key] | default: g.name }} <span class="chip-n">{{ g.items.size }}</span></button>
-      {%- endfor %}
-    </div>
-    <label class="ix-grep"><span class="ix-prompt">{{ t.idx_grep }}&gt;</span><input type="search" data-ix-search autocomplete="off" spellcheck="false" aria-label="{{ t.idx_grep }}"></label>
-    <span class="ix-count" data-ix-count aria-live="polite">{{ total }} / {{ total }}</span>
-  </div>
-
-  <div class="ix-body">
-    <ol class="ix-list" data-ix-list>
-      {%- assign n = 0 -%}
-      {%- for g in site.data.tech_projects -%}
-      {%- for item in g.items -%}
-      {%- assign n = n | plus: 1 -%}
-      {%- if item.url contains '://' -%}{%- assign href = item.url -%}{%- assign ext = true -%}{%- else -%}{%- assign href = item.url | relative_url -%}{%- assign ext = false -%}{%- endif %}
-      <li class="ix-row" id="{{ item.id }}" data-group="{{ g.key }}">
-        <a class="ix-link" href="{{ href }}"{% if ext %} target="_blank" rel="noopener"{% endif %}>
-          <span class="ix-no">{{ n | prepend: '0' | slice: -2, 2 }}</span>
-          <span class="ix-title">{{ item.title }}</span>
-          <span class="ix-meta">{{ item.tag }}</span>
-          <span class="ix-go" aria-hidden="true">{% if ext %}↗{% else %}→{% endif %}</span>
-        </a>
-        <div class="ix-detail">
-          <p class="ix-desc">{{ item.desc }}</p>
-          <dl class="kv">
-            <div><dt>{{ t.idx_field }}</dt><dd>{{ g[name_key] | default: g.name }}</dd></div>
-            {%- if item.tech %}<div><dt>{{ t.idx_stack }}</dt><dd>{{ item.tech }}</dd></div>{% endif %}
-            <div><dt>url</dt><dd>{{ item.url | replace: 'https://', '' }}</dd></div>
-          </dl>
-        </div>
-      </li>
-      {%- endfor -%}
-      {%- endfor %}
-    </ol>
-    <aside class="ix-preview" data-ix-preview aria-hidden="true"></aside>
-  </div>
-  <p class="ix-empty" data-ix-empty hidden>{{ t.idx_none }}</p>
-  <p class="ix-keys" aria-hidden="true">{{ t.idx_keys }}</p>
-</div>
-
-<p class="more-links"><a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }} ↗</a></p>
+{%- for g in site.data.tech_projects %}
+<h2 class="group-title">{{ g[name_key] | default: g.name }}</h2>
+<ul class="rows">
+  {%- for item in g.items %}
+  {%- if item.url contains '://' -%}{%- assign ext = true -%}{%- else -%}{%- assign ext = false -%}{%- endif %}
+  <li id="{{ item.id }}">
+    {%- if item.url %}
+    <a class="row" href="{% if ext %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if ext %} target="_blank" rel="noopener"{% endif %}>
+    {%- else %}
+    <div class="row">
+    {%- endif %}
+      <span class="row-title">{{ item.title }}{% if item.url %} <span class="ext" aria-hidden="true">{% if ext %}↗{% else %}→{% endif %}</span>{% endif %}</span>
+      <span class="row-desc">{{ item.desc }}</span>
+      {%- if item.tech %}<span class="row-note">{{ item.tech | replace: ' · ', ', ' }}</span>{% endif %}
+    {%- if item.url %}</a>{% else %}</div>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
+<p class="more"><a href="https://github.com/{{ site.author.github }}">GitHub ↗</a></p>

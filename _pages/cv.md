@@ -2,7 +2,6 @@
 lang: en
 title: "CV"
 eyebrow: "Curriculum Vitæ"
-deck: "Language engineer working across machine learning, NLP, and responsible-AI evaluation and governance."
 permalink: /cv/
 redirect_from:
  - /resume
@@ -10,7 +9,7 @@ redirect_from:
 
 ## Professional Profile
 
-Language engineer with expertise in NLP system architecture, multilingual infrastructure development, and machine learning pipelines. I apply engineering principles and linguistic knowledge to design, build, and optimize scalable language technologies for diverse applications.
+I specialize in NLP system architecture, multilingual infrastructure development, and machine learning pipelines. I apply engineering principles and linguistic knowledge to design, build, and optimize scalable language technologies for diverse applications.
 
 ## Technical Skills
 

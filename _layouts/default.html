@@ -1,19 +1,17 @@
 {%- include vars.html -%}
 <!doctype html>
-<html lang="{{ lang }}" class="no-js">
+<html lang="{{ lang }}" class="no-js" style="--tint: {{ page_tint }}">
 <head>
 {% include head.html %}
 </head>
 <body class="is-{{ page.layout | default: 'page' }}">
   <a class="skip" href="#main">{{ t.skip }}</a>
+  <span id="say-name" hidden>{{ t.say_name }}</span>
   {% include header.html %}
   <main id="main" tabindex="-1">
 {{ content }}
   </main>
   {% include footer.html %}
-  {% include statusbar.html %}
-  {% include palette.html %}
-  <div class="grid-overlay" aria-hidden="true"><div class="wrap"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
   <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </body>
 </html>

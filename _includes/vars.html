@@ -21,3 +21,6 @@
 {%- if pure_path == '' -%}{%- assign pure_path = '/' -%}{%- endif -%}
 {%- assign title_key = 'title_' | append: lang -%}
 {%- assign page_title = page[title_key] | default: page.title -%}
+{%- assign page_decor = site.data.art[page.decor] -%}
+{%- assign page_tint = page.tint | default: page_decor.tint | default: '#f3f1ec' -%}
+{%- capture say_kassey -%}<span class="say" tabindex="0" data-ipa="/ˈkæsi/" aria-describedby="say-name">Kassey</span>{%- endcapture -%}

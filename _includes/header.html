@@ -2,29 +2,14 @@
 {%- elsif page.collection == 'posts' -%}{%- assign section = '/year-archive/' -%}
 {%- else -%}{%- assign section = pure_path -%}{%- endif -%}
 <header class="site-header">
-  <div class="wrap header-row">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — {{ t.home }}">
-      <span class="brand-mark" aria-hidden="true">ə</span><span class="brand-name">kassey guertin-chang</span>
-    </a>
-
-    <nav class="site-nav" id="site-nav" aria-label="Primary">
-      <ul class="nav-list">
-        {%- for link in site.data.navigation.main -%}
-          {%- assign label = link[title_key] | default: link.title %}
-        <li><a href="{{ link.url | relative_url }}"{% if section == link.url %} aria-current="page"{% endif %}><span class="nav-idx">{{ forloop.index }}</span>{{ label }}</a></li>
-        {%- endfor %}
-      </ul>
-      {% include lang-switch.html %}
-    </nav>
-
-    <div class="header-tools">
-      <button class="tool" type="button" data-action="theme" aria-label="{{ t.action_theme }}">
-        <span class="tool-key">{{ t.theme }}</span> <span class="theme-value" data-light="{{ t.theme_light }}" data-dark="{{ t.theme_dark }}">{{ t.theme_light }}</span>
-      </button>
-      <button class="tool tool-palette" type="button" data-action="palette" aria-label="{{ t.palette_open }}" aria-keyshortcuts="Control+K Meta+K">
-        <kbd class="kbd-mod">ctrl</kbd><kbd>K</kbd>
-      </button>
-      <button class="tool tool-menu" type="button" data-action="menu" aria-expanded="false" aria-controls="site-nav">{{ t.menu }}</button>
-    </div>
-  </div>
+  <a class="brand" href="{{ '/' | relative_url }}"><span class="say" data-ipa="/ˈkæsi/">Kassey</span> <span class="say" data-ipa="/ɡɛʁ.tɛ̃/">Guertin</span>-<span class="say" data-ipa="/t͡sœːŋ⁵⁵/">Chang</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>{{ t.menu }}</button>
+  <nav class="site-nav" id="site-nav" aria-label="Primary">
+    <ul class="nav-list">
+      {%- for link in site.data.navigation.main %}
+      <li><a href="{{ link.url | relative_url }}"{% if section == link.url %} aria-current="page"{% endif %}>{{ link[title_key] | default: link.title }}</a></li>
+      {%- endfor %}
+    </ul>
+    {% include lang-switch.html %}
+  </nav>
 </header>
