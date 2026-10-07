@@ -2,19 +2,17 @@
 layout: default
 ---
 {%- include vars.html -%}
-{%- assign eyebrow_key = 'eyebrow_' | append: lang -%}
 {%- assign deck_key = 'deck_' | append: lang -%}
-{%- assign eyebrow = page[eyebrow_key] | default: page.eyebrow -%}
 {%- assign deck = page[deck_key] | default: page.deck -%}
-<article class="page wrap" data-section="{{ page_title | strip_html }}">
-  <header class="page-head">
-    <p class="crumbs"><span aria-hidden="true">~{{ pure_path }}</span>{% if eyebrow %}<span class="crumbs-sep" aria-hidden="true"> · </span><span>{{ eyebrow }}</span>{% endif %}</p>
-    <h1 class="page-title">{{ page_title }}</h1>
+<article class="page" data-tint="{{ page_tint }}">
+  <header class="block-side page-side">
+    <h1 class="page-title">{{ page.title_display | default: page_title }}</h1>
     {%- if deck %}
     <p class="page-deck">{{ deck }}</p>
     {%- endif %}
+    {% include decor.html key=page.decor %}
   </header>
-  <div class="{% if page.wide %}page-wide{% else %}doc{% endif %}">
+  <div class="block-body page-main{% if page.wide != true %} doc{% endif %}">
 {{ content }}
   </div>
 </article>

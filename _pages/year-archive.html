@@ -1,14 +1,11 @@
 ---
 permalink: /year-archive/
 wide: true
+decor: painting
 title: "Writing"
 title_fr-CA: "Écrits"
 title_de: "Texte"
 title_zh-HK: "文章"
-eyebrow: "Notes & essays"
-eyebrow_fr-CA: "Notes et essais"
-eyebrow_de: "Notizen und Essays"
-eyebrow_zh-HK: "筆記及隨筆"
 deck: "Occasional notes on linguistics, languages, arts, and history."
 deck_fr-CA: "Notes occasionnelles sur la linguistique, les langues, les arts et l'histoire."
 deck_de: "Gelegentliche Notizen zu Linguistik, Sprachen, Kunst und Geschichte."
@@ -16,6 +13,11 @@ deck_zh-HK: "不定期分享語言學、語言、藝術與歷史方面的筆記�
 redirect_from:
   - /wordpress/blog-posts/
 ---
-{%- include vars.html -%}
-<p class="sec-lead">{{ t.kwic_hint }}</p>
-{% include kwic.html limit=0 %}
+<ul class="rows rows-compact">
+  {%- for post in site.posts %}
+  <li><a class="row" href="{{ post.url | relative_url }}">
+    <span class="row-title">{{ post.title }}</span>
+    <span class="row-meta">{{ post.date | date: '%Y' }}</span>
+  </a></li>
+  {%- endfor %}
+</ul>

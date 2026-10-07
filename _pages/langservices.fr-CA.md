@@ -7,8 +7,6 @@ excerpt: "Services linguistiques professionnels"
 permalink: /langservices/
 ---
 
-Je propose des services linguistiques spécialisés aux clients actifs en technologie, en recherche et en communication interculturelle.
-
 ## Domaines de service
 
 <ol class="svc-list">
@@ -24,10 +22,7 @@ Je propose des services linguistiques spécialisés aux clients actifs en techno
 
 **Anglais, cantonais, chinois (traditionnel et simplifié), mandarin, allemand, français**
 
-À l'heure actuelle, je dirige la localisation et la traduction multilingues de contenus textuels et vocaux pour des projets d'Air Canada, en assurant l'exactitude linguistique et l'adaptation culturelle entre l'EN-CA, le FR-CA et le ZH-HK. J'élabore aussi des lignes directrices de localisation et des normes de qualité pour la diffusion de contenu multimodal.
+Je dirige actuellement la localisation de textes et de contenus vocaux pour Air Canada en EN-CA, FR-CA et ZH-HK, y compris les guides de style et les normes de qualité.
 
-## Approche
-
-Mes services allient expertise linguistique et compréhension technique afin d'assurer une communication exacte entre les langues tout en préservant la précision technique. Je me spécialise dans les projets qui exigent à la fois des compétences linguistiques et des connaissances techniques, ayant travaillé auprès de clients des secteurs de la technologie, de la santé, de l'éducation et du secteur public. Cette diversité d'expérience nourrit ma capacité à proposer des solutions langagières adaptées aux exigences et aux normes de qualité de chaque secteur.
 
 <p class="cta"><a href="mailto:{{ site.author.email }}">Parlons de votre projet multilingue ↗</a></p>

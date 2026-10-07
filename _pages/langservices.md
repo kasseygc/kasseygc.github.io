@@ -7,8 +7,6 @@ excerpt: "Professional language services"
 permalink: /langservices/
 ---
 
-I provide specialized language services for clients working with technology, research, and cross-cultural communication.
-
 ## Service Areas
 
 <ol class="svc-list">
@@ -24,10 +22,7 @@ I provide specialized language services for clients working with technology, res
 
 **English, Cantonese, Chinese (Traditional & Simplified), Mandarin, German, French**
 
-Currently, I'm leading multilingual localization and translation across text and speech modalities for Air Canada projects, ensuring linguistic accuracy and cultural adaptation between EN-CA, FR-CA and ZH-HK. I also develop localization guidelines and quality standards for cross-modal content delivery.
+I currently lead text and speech localization for Air Canada across EN-CA, FR-CA and ZH-HK, including style guides and quality standards.
 
-## Approach
-
-My services combine linguistic expertise with technical understanding, ensuring accurate communication across languages while maintaining technical precision. I specialize in projects requiring both language skills and technical knowledge, having worked with clients across technology, healthcare, education, and public sectors. This diverse experience informs my ability to deliver language solutions tailored to specific industry requirements and quality standards.
 
 <p class="cta"><a href="mailto:{{ site.author.email }}">Get in touch about a multilingual project ↗</a></p>

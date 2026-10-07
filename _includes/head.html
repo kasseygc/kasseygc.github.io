@@ -9,9 +9,7 @@
 <title>{{ doc_title }}</title>
 <meta name="description" content="{{ desc | escape }}">
 <meta name="author" content="{{ site.author.name }}">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#f2f1ec" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f1011" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f1ec">
 
 {%- comment -%}
   static_href stops polyglot from re-prefixing these URLs. Keep href before
@@ -30,19 +28,13 @@
 <meta property="og:title" content="{{ doc_title | escape }}">
 <meta property="og:description" content="{{ desc | escape }}">
 <meta property="og:url" content="{{ site.url }}{{ prefix }}{{ pure_path }}">
-<meta property="og:image" content="{{ site.url }}/images/portrait-crop.jpg">
+<meta property="og:image" content="{{ site.url }}/images/art/sky.jpg">
 <meta property="og:locale" content="{{ lang | replace: '-', '_' }}">
 <meta name="twitter:card" content="summary">
 
-<script>
-  /* Theme before first paint: explicit choice (localStorage) beats the OS setting. */
-  (function () {
-    var d = document.documentElement;
-    d.className = d.className.replace('no-js', 'js');
-    try { var th = localStorage.getItem('theme'); if (th === 'light' || th === 'dark') d.setAttribute('data-theme', th); } catch (e) {}
-  })();
-</script>
-<link rel="preload" href="{{ '/assets/fonts/source-code-pro.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+<link rel="preload" href="{{ '/assets/fonts/instrument-serif.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/geist.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
 <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
@@ -54,8 +46,8 @@
   "@type": "Person",
   "name": {{ site.author.name | jsonify }},
   "url": {{ site.url | append: '/' | jsonify }},
-  "image": {{ site.url | append: '/images/portrait-crop.jpg' | jsonify }},
-  "jobTitle": "Language Engineer",
+  "image": {{ site.url | append: '/images/art/sky.jpg' | jsonify }},
+  "knowsAbout": ["Machine learning", "Natural language processing", "Language models", "Linguistics"],
   "email": {{ site.author.email | prepend: 'mailto:' | jsonify }},
   "sameAs": ["https://github.com/{{ site.author.github }}", "https://www.linkedin.com/in/{{ site.author.linkedin }}"],
   "alumniOf": [

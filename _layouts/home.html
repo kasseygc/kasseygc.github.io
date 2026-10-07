@@ -2,85 +2,71 @@
 layout: default
 ---
 {%- include vars.html -%}
-<section class="hero wrap" data-section="{{ t.home }}" aria-labelledby="hero-name">
-  <div class="hero-meta" aria-hidden="true">
-    <span>ə</span><span>~/index</span><span>{{ lang }}</span><span>rev. {{ site.time | date: '%Y.%m' }}</span>
+<section class="hero" data-tint="#e8eef2">
+  <div class="hero-text">
+    <h1 class="sr-only">{{ site.author.name }}</h1>
+    <p class="hero-intro">{{ page.intro | replace_first: 'Kassey', say_kassey }}</p>
+    <ul class="hero-links">
+      <li><a href="mailto:{{ site.author.email }}">{{ t.email_me }}</a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">LinkedIn ↗</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}" rel="me">GitHub ↗</a></li>
+      <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+    </ul>
   </div>
-  <h1 class="hero-name" id="hero-name"><span>Kassey</span> <span>Guertin-Chang</span></h1>
-  <p class="hero-role">{{ page.role }}</p>
-  <ul class="hero-links">
-    <li><a href="mailto:{{ site.author.email }}">email</a></li>
-    <li><a href="https://github.com/{{ site.author.github }}" rel="me">github ↗</a></li>
-    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">linkedin ↗</a></li>
-    <li><a href="{{ '/cv/' | relative_url }}">cv →</a></li>
-  </ul>
-  {% include specimen.html %}
+  <div class="hero-art">{% include decor.html key="sky" class="decor-hero" loading="eager" %}</div>
 </section>
 
-<section class="sec wrap" id="about" data-section="{{ t.sec_about }}" aria-labelledby="about-title">
-  {% include sec-head.html num="01" id="about" title=t.sec_about meta="whoami" %}
-  <div class="about-grid">
-    <div class="about-text">
-      <p class="about-lead">{{ page.lead }}</p>
-      <div class="about-body">{{ content }}</div>
-      <dl class="kv record">
-        <div><dt>{{ t.rec_focus }}</dt><dd><ul>{% for f in page.focus %}<li>{{ f }}</li>{% endfor %}</ul></dd></div>
-        <div><dt>{{ t.rec_languages }}</dt><dd><ul class="inline-list">
-          <li lang="en">English</li><li lang="yue">廣東話</li><li lang="cmn">普通話</li><li lang="de">Deutsch</li><li lang="fr">Français</li>
-        </ul></dd></div>
-        <div><dt>{{ t.rec_education }}</dt><dd><ul>{% for e in page.education %}<li>{{ e }}</li>{% endfor %}</ul></dd></div>
-        <div><dt>{{ t.rec_based }}</dt><dd>{{ t.rec_based_value }}</dd></div>
-      </dl>
-    </div>
-    {% include portrait.html %}
+<section class="block" id="about" data-tint="{{ site.data.art.blinds.tint }}" aria-labelledby="about-title">
+  <div class="block-side">
+    <h2 class="block-title" id="about-title">{{ t.sec_about }}</h2>
+    {% include decor.html key="blinds" %}
+  </div>
+  <div class="block-body">
+    <p class="lead">{{ page.lead }}</p>
+    {{ content }}
+    <dl class="facts">
+      <div><dt>{{ t.fact_now }}</dt><dd>{{ page.facts.now }}</dd></div>
+      <div><dt>{{ t.fact_before }}</dt><dd>{{ page.facts.before }}</dd></div>
+      <div><dt>{{ t.education }}</dt><dd>{{ page.facts.education }}</dd></div>
+      <div><dt>{{ t.languages }}</dt><dd>{{ t.language_list }}</dd></div>
+    </dl>
   </div>
 </section>
 
-<section class="sec wrap" id="work" data-section="{{ t.sec_work }}" aria-labelledby="work-title">
-  {%- assign eng_count = 0 -%}
-  {%- for g in site.data.tech_projects -%}{%- assign eng_count = eng_count | plus: g.items.size -%}{%- endfor -%}
-  {% include sec-head.html num="02" id="work" title=t.sec_work meta="ls ~/work" %}
-  <ol class="worklist">
-    {%- for w in page.selected_work %}
-    {%- if w.url contains '://' -%}{%- assign ext = true -%}{%- else -%}{%- assign ext = false -%}{%- endif %}
-    <li>
-      <a class="work-row" href="{% if ext %}{{ w.url }}{% else %}{{ w.url | relative_url }}{% endif %}"{% if ext %} target="_blank" rel="noopener"{% endif %}>
-        <span class="work-no">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
-        <span class="work-main">
-          <span class="work-title">{{ w.title }}</span>
-          <span class="work-desc">{{ w.desc }}</span>
-        </span>
-        <span class="work-tag">{{ w.tag }}</span>
-        <span class="work-go" aria-hidden="true">{% if ext %}↗{% else %}→{% endif %}</span>
-      </a>
-    </li>
-    {%- endfor %}
-  </ol>
-  <p class="more-links">
-    <a href="{{ '/tech/' | relative_url }}">{{ t.work_more_eng }} ({{ eng_count }}) →</a>
-    <a href="{{ '/portfolio/' | relative_url }}">{{ t.work_more_ling }} ({{ site.portfolio.size }}) →</a>
-  </p>
+<section class="block" id="work" data-tint="#f0ddcd" aria-labelledby="work-title">
+  <div class="block-side">
+    <h2 class="block-title" id="work-title">{{ t.sec_work }}</h2>
+  </div>
+  <div class="block-body">
+    <ul class="rows">
+      {%- for w in page.selected_work %}
+      {%- if w.url contains '://' -%}{%- assign ext = true -%}{%- else -%}{%- assign ext = false -%}{%- endif %}
+      <li>
+        <a class="row" href="{% if ext %}{{ w.url }}{% else %}{{ w.url | relative_url }}{% endif %}"{% if ext %} target="_blank" rel="noopener"{% endif %}>
+          <span class="row-title">{{ w.title }}{% if ext %} <span class="ext" aria-hidden="true">↗</span>{% endif %}</span>
+          <span class="row-desc">{{ w.desc }}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+    <p class="more"><a href="{{ '/tech/' | relative_url }}">{{ t.work_more_eng }}</a><a href="{{ '/portfolio/' | relative_url }}">{{ t.work_more_ling }}</a></p>
+  </div>
 </section>
 
-<section class="sec wrap" id="experience" data-section="{{ t.sec_experience }}" aria-labelledby="experience-title">
-  {% include sec-head.html num="03" id="experience" title=t.sec_experience meta="git log --oneline" %}
-  {%- assign role_key = 'role_' | append: lang -%}
-  {%- assign note_key = 'note_' | append: lang %}
-  <ol class="xp">
-    {%- for x in site.data.experience %}
-    <li class="xp-row">
-      <span class="xp-org">{{ x.org }}</span>
-      <span class="xp-lead" aria-hidden="true"></span>
-      <span class="xp-what"><span class="xp-role">{{ x[role_key] | default: x.role }}</span><span class="xp-note">{{ x[note_key] | default: x.note }}</span></span>
-    </li>
-    {%- endfor %}
-  </ol>
-  <p class="more-links"><a href="{{ '/cv/' | relative_url }}">{{ t.exp_more }} →</a></p>
-</section>
-
-<section class="sec wrap" id="writing" data-section="{{ t.sec_writing }}" aria-labelledby="writing-title">
-  {% include sec-head.html num="04" id="writing" title=t.sec_writing meta=t.kwic %}
-  <p class="sec-lead">{{ page.writing_lead }} {{ t.kwic_hint }}</p>
-  {% include kwic.html limit=8 %}
-  <p class="more-links"><a href="{{ '/year-archive/' | relative_url }}">{{ t.writing_all }} ({{ site.posts.size }}) →</a></p>
+<section class="block" id="writing" data-tint="{{ site.data.art.painting.tint }}" aria-labelledby="writing-title">
+  <div class="block-side">
+    <h2 class="block-title" id="writing-title">{{ t.sec_writing }}</h2>
+  </div>
+  <div class="block-body">
+    {%- if page.writing_lead %}<p class="muted">{{ page.writing_lead }}</p>{% endif %}
+    <ul class="rows rows-compact">
+      {%- for post in site.posts limit: 4 %}
+      <li><a class="row" href="{{ post.url | relative_url }}">
+        <span class="row-title">{{ post.title }}</span>
+        <span class="row-meta">{{ post.date | date: '%Y' }}</span>
+      </a></li>
+      {%- endfor %}
+    </ul>
+    <p class="more"><a href="{{ '/year-archive/' | relative_url }}">{{ t.writing_all }}</a></p>
+  </div>
 </section>
