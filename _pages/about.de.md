@@ -7,11 +7,11 @@ title: "Über mich"
 tagline: "Maschinelles Lernen und NLP"
 
 # Hero: one sentence in your own voice (HTML links allowed); role = meta description
-intro: "Hallo, ich bin Kassey. Ich entwickle und evaluiere <a href=\"/tech/\">Sprachmodelle</a> und die Leitplanken und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
-role: "Kassey Guertin-Chang entwickelt und evaluiert Sprachmodelle und die Leitplanken und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
+intro: "Hallo, ich bin Kassey. Ich entwickle und evaluiere <a href=\"/tech/\">Sprachmodelle</a> sowie die Leitplanken und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
+role: "Kassey Guertin-Chang entwickelt und evaluiert Sprachmodelle sowie die Leitplanken und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
 
 # About: two sentences
-lead: "Ich verbinde menschliche Sprache mit maschinellem Lernen. Meine Arbeit umfasst den gesamten Lebenszyklus eines NLP-Systems, vom Validieren unsauberer, mehrsprachiger Daten bis zum Bau durchgängiger ML-Pipelines."
+lead: "Ich verbinde menschliche Sprache mit maschinellem Lernen. Meine Arbeit umfasst den gesamten Lebenszyklus eines NLP-Systems, vom Validieren unsauberer mehrsprachiger Daten bis zum Bau durchgängiger ML-Pipelines."
 focus:
   - "Training und Feinabstimmung von Sprachmodellen"
   - "Modellevaluation, Red-Teaming und Robustheit"
@@ -21,7 +21,9 @@ focus:
 facts:
   now: "AWS"
   before: "Apple, UCSF, Columbia"
-  education: "M.Sc. Informatik, UT Austin · B.A. Linguistik und Informatik, Columbia"
+  education:
+    - "M.Sc. Informatik, UT Austin"
+    - "B.A. Linguistik und Informatik, Columbia"
 
 # Selected work, in display order. kind: eng | ling
 selected_work:

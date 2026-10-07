@@ -7,7 +7,7 @@ title: "À propos"
 tagline: "Apprentissage automatique et TAL"
 
 # Hero: one sentence in your own voice (HTML links allowed); role = meta description
-intro: "Bonjour, je suis Kassey. Je conçois et j’évalue des <a href=\"/tech/\">modèles de langue</a>, ainsi que les garde-fous et les pratiques de données qui les gardent sûrs, équitables et responsables."
+intro: "Bonjour, je suis Kassey. Je conçois et évalue des <a href=\"/tech/\">modèles de langue</a>, ainsi que les garde-fous et les pratiques de données qui les gardent sûrs, équitables et responsables."
 role: "Kassey Guertin-Chang conçoit et évalue des modèles de langue, ainsi que les garde-fous et les pratiques de données qui les gardent sûrs, équitables et responsables."
 
 # About: two sentences
@@ -21,7 +21,9 @@ focus:
 facts:
   now: "AWS"
   before: "Apple, UCSF, Columbia"
-  education: "M. Sc. en informatique, UT Austin · B. A. en linguistique et informatique, Columbia"
+  education:
+    - "M. Sc. en informatique, UT Austin"
+    - "B. A. en linguistique et informatique, Columbia"
 
 # Selected work, in display order. kind: eng | ling
 selected_work:
