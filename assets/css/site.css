@@ -162,6 +162,11 @@ a.row:hover .row-title { text-decoration: underline; text-decoration-thickness: 
 @media (max-width: 600px) { .svc-list li { grid-template-columns: 1fr; } }
 .cta { margin-top: 32px; }
 
+/* Chinese characters fill the whole em square, so at the same size they read much
+   larger than Latin letters; scale the big titles down on the zh-HK site only. */
+:lang(zh) .hero-intro { font-size: clamp(24px, 3vw, 42px); line-height: 1.35; }
+:lang(zh) .page-title { font-size: clamp(32px, 3.8vw, 52px); }
+
 /* ---------- essays and papers ---------- */
 .post-head, .post-body, .post-nav { padding-left: var(--pad); padding-right: var(--pad); }
 .post-head { padding-top: clamp(40px, 9vh, 104px); max-width: calc(760px + 2 * var(--pad)); }
