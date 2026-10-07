@@ -1,119 +1,72 @@
 ---
 layout: default
 ---
-
-{% include base_path %}
-
-<div class="editorial-home">
-
-  <!-- ===================== HERO ===================== -->
-  <header class="hero">
-    {% if page.hero.ghost %}<div class="ghost">{{ page.hero.ghost }}</div>{% endif %}
-    {% if site.logo %}<img class="hero-mark" src="{{ site.logo | relative_url }}" alt="" aria-hidden="true">{% endif %}
-    <div class="wrap">
-      {% if page.hero.eyebrow %}<div class="hero-eyebrow">{{ page.hero.eyebrow }}</div>{% endif %}
-      <h1>
-        {% for line in page.hero.headline %}
-          <span class="line"><span>{{ line }}</span></span>
-        {% endfor %}
-      </h1>
-      {% if page.hero.subtitle %}<p class="hero-sub">{{ page.hero.subtitle }}</p>{% endif %}
-      <div class="hero-meta">
-        {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn &#8599;</a>{% endif %}
-        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub &#8599;</a>{% endif %}
-        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email &#8599;</a>{% endif %}
-      </div>
-    </div>
-  </header>
-
-  <!-- ===================== ABOUT ===================== -->
-  <section class="sec" id="about">
-    <div class="wrap">
-      <div class="sec-head">
-        <span class="sec-num">01</span>
-        <h2 class="sec-title">{{ page.about.title | default: "About" }}</h2>
-        {% if page.about.meta %}<span class="sec-meta">{{ page.about.meta }}</span>{% endif %}
-      </div>
-      <div class="about-grid reveal">
-        <div>
-          {% if page.about.lead %}<p class="about-lead">{{ page.about.lead }}</p>{% endif %}
-          <div class="about-body" style="margin-top:28px">
-            {{ content }}
-          </div>
-        </div>
-        <div class="about-side">
-          {% if site.author.avatar %}
-          <img class="about-portrait" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
-          {% endif %}
-          {% if page.about.focus %}
-          <div class="focus-card">
-            <h4>{{ page.about.focus_title | default: "Professional Focus" }}</h4>
-            <ul class="focus-list">
-              {% for item in page.about.focus %}<li>{{ item }}</li>{% endfor %}
-            </ul>
-          </div>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== SELECTED WORK ===================== -->
-  {% if page.selected_work %}
-  <section class="sec" id="work">
-    <div class="wrap">
-      <div class="sec-head">
-        <span class="sec-num">02</span>
-        <h2 class="sec-title">{{ page.work_title | default: "Selected Work" }}</h2>
-        {% if page.work_meta %}<span class="sec-meta">{{ page.work_meta }}</span>{% endif %}
-      </div>
-      <div class="cards">
-        {% for proj in page.selected_work %}
-        <a class="card reveal" {% if proj.url %}href="{% if proj.url contains '://' %}{{ proj.url }}{% else %}{{ proj.url | relative_url }}{% endif %}"{% if proj.url contains '://' %} target="_blank" rel="noopener"{% endif %}{% endif %}>
-          <div class="card-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
-          {% if proj.tag %}<div class="card-tag">{{ proj.tag }}</div>{% endif %}
-          <h3 class="card-title">{{ proj.title }}</h3>
-          {% if proj.desc %}<p class="card-desc">{{ proj.desc }}</p>{% endif %}
-          <div class="card-arrow">&#8594;</div>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  <!-- ===================== QUOTE STRIP ===================== -->
-  {% if page.quote.text %}
-  <div class="editorial-strip">
-    <div class="wrap">
-      <blockquote>{{ page.quote.text }}</blockquote>
-      {% if page.quote.cite %}<cite>&#8212; {{ page.quote.cite }}</cite>{% endif %}
-    </div>
+{%- include vars.html -%}
+<section class="hero" data-tint="#e8eef2">
+  <div class="hero-text">
+    <h1 class="sr-only">{{ site.author.name }}</h1>
+    <p class="hero-intro">{{ page.intro | replace_first: 'Kassey', say_kassey }}</p>
+    <ul class="hero-links">
+      <li><a href="mailto:{{ site.author.email }}">{{ t.email_me }}</a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">LinkedIn ↗</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}" rel="me">GitHub ↗</a></li>
+      <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+    </ul>
   </div>
-  {% endif %}
+  <div class="hero-art">{% include decor.html key="sky" class="decor-hero" loading="eager" %}</div>
+</section>
 
-  <!-- ===================== WRITING ===================== -->
-  <section class="sec" id="writing">
-    <div class="wrap">
-      <div class="sec-head">
-        <span class="sec-num">03</span>
-        <h2 class="sec-title">{{ page.writing_title | default: "Writing" }}</h2>
-        <span class="sec-meta">{{ page.writing_meta | default: "Notes &amp; essays" }}</span>
-      </div>
-      <div class="about-grid reveal">
-        <div class="about-body">
-          <p class="about-lead" style="font-size:24px">{{ page.writing_lead | default: "Occasional notes on language, systems, and the craft of building." }}</p>
-        </div>
-        <div class="writing-links">
-          {% for post in site.posts limit: 3 %}
-            <a href="{{ post.url | relative_url }}">&#8594; {{ post.title }}</a>
-          {% endfor %}
-          <a href="{{ '/year-archive/' | relative_url }}">&#8594; {{ page.writing_all | default: "Read all posts" }}</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<section class="block" id="about" data-tint="{{ site.data.art.blinds.tint }}" aria-labelledby="about-title">
+  <div class="block-side">
+    <h2 class="block-title" id="about-title">{{ t.sec_about }}</h2>
+    {% include decor.html key="blinds" %}
+  </div>
+  <div class="block-body">
+    <p class="lead">{{ page.lead }}</p>
+    {{ content }}
+    <dl class="facts">
+      <div><dt>{{ t.fact_now }}</dt><dd>{{ page.facts.now }}</dd></div>
+      <div><dt>{{ t.fact_before }}</dt><dd>{{ page.facts.before }}</dd></div>
+      <div><dt>{{ t.education }}</dt><dd>{% for e in page.facts.education %}<span class="fact-line">{{ e }}</span>{% endfor %}</dd></div>
+      <div><dt>{{ t.languages }}</dt><dd>{{ t.language_list }}</dd></div>
+    </dl>
+  </div>
+</section>
 
-</div>
+<section class="block" id="work" data-tint="#f0ddcd" aria-labelledby="work-title">
+  <div class="block-side">
+    <h2 class="block-title" id="work-title">{{ t.sec_work }}</h2>
+  </div>
+  <div class="block-body">
+    <ul class="rows">
+      {%- for w in page.selected_work %}
+      {%- if w.url contains '://' -%}{%- assign ext = true -%}{%- else -%}{%- assign ext = false -%}{%- endif %}
+      <li>
+        <a class="row" href="{% if ext %}{{ w.url }}{% else %}{{ w.url | relative_url }}{% endif %}"{% if ext %} target="_blank" rel="noopener"{% endif %}>
+          <span class="row-title">{{ w.title }}{% if ext %} <span class="ext" aria-hidden="true">↗</span>{% endif %}</span>
+          <span class="row-desc">{{ w.desc }}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+    <p class="more"><a href="{{ '/tech/' | relative_url }}">{{ t.work_more_eng }}</a><a href="{{ '/portfolio/' | relative_url }}">{{ t.work_more_ling }}</a></p>
+  </div>
+</section>
 
-<script src="{{ '/assets/js/editorial.js' | relative_url }}"></script>
+<section class="block" id="writing" data-tint="{{ site.data.art.painting.tint }}" aria-labelledby="writing-title">
+  <div class="block-side">
+    <h2 class="block-title" id="writing-title">{{ t.sec_writing }}</h2>
+  </div>
+  <div class="block-body">
+    {%- if page.writing_lead %}<p class="muted">{{ page.writing_lead }}</p>{% endif %}
+    <ul class="rows rows-compact">
+      {%- for post in site.posts limit: 4 %}
+      <li><a class="row" href="{{ post.url | relative_url }}">
+        <span class="row-title">{{ post.title }}</span>
+        <span class="row-meta">{{ post.date | date: '%Y' }}</span>
+      </a></li>
+      {%- endfor %}
+    </ul>
+    <p class="more"><a href="{{ '/year-archive/' | relative_url }}">{{ t.writing_all }}</a></p>
+  </div>
+</section>

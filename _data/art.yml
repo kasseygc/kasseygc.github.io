@@ -1,0 +1,35 @@
+# Kassey's photographs and paintings, used as quiet decoration around the site
+# (no captions), each piece in one place only: sky and blinds on the home page,
+# chandelier on Engineering, cable_car on Linguistics, painting on Writing.
+# Pages pick theirs with `decor: <key>` in their front matter.
+# `tint` is the page background colour that goes with each piece.
+sky:
+  file: /images/art/sky.jpg
+  tint: "#dce6ee"
+  alt: "A gull perched on a street lamp against a cloudy sky at dusk."
+  width: 2000
+  height: 1342
+blinds:
+  file: /images/art/blinds.jpg
+  tint: "#dedae7"
+  alt: "Bands of light from window blinds falling across a dark wall."
+  width: 2000
+  height: 1281
+painting:
+  file: /images/art/painting.jpg
+  tint: "#dedbd4"
+  alt: "Abstract grey painting with soft horizontal brushstrokes."
+  width: 459
+  height: 612
+chandelier:
+  file: /images/art/chandelier-cropped.jpg
+  tint: "#eee7dc"
+  alt: "A small black beaded chandelier, out of focus, against a pale wall."
+  width: 412
+  height: 228
+cable_car:
+  file: /images/art/cable-car.jpg
+  tint: "#dbe6de"
+  alt: "Cable cars on a line above a bay, with bridges and high-rise buildings beyond."
+  width: 490
+  height: 330

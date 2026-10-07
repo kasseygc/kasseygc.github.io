@@ -1,55 +1,62 @@
 ---
 permalink: /
-title: "Über mich"
-excerpt: "Über mich"
 layout: home
+tint: "#e8eef2"
 lang: de
+title: "Über mich"
+tagline: "Maschinelles Lernen und NLP"
 
-hero:
-  eyebrow: "Maschinelles Lernen · NLP · Verantwortungsvolle KI · Evaluation und Governance"
-  headline:
-    - "An der Schnittstelle von"
-    - "<em>Sprache</em>, Daten und menschlichem Erleben."
-  subtitle: "Hallo, ich bin Kassey. Ich entwickle und evaluiere <strong>Sprachmodelle</strong> — und ebenso die Leitplanken, Evaluationen und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
+# Hero: one sentence in your own voice (HTML links allowed); role = meta description
+intro: "Hallo, ich bin Kassey. Ich entwickle und evaluiere <a href=\"/tech/\">Sprachmodelle</a> sowie die Leitplanken und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
+role: "Kassey Guertin-Chang entwickelt und evaluiert Sprachmodelle sowie die Leitplanken und Datenpraktiken, die sie sicher, fair und verantwortungsvoll halten."
 
-about:
-  title: "Über mich"
-  lead: "Als Sprachingenieurin verbinde ich menschliche Sprache mit maschinellem Lernen. Ob ich Sprachmodelle trainiere, Datenpipelines baue oder Evaluationen entwerfe — mein Ziel ist es, KI ehrlich, sicher und verantwortungsvoll zu halten, sowohl technisch als auch in ihrer Governance."
-  focus_title: "Schwerpunkte"
-  focus:
-    - "Training und Feinabstimmung von Sprachmodellen"
-    - "Modellevaluation, Red-Teaming und Robustheit"
-    - "KI-Governance, Sicherheit und verantwortungsvolle KI-Praktiken"
-    - "Datenqualität, -herkunft und -pipelines für ML"
-    - "Computerlinguistik und mehrsprachiges NLP"
+# About: two sentences
+lead: "Ich verbinde menschliche Sprache mit maschinellem Lernen. Meine Arbeit umfasst den gesamten Lebenszyklus eines NLP-Systems, vom Validieren unsauberer mehrsprachiger Daten bis zum Bau durchgängiger ML-Pipelines."
+focus:
+  - "Training und Feinabstimmung von Sprachmodellen"
+  - "Modellevaluation, Red-Teaming und Robustheit"
+  - "KI-Governance, Sicherheit und verantwortungsvolle KI-Praktiken"
+  - "Datenqualität, -herkunft und -pipelines für ML"
+  - "Computerlinguistik und mehrsprachiges NLP"
+facts:
+  now: "AWS"
+  before: "Apple, UCSF, Columbia"
+  education:
+    - "M.Sc. Informatik, UT Austin"
+    - "B.A. Linguistik und Informatik, Columbia"
 
-work_title: "Ausgewählte Arbeiten"
-work_meta: "Technik · Linguistik"
+# Selected work, in display order. kind: eng | ling
 selected_work:
+  - title: "Teaching Small Language Models to Reason: SFT and Rejection-Sampling Fine-Tuning"
+    tag: "NLP · Fine-Tuning & RL"
+    kind: eng
+    url: https://github.com/kasseygc/llm_reasoning
+    desc: "SmolLM2 mit SFT und Rejection Sampling zum Schlussfolgern bringen."
+  - title: "Memory-Efficient LLM Fine-Tuning: Quantization, LoRA & QLoRA from Scratch"
+    tag: "ML-Systeme · Effizienz"
+    kind: eng
+    url: https://github.com/kasseygc/efficient_llm
+    desc: "Quantisierung, LoRA und QLoRA von Grund auf in PyTorch nachgebaut."
   - title: "Skill-Adjusted Expected Goals in the NHL: A Two-Phase Machine Learning Framework"
     tag: "Maschinelles Lernen · Sportanalytik"
-    desc: "Eine zweistufige ML-Pipeline auf ~2 Mio. NHL-Schüssen (2007–2025); ein XGBoost-Modell erreicht eine AUC von 0,7900, erweitert um Anpassungen für das Talent von Schützen und Torhütern."
+    kind: eng
     url: /tech/#skill-adjusted-expected-goals-in-the-nhl-a-two-phase-machine-learning-framework
+    desc: "Tore aus rund 2 Mio. NHL-Schüssen vorhersagen, bereinigt um das Können der Spieler."
   - title: "Beyond Pattern Matching: Dataset Artifacts in SQuAD"
     tag: "NLP · Robustheit"
-    desc: "Systematische Analyse von Abkürzungen im Leseverständnis; adversariales Training und ein fragetypbewusster Verlust verbessern die Robustheit um das 1,4-Fache bei ELECTRA-small."
+    kind: eng
     url: /tech/#beyond-pattern-matching-dataset-artifacts-in-squad
+    desc: "Abkürzungen von Leseverständnismodellen finden und beheben."
   - title: "Vision-Based Autonomous Driving Agent"
     tag: "Computer Vision · Deep Learning"
-    desc: "Ein durchgängiges Deep-Learning-System zur autonomen Navigation: ein Multitask-CNN mit U-Net-Skip-Connections für Segmentierung und Tiefe sowie ein Transformer-Planer, der Wegpunkte aus Fahrbahnbegrenzungen vorhersagt."
+    kind: eng
     url: /tech/#vision-based-autonomous-driving-agent
+    desc: "Segmentierung, Tiefenschätzung und ein Transformer-Planer für einen Fahragenten."
   - title: "A Comparative Study of Sentence-Final Particles Acquisition in Monolingual, Bilingual, and Trilingual Cantonese-Speaking Children: A Corpus-Driven Approach"
     tag: "Linguistik · Mehrsprachigkeit"
-    desc: "Ein statistischer Vergleich, wie ein-, zwei- und dreisprachige kantonesisch sprechende Kinder Satzendpartikeln erwerben — auf Basis von über 10.000 mehrsprachigen Äußerungen."
+    kind: ling
     url: /portfolio/seniorthesis/
+    desc: "Wie Kinder, die eine, zwei oder drei Sprachen lernen, kantonesische Partikeln erwerben."
 
-quote:
-  text: "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt."
-  cite: "Ludwig Wittgenstein · <em>Tractatus Logico-Philosophicus</em>"
-
-writing_title: "Texte"
-writing_meta: "Notizen und Essays"
 writing_lead: "Gelegentliche Notizen zu Linguistik, Sprachen, Kunst und Geschichte."
-writing_all: "Alle Beiträge lesen"
 ---
-Meine Arbeit umfasst den gesamten Lebenszyklus eines NLP-Systems. Vom Validieren unsauberer, mehrsprachiger Daten bis zum Bau durchgängiger ML-Pipelines löse ich gerne die komplexen, praxisnahen Probleme der Sprachtechnologie — im großen Maßstab.

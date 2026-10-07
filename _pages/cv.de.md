@@ -1,16 +1,13 @@
 ---
-layout: archive
 lang: de
 title: "Lebenslauf"
 eyebrow: "Curriculum Vitæ"
-deck: "Sprachingenieurin an der Schnittstelle von maschinellem Lernen, NLP sowie Evaluation und Governance verantwortungsvoller KI."
 permalink: /cv/
-author_profile: false
 ---
 
 ## Berufsprofil
 
-Sprachingenieurin mit Expertise in der Architektur von NLP-Systemen, der Entwicklung mehrsprachiger Infrastruktur und Machine-Learning-Pipelines. Ich verbinde Ingenieurprinzipien mit linguistischem Wissen, um skalierbare Sprachtechnologien für vielfältige Anwendungen zu entwerfen, zu entwickeln und zu optimieren.
+Meine Schwerpunkte sind die Architektur von NLP-Systemen, die Entwicklung mehrsprachiger Infrastruktur und Machine-Learning-Pipelines. Ich verbinde Ingenieurprinzipien mit linguistischem Wissen, um skalierbare Sprachtechnologien für vielfältige Anwendungen zu entwerfen, zu entwickeln und zu optimieren.
 
 ## Technische Fähigkeiten
 

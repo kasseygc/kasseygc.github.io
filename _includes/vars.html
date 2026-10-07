@@ -1,0 +1,26 @@
+{%- comment -%}
+  Shared per-page variables. Include at the top of every layout.
+  lang       active language code
+  t / t_en   interface strings (active language / English fallback)
+  prefix     "" for the default language, "/fr-CA" etc. otherwise
+  pure_path  page URL with any language prefix removed, e.g. /cv/
+  page_title localized title (title_<lang> front matter wins over title)
+{%- endcomment -%}
+{%- assign lang = site.active_lang | default: site.default_lang -%}
+{%- assign t = site.data.i18n[lang] | default: site.data.i18n.en -%}
+{%- assign t_en = site.data.i18n.en -%}
+{%- if lang == site.default_lang -%}{%- assign prefix = '' -%}{%- else -%}{%- assign prefix = '/' | append: lang -%}{%- endif -%}
+{%- assign pure_path = page.url | default: '/' | replace: 'index.html', '' -%}
+{%- for l in site.languages -%}
+  {%- assign lp = '/' | append: l | append: '/' -%}
+  {%- assign lx = '/' | append: l -%}
+  {%- assign lp_head = pure_path | slice: 0, lp.size -%}
+  {%- if pure_path == lx -%}{%- assign pure_path = '/' -%}
+  {%- elsif lp_head == lp -%}{%- assign pure_path = pure_path | replace_first: lp, '/' -%}{%- endif -%}
+{%- endfor -%}
+{%- if pure_path == '' -%}{%- assign pure_path = '/' -%}{%- endif -%}
+{%- assign title_key = 'title_' | append: lang -%}
+{%- assign page_title = page[title_key] | default: page.title -%}
+{%- assign page_decor = site.data.art[page.decor] -%}
+{%- assign page_tint = page.tint | default: page_decor.tint | default: '#f3f1ec' -%}
+{%- capture say_kassey -%}<span class="say" tabindex="0" data-ipa="/ˈkæsi/" aria-describedby="say-name">Kassey</span>{%- endcapture -%}

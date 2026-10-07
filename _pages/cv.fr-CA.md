@@ -1,16 +1,13 @@
 ---
-layout: archive
 lang: fr-CA
 title: "CV"
 eyebrow: "Curriculum vitæ"
-deck: "Ingénieure TAL travaillant à la croisée de l'apprentissage automatique, du TAL et de l'évaluation et la gouvernance de l'IA responsable."
 permalink: /cv/
-author_profile: false
 ---
 
 ## Profil professionnel
 
-Ingénieure TAL spécialisée en architecture de systèmes de TAL, en développement d'infrastructures multilingues et en pipelines d'apprentissage automatique. J'applique des principes d'ingénierie et des connaissances linguistiques pour concevoir, construire et optimiser des technologies langagières évolutives, adaptées à des applications variées.
+Je me spécialise en architecture de systèmes de TAL, en développement d'infrastructures multilingues et en pipelines d'apprentissage automatique. J'applique des principes d'ingénierie et des connaissances linguistiques pour concevoir, construire et optimiser des technologies langagières évolutives, adaptées à des applications variées.
 
 ## Compétences techniques
 

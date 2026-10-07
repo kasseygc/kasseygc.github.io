@@ -1,5 +1,0 @@
-# Authors
-#
-# Optional multi-author support. Add an entry here and set `author: "Key"` in a
-# post's front matter to override the site-wide author from _config.yml.
-# (Currently unused — the site uses the single author defined in _config.yml.)

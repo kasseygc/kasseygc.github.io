@@ -1,0 +1,15 @@
+{%- if page.collection == 'portfolio' -%}{%- assign section = '/portfolio/' -%}
+{%- elsif page.collection == 'posts' -%}{%- assign section = '/year-archive/' -%}
+{%- else -%}{%- assign section = pure_path -%}{%- endif -%}
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}"><span class="say" data-ipa="/ˈkæsi/">Kassey</span> <span class="say" data-ipa="/ɡɛʁ.tɛ̃/">Guertin</span>-<span class="say" data-ipa="/t͡sœːŋ⁵⁵/">Chang</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>{{ t.menu }}</button>
+  <nav class="site-nav" id="site-nav" aria-label="Primary">
+    <ul class="nav-list">
+      {%- for link in site.data.navigation.main %}
+      <li><a href="{{ link.url | relative_url }}"{% if section == link.url %} aria-current="page"{% endif %}>{{ link[title_key] | default: link.title }}</a></li>
+      {%- endfor %}
+    </ul>
+    {% include lang-switch.html %}
+  </nav>
+</header>
