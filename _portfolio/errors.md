@@ -33,11 +33,11 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>According to Boomer and Laver, speech errors, commonly known as the slips of the tongue, can be defined as the ‘involuntary deviation in performance from the speaker’s current phonological, grammatical or lexical intension’ (1968, p. 123). Further features such as nonhabitual (Dell, 1986) and non-pathological (Zhang, 1990) were later apprehended to emphasize that the presence of speech errors concerns one’s language performance instead of one’s language competence. Scholars have investigated the psycholinguistic effects on slips (MacKay, 1970; Shattuck-Hufnagel, 1987) and their relationship with speech production models (Dell, 1986; Fromkin, 1973; Levelt, 1989). It is evident that speech errors could occur on all morphological, phonological, semantic and syntactic levels, from segmental to constituent (Carroll, 2008).</p>
+<p>According to Boomer and Laver, speech errors, commonly known as the slips of the tongue, can be defined as the ‘involuntary deviation in performance from the speaker’s current phonological, grammatical or lexical intention’ (1968, p. 123). Further features such as nonhabitual (Dell, 1986) and non-pathological (Zhang, 1990) were later apprehended to emphasize that the presence of speech errors concerns one’s language performance instead of one’s language competence. Scholars have investigated the psycholinguistic effects on slips (MacKay, 1970; Shattuck-Hufnagel, 1987) and their relationship with speech production models (Dell, 1986; Fromkin, 1973; Levelt, 1989). It is evident that speech errors could occur on all morphological, phonological, semantic and syntactic levels, from segmental to constituent (Carroll, 2008).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Fromkin (1973) categorized speech errors into eight main types: shift, exchange, anticipation, perseveration, addition, deletion, substitution and blend (explanations see appendix B). Shen (1992) and Chen (2001) classified the slips in Chinese similarly. They can also be divided into selection and assemblage errors (Aitchison, 2008). Although the errors are alike cross-linguistically, their patterns could be irregular due to different phonological constructions, syntactic structures and typology. From previous studies on contour tonal language like Cantonese (Alderete et al., 2019), tone slips can also be expected in various forms such as substitutions and blends.</p>
+<p>Fromkin (1973) categorized speech errors into eight main types: shift, exchange, anticipation, perseveration, addition, deletion, substitution and blend (explanations see appendix B). Shen (1992) and Chen (2002) classified the slips in Chinese similarly. They can also be divided into selection and assemblage errors (Aitchison, 2008). Although the errors are alike cross-linguistically, their patterns could be irregular due to different phonological constructions, syntactic structures and typology. From previous studies on contour tonal language like Cantonese (Alderete et al., 2019), tone slips can also be expected in various forms such as substitutions and blends.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -129,7 +129,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":265,"width":405,"height":220,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image.png?w=546" alt="" class="wp-image-265" width="405" height="220"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image.png" alt="" class="wp-image-265" width="405" height="220"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -137,7 +137,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong>Among all speech styles, errors are present in forms of substitution (27%) most frequently, while exchange (1%) is the least common (see Figure 2). However, when different speech styles are compared, it is surprisingly found that casual speeches contained the highest amount of speech errors (48.1%; 115 occurrences) and formal ones the least (15.5%; 37 occurrences). The distributions of errors also vary (see Figure 3). Deletion is the major source of errors in casual, spontaneous speech (25.2%; 29 occurrences), proceeded by shift and blend. In the formal context, substitution errors were dominant (59.4%; 22 occurrences). The distribution of deletion and substitution in informal speeches was identical (28.7% each; 25 occurrences each). It could be deduced that the more formal the speech style is, the more substitution errors were made, whereas the more casual the speech style is, the more deletion errors would take place (See Appendix E for the complete list of speech errors divided by tasks).</p>
+<p><strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong>Among all speech styles, errors are present in forms of substitution (27%) most frequently, while exchange (1%) is the least common (see Figure 2). However, when different speech styles are compared, it is surprisingly found that casual speeches contained the highest amount of speech errors (48.1%; 115 occurrences) and formal ones the least (15.5%; 37 occurrences). The distributions of errors also vary (see Figure 3). Deletion is the major source of errors in casual, spontaneous speech (25.2%; 29 occurrences), followed by shift and blend. In the formal context, substitution errors were dominant (59.4%; 22 occurrences). The distribution of deletion and substitution in informal speeches was identical (28.7% each; 25 occurrences each). It could be deduced that the more formal the speech style is, the more substitution errors were made, whereas the more casual the speech style is, the more deletion errors would take place (See Appendix E for the complete list of speech errors divided by tasks).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -145,7 +145,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":267,"width":292,"height":306,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-1.png?w=426" alt="" class="wp-image-267" width="292" height="306"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-1.png" alt="" class="wp-image-267" width="292" height="306"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -153,7 +153,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":268,"width":326,"height":306,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-2.png?w=464" alt="" class="wp-image-268" width="326" height="306"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-2.png" alt="" class="wp-image-268" width="326" height="306"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -177,11 +177,11 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":269,"width":339,"height":258,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-3.png?w=462" alt="" class="wp-image-269" width="339" height="258"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-3.png" alt="" class="wp-image-269" width="339" height="258"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":270,"width":342,"height":276,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-4.png?w=436" alt="" class="wp-image-270" width="342" height="276"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-4.png" alt="" class="wp-image-270" width="342" height="276"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -201,7 +201,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":271,"width":396,"height":258,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-5.png?w=668" alt="" class="wp-image-271" width="396" height="258"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-5.png" alt="" class="wp-image-271" width="396" height="258"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
@@ -217,7 +217,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The data collected appear to be inconsistent with the dominant finding of formal speech styles containing more speech errors (Carroll, 1986). Most analyses stated the possible reason was due to the nervousness when addressing interlocutors in formal contexts, also known as situational anxiety. An explanation of Task 1 in this study containing the fewest errors could be that the speech elicitation conducted online did not fully portray the formal setting, minimizing the errors caused by nervousness. The following part will provide analyses of predominant speech errors in spontaneous speech, the distinct tendency of substitution occurrences and tonal substitutions in Cantonese.</p>
+<p>The data collected appear to be inconsistent with the dominant finding of formal speech styles containing more speech errors (Carroll, 2008). Most analyses stated the possible reason was due to the nervousness when addressing interlocutors in formal contexts, also known as situational anxiety. An explanation of Task 1 in this study containing the fewest errors could be that the speech elicitation conducted online did not fully portray the formal setting, minimizing the errors caused by nervousness. The following part will provide analyses of predominant speech errors in spontaneous speech, the distinct tendency of substitution occurrences and tonal substitutions in Cantonese.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -265,7 +265,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Substitutions accounted for the most extensive proportion of speech errors in careful speech (59.4%), while the percentages are relatively low in informal (28.7%) and casual (14.8%) speech compared to other error types. Overall, the occurrences of semantical substitutions (59.3%) are negligibly more than phonological ones (see Table 3 for examples). When a lexical item/phoneme is processed, its semantic associations would also be activated, sometimes inaccurately obtaining higher activation than the intended item/unit and therefore being inserted into the proceeding slot (Wan &amp; Jaeger, 1998). For instance, 嚟(lai4) and 來(loi4) are semantic equivalents used in spoken Cantonese and written Chinese respectively. They are also phonologically close, only differing in the peak diphthongs [ɐi] for lai4 and [ɔi] for loi4. Several phonological substitution errors can be related to the phonetic and semantic radical irregularity and mismatch in the Chinese characters (Hsiao &amp; Shillcock, 2006). In the case of an error, the phonological radicals were activated during the pronunciation processing instead of the irregular and less frequent but correct phonetic form. For example, the phonetic radical 將(zoeng1) substituted the correct pronunciation of 鏘(coeng1).</p>
+<p>Substitutions accounted for the most extensive proportion of speech errors in careful speech (59.4%), while the percentages are relatively low in informal (28.7%) and casual (14.8%) speech compared to other error types. Overall, the occurrences of semantical substitutions (59.3%) are noticeably more than phonological ones (see Table 3 for examples). When a lexical item/phoneme is processed, its semantic associations would also be activated, sometimes inaccurately obtaining higher activation than the intended item/unit and therefore being inserted into the proceeding slot (Wan &amp; Jaeger, 1998). For instance, 嚟(lai4) and 來(loi4) are semantic equivalents used in spoken Cantonese and written Chinese respectively. They are also phonologically close, only differing in the peak diphthongs [ɐi] for lai4 and [ɔi] for loi4. Several phonological substitution errors can be related to the phonetic and semantic radical irregularity and mismatch in the Chinese characters (Hsiao &amp; Shillcock, 2006). In the case of an error, the phonological radicals were activated during the pronunciation processing instead of the irregular and less frequent but correct phonetic form. For example, the phonetic radical 將(zoeng1) substituted the correct pronunciation of 鏘(coeng1).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -313,7 +313,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>Short pauses(.): <br>after a long utterance <br>before a high-frequency word (with more word choices)<br>before or after adjectivesafter speech errors (especially those with self-repairs)</td><td>希望佢哋可以盡快(.)幫你搵番部手機同埋你哋啲貴重物品啦(.) …衣著係灰色嘅(.)鴨嘴帽… … &amp;誒 紫 [//] 淺 紫色 嘅… …&lt;覺得咁辛苦&gt;[//]即係喺咁辛苦嘅壓力之下… &lt;咁因(為)&gt; [//] (.) 咁每次… &lt;幫佢&gt;[//](.)幫佢收埋…</td></tr><tr><td>Long pauses(..): <br>after a long utterance<br>before or after conjunctions<br>before verb phrases</td><td>…亦都好鍾意演唱一啲唔同音樂劇嘅音樂啦(..) (..)daai6[: 但係]啲人都指出佢冇工作證咁樣做… 因為(..)點都會有少少嘢做嘅其實(.) 因為 (.) &amp;誒 呢 個 假期… 因為 &amp;=gasps我比較鍾意… (.) &amp;誒 set@s:eng up@s:eng 咗… 同朋友或者屋企人即係相聚… 又要&amp;=gasps 預備上堂嘅嘢…</td></tr><tr><td>Very long pauses(...): <br>before or after articulating a rare/low-frequency content word<br>after a long and semantically dense utterance <br>before beginning a new topic</td><td>…將呢個嘅賊人(.)繩之(.)於法(...) 咁而我最鍾意演奏嘅都係浪漫時期嘅音樂啦,包括有蕭邦啊&amp;誒李斯特啊(..)等等咁樣啦(...) …啲人講點樣可以打得好啲咁樣(...),再(..)得閒啲即ai6 [: 即係]將上述嘅嘢全部做哂… 同自己相處 ,(..)係 喇(..),跟住(..)&amp;誒(..)得閒&lt;我仲會&gt;[//]我會打排球 &amp;hm 咁 &amp;=clears:throat 我自己&amp;呢點解會鍾意唱歌&amp;呢 …</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td>Short pauses(.): <br>after a long utterance <br>before a high-frequency word (with more word choices)<br>before or after adjectives<br>after speech errors (especially those with self-repairs)</td><td>希望佢哋可以盡快(.)幫你搵番部手機同埋你哋啲貴重物品啦(.) …衣著係灰色嘅(.)鴨嘴帽… … &amp;誒 紫 [//] 淺 紫色 嘅… …&lt;覺得咁辛苦&gt;[//]即係喺咁辛苦嘅壓力之下… &lt;咁因(為)&gt; [//] (.) 咁每次… &lt;幫佢&gt;[//](.)幫佢收埋…</td></tr><tr><td>Long pauses(..): <br>after a long utterance<br>before or after conjunctions<br>before verb phrases</td><td>…亦都好鍾意演唱一啲唔同音樂劇嘅音樂啦(..) (..)daai6[: 但係]啲人都指出佢冇工作證咁樣做… 因為(..)點都會有少少嘢做嘅其實(.) 因為 (.) &amp;誒 呢 個 假期… 因為 &amp;=gasps我比較鍾意… (.) &amp;誒 set@s:eng up@s:eng 咗… 同朋友或者屋企人即係相聚… 又要&amp;=gasps 預備上堂嘅嘢…</td></tr><tr><td>Very long pauses(...): <br>before or after articulating a rare/low-frequency content word<br>after a long and semantically dense utterance <br>before beginning a new topic</td><td>…將呢個嘅賊人(.)繩之(.)於法(...) 咁而我最鍾意演奏嘅都係浪漫時期嘅音樂啦,包括有蕭邦啊&amp;誒李斯特啊(..)等等咁樣啦(...) …啲人講點樣可以打得好啲咁樣(...),再(..)得閒啲即ai6 [: 即係]將上述嘅嘢全部做哂… 同自己相處 ,(..)係 喇(..),跟住(..)&amp;誒(..)得閒&lt;我仲會&gt;[//]我會打排球 &amp;hm 咁 &amp;=clears:throat 我自己&amp;呢點解會鍾意唱歌&amp;呢 …</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
@@ -341,11 +341,11 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Alderete, J. (2022). Cross-Linguistic Trends in Speech Errors: An Analysis of Sub-Lexical Errors in Cantonese. <em>Language and Speech</em>. DOI: 00238309211071045.</p>
+<p>Alderete, J. (2022). Cross-Linguistic Trends in Speech Errors: An Analysis of Sub-Lexical Errors in Cantonese. <em>Language and Speech</em>. https://doi.org/10.1177/00238309211071045.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Anand, P., Chung, S., &amp; Wagers, M. (2011). Widening the net: Challenges for gathering linguistic data in the digital age (<em>NSF SBE 2020: Future research in the social, behavioral, &amp; economic sciences</em>). https:// www.nsf.gov/sbe/sbe_2020/Abstracts.pdf</p>
+<p>Anand, P., Chung, S., &amp; Wagers, M. (2011). Widening the net: Challenges for gathering linguistic data in the digital age (<em>NSF SBE 2020: Future research in the social, behavioral, &amp; economic sciences</em>). https://www.nsf.gov/sbe/sbe_2020/Abstracts.pdf</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -357,7 +357,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Carroll. D. W. (2008) <em>Psychology of Language</em>. Belmont, California: Wadsworth/ Thomson Learning.</p>
+<p>Carroll, D. W. (2008) <em>Psychology of Language</em>. Belmont, California: Wadsworth/ Thomson Learning.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -461,7 +461,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":275,"width":535,"height":227,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-6.png?w=748" alt="" class="wp-image-275" width="535" height="227"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-6.png" alt="" class="wp-image-275" width="535" height="227"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -501,7 +501,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>Types of speech errors</td><td>Task 1</td><td>Task 2</td><td>Task 3</td><td>Total</td></tr><tr><td>Shift</td><td>1</td><td>10</td><td>24</td><td>35</td></tr><tr><td>Exchange</td><td>0</td><td>2</td><td>0</td><td>2</td></tr><tr><td>Anticipation</td><td>2</td><td>3</td><td>3</td><td>8</td></tr><tr><td>Perseveration</td><td>0</td><td>1</td><td>4</td><td>5</td></tr><tr><td>Addition</td><td>5</td><td>15</td><td>17</td><td>37</td></tr><tr><td>Deletion</td><td>6</td><td>25</td><td>30</td><td>61</td></tr><tr><td>Substitution</td><td>22</td><td>25</td><td>16</td><td>63</td></tr><tr><td>Blend</td><td>1</td><td>6</td><td>21</td><td>28</td></tr><tr><td>Total number of speech errors</td><td>37</td><td>87</td><td>115</td><td>239</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td>Types of speech errors</td><td>Task 1</td><td>Task 2</td><td>Task 3</td><td>Total</td></tr><tr><td>Shift</td><td>1</td><td>10</td><td>24</td><td>35</td></tr><tr><td>Exchange</td><td>0</td><td>2</td><td>0</td><td>2</td></tr><tr><td>Anticipation</td><td>2</td><td>3</td><td>3</td><td>8</td></tr><tr><td>Perseveration</td><td>0</td><td>1</td><td>4</td><td>5</td></tr><tr><td>Addition</td><td>5</td><td>15</td><td>17</td><td>37</td></tr><tr><td>Deletion</td><td>6</td><td>25</td><td>29</td><td>60</td></tr><tr><td>Substitution</td><td>22</td><td>25</td><td>17</td><td>64</td></tr><tr><td>Blend</td><td>1</td><td>6</td><td>21</td><td>28</td></tr><tr><td>Total number of speech errors</td><td>37</td><td>87</td><td>115</td><td>239</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
@@ -526,4 +526,4 @@ kind: paper
 
 <!-- wp:table -->
 <figure class="wp-block-table"><table><tbody><tr><td></td><td>Task 1</td><td>Task 2</td><td>Task 3</td></tr><tr><td>Instant repairs</td><td>8</td><td>37</td><td>32</td></tr><tr><td>Anticipatory retracing</td><td>5</td><td>27</td><td>18</td></tr><tr><td>Fresh starts</td><td>0</td><td>14</td><td>11</td></tr><tr><td>Total number of self-repairs</td><td>13</td><td>78</td><td>61</td></tr></tbody></table></figure>
-<!-- /wp:table -->html, it will be parsed as HTML. 
+<!-- /wp:table -->
