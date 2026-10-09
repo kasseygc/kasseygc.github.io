@@ -19,16 +19,18 @@ deck_zh-HK: "涵蓋軟件、機器學習及語言科技的項目，由研究原�
 <ul class="rows">
   {%- for item in g.items %}
   {%- if item.url contains '://' -%}{%- assign ext = true -%}{%- else -%}{%- assign ext = false -%}{%- endif %}
+  {%- if item.url and item.paper == nil -%}{%- assign whole = true -%}{%- else -%}{%- assign whole = false -%}{%- endif %}
   <li id="{{ item.id }}">
-    {%- if item.url %}
+    {%- if whole %}
     <a class="row" href="{% if ext %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if ext %} target="_blank" rel="noopener"{% endif %}>
     {%- else %}
     <div class="row">
     {%- endif %}
-      <span class="row-title">{{ item.title }}{% if item.url %} <span class="ext" aria-hidden="true">{% if ext %}↗{% else %}→{% endif %}</span>{% endif %}</span>
+      <span class="row-title">{{ item.title }}{% if whole %} <span class="ext" aria-hidden="true">{% if ext %}↗{% else %}→{% endif %}</span>{% endif %}</span>
       <span class="row-desc">{{ item.desc }}</span>
       {%- if item.tech %}<span class="row-note">{{ item.tech | replace: ' · ', ', ' }}</span>{% endif %}
-    {%- if item.url %}</a>{% else %}</div>{% endif %}
+      {%- if item.paper %}<span class="row-links"><a href="{{ item.paper | relative_url }}" target="_blank" rel="noopener">{{ t.pdf }} ↗</a>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}</span>{% endif %}
+    {%- if whole %}</a>{% else %}</div>{% endif %}
   </li>
   {%- endfor %}
 </ul>

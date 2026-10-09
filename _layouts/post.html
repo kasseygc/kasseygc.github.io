@@ -7,12 +7,18 @@ layout: default
 {%- else -%}
   {%- assign back_url = '/year-archive/' -%}{%- assign back_label = t.back_writing -%}
 {%- endif -%}
-{%- assign words = content | strip_html | number_of_words -%}
-{%- assign minutes = words | divided_by: 220 | plus: 1 -%}
+{%- assign text_lang = page.text_lang | default: 'en' -%}
+{%- if text_lang contains 'zh' -%}
+  {%- assign words = content | strip_html | strip_newlines | remove: ' ' | size -%}
+  {%- assign minutes = words | divided_by: 400 | plus: 1 -%}
+{%- else -%}
+  {%- assign words = content | strip_html | number_of_words -%}
+  {%- assign minutes = words | divided_by: 220 | plus: 1 -%}
+{%- endif -%}
 <article class="post" data-tint="#f3f1ec">
   <header class="post-head">
     <p class="crumbs"><a href="{{ back_url | relative_url }}">← {{ back_label }}</a></p>
-    <h1 class="post-title" lang="en">{{ page.title }}</h1>
+    <h1 class="post-title" lang="{{ text_lang }}">{{ page.title }}</h1>
     <p class="post-meta">
       {%- if page.collection == 'portfolio' -%}
         {{ page.field }}
@@ -24,7 +30,7 @@ layout: default
     </p>
   </header>
 
-  <div class="post-body" lang="{{ page.lang | default: 'en' }}">
+  <div class="post-body" lang="{{ page.text_lang | default: page.lang | default: 'en' }}">
     {%- if words < 80 and page.excerpt %}
     <p class="abstract">{{ page.excerpt | strip_html | strip }}</p>
     {%- endif %}
@@ -42,10 +48,10 @@ layout: default
 
   <nav class="post-nav" aria-label="{{ t.prev }} / {{ t.next }}">
     {%- if page.previous %}
-    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}"><span class="post-nav-dir">← {{ t.prev }}</span><span class="post-nav-title">{{ page.previous.title }}</span></a>
+    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}"><span class="post-nav-dir">← {{ t.prev }}</span><span class="post-nav-title"{% if page.previous.text_lang %} lang="{{ page.previous.text_lang }}"{% endif %}>{{ page.previous.title }}</span></a>
     {%- else %}<span></span>{% endif %}
     {%- if page.next %}
-    <a class="post-nav-next" href="{{ page.next.url | relative_url }}"><span class="post-nav-dir">{{ t.next }} →</span><span class="post-nav-title">{{ page.next.title }}</span></a>
+    <a class="post-nav-next" href="{{ page.next.url | relative_url }}"><span class="post-nav-dir">{{ t.next }} →</span><span class="post-nav-title"{% if page.next.text_lang %} lang="{{ page.next.text_lang }}"{% endif %}>{{ page.next.title }}</span></a>
     {%- else %}<span></span>{% endif %}
   </nav>
 </article>

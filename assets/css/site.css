@@ -132,6 +132,7 @@ a.row:hover .row-title { text-decoration: underline; text-decoration-thickness: 
 .row-meta { font-size: 14px; color: var(--muted); text-align: right; white-space: nowrap; }
 .row-desc { grid-column: 1 / -1; max-width: 62ch; font-size: 15px; color: var(--muted); }
 .row-note { grid-column: 1 / -1; font-size: 13px; color: var(--muted); }
+.row-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 4px; font-size: 14px; }
 .ext { font-weight: 400; color: var(--muted); }
 .rows-compact .row { padding: 13px 0; }
 .rows-compact .row-title { font-weight: 400; }
@@ -180,6 +181,8 @@ a.row:hover .row-title { text-decoration: underline; text-decoration-thickness: 
 .post-body p:empty { display: none; }
 .post-body :is(h1, h2, h3, h4, h5, h6) { margin: 2em 0 0.6em; font-family: var(--sans); font-size: 15px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em; }
 .post-body blockquote { margin: 1.4em 0; padding-left: 1em; border-left: 1px solid var(--ink); color: var(--muted); }
+.post-body .post-note { margin-top: 2.4em; font-family: var(--sans); font-size: 14px; color: var(--muted); }
+.post-title:lang(zh) { font-size: clamp(30px, 3.6vw, 46px); line-height: 1.25; }
 .post-body ul, .post-body ol { padding-left: 1.3em; }
 .post-body figure { margin: 1.8em 0; }
 .post-body figcaption, .post-body .wp-element-caption { margin-top: 8px; font-family: var(--sans); font-size: 13px; color: var(--muted); }
