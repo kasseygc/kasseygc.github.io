@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- if page.layout == 'home' -%}
-  {%- capture doc_title -%}{{ site.title }} — {{ page.tagline }}{%- endcapture -%}
+  {%- assign doc_title = site.title -%}
 {%- else -%}
-  {%- capture doc_title -%}{{ page_title | strip_html }} — {{ site.title }}{%- endcapture -%}
+  {%- capture doc_title -%}{{ page_title | strip_html }} · {{ site.title }}{%- endcapture -%}
 {%- endif -%}
 {%- assign desc = page.deck | default: page.role | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 180 -%}
 <title>{{ doc_title }}</title>
