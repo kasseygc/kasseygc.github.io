@@ -78,7 +78,7 @@
       id: neighborhood-based-clustering-for-visual-mental-imagery
     - title: "Multilingual Acquisition Analysis"
       tag: "Linguistics · Corpus"
-      desc: "Corpus-driven study of sentence-final particle acquisition across language backgrounds, over 10,000+ multilingual utterances."
+      desc: "Corpus-driven study of sentence-final particle acquisition across language backgrounds, over 10,000 multilingual utterances."
       tech: "Python · R · lme4"
       url: /portfolio/seniorthesis/
       id: multilingual-acquisition-analysis

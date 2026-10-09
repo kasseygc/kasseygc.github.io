@@ -1,6 +1,6 @@
 ---
 title: "Endangered Language in Macao: Review on Patuá Macaense"
-excerpt: " Language users might tend to take their languages for granted, especially their native languages. Not being aware of the linguistic phenomena could lead to adverse consequences to the language’s survival, i.e. language loss/language death, particularly those minority languages with fewer and fewer speakers left. Thus, the United Nations Educational, Scientific and Cultural Organization (UNESCO) has been attempting to examine the ethnolinguistic vitality of world languages and has identified some endangered languages (Moseley, 2010). Little people in Hong Kong know about the existence of a critically endangered language right next to them - the Macanese Patois (Portuguese: Patuá Macaense; Cantonese: 澳門土生葡語) spoken in Macao."
+excerpt: " Language users might tend to take their languages for granted, especially their native languages. Not being aware of the linguistic phenomena could lead to adverse consequences to the language’s survival, i.e. language loss/language death, particularly those minority languages with fewer and fewer speakers left. Thus, the United Nations Educational, Scientific and Cultural Organization (UNESCO) has been attempting to examine the ethnolinguistic vitality of world languages and has identified some endangered languages (Moseley, 2010). Few people in Hong Kong know about the existence of a critically endangered language right next to them - the Macanese Patois (Portuguese: Patuá Macaense; Cantonese: 澳門土生葡語) spoken in Macao."
 collection: portfolio
 order: 10
 field: "Language endangerment · Creoles"
@@ -8,7 +8,7 @@ studied: "Patuá (Macanese)"
 kind: review
 ---
 <!-- wp:paragraph -->
-<p>Language users might tend to take their languages for granted, especially their native languages. Not being aware of the linguistic phenomena could lead to adverse consequences to the language’s survival, i.e. language loss/language death, particularly those minority languages with fewer and fewer speakers left. Thus, the United Nations Educational, Scientific and Cultural Organization (UNESCO) has been attempting to examine the ethnolinguistic vitality of world languages and has identified some endangered languages (Moseley, 2010). Little people in Hong Kong know about the existence of a critically endangered language right next to them - the Macanese Patois (Portuguese: Patuá Macaense; Cantonese: 澳門土生葡語) spoken in Macao.</p>
+<p>Language users might tend to take their languages for granted, especially their native languages. Not being aware of the linguistic phenomena could lead to adverse consequences to the language’s survival, i.e. language loss/language death, particularly those minority languages with fewer and fewer speakers left. Thus, the United Nations Educational, Scientific and Cultural Organization (UNESCO) has been attempting to examine the ethnolinguistic vitality of world languages and has identified some endangered languages (Moseley, 2010). Few people in Hong Kong know about the existence of a critically endangered language right next to them - the Macanese Patois (Portuguese: Patuá Macaense; Cantonese: 澳門土生葡語) spoken in Macao.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -23,11 +23,9 @@ kind: review
 <p>Ansaldo and Matthews (2004) identified four main structural features of MCP distinctive to Portuguese, the superstrate/lexifier language, namely the loss of copula (1), the absence of female gender (2), the absence of number distinction (3) and the absence of verbal morphology (4). Examples are drawn from the glossary by Fernandes and Baxter (2004):</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><em>Êle tâ bêm-di filiz</em>. (p. 20)</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
+<!-- wp:paragraph -->
+<p>(1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>Êle tâ bêm-di filiz</em>. (p. 20)</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>He so well-PREP happy.</p>
@@ -41,11 +39,9 @@ kind: review
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note: Presence of <em>é</em> (‘is’) in Portuguese.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><em>Chapâ perto di noiva</em>. (p. 38-39)</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
+<!-- wp:paragraph -->
+<p>(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>Chapâ perto di noiva</em>. (p. 38-39)</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>Lean&nbsp;&nbsp;&nbsp; near&nbsp; PREP girlfriend.</p>
@@ -59,11 +55,9 @@ kind: review
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note: <em>di</em> would be marked as <em>da</em> in Portuguese since <em>noiva</em> is a feminine noun.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><em>Siára-siára quelóra comprâ sôm têm qui chipi-cherâ tudo ancuza</em>. (p.43)</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
+<!-- wp:paragraph -->
+<p>(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>Siára-siára quelóra comprâ sôm têm qui chipi-cherâ tudo ancuza</em>. (p.43)</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>Ladies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; when&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; buy&nbsp;&nbsp;&nbsp; food POSS which examine-in-detail every thing.</p>
@@ -150,7 +144,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ‘common people’ (Fernandes &amp; Baxter, 2004 , p.141)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ‘common people’ (Fernandes &amp; Baxter, 2004, p.141)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -194,11 +188,11 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>(12)&nbsp;&nbsp;&nbsp;&nbsp; <em>Osh omens tocam <strong>suavamente</strong> “ti-ti-lim, ti-ti-lim”.</em></p>
+<p>(12)&nbsp;&nbsp;&nbsp;&nbsp; <em>Os homens tocam <strong>suavemente</strong> “ti-ti-lim, ti-ti-lim”.</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ‘The men play sweetly [onomatopedia].’</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ‘The men play sweetly [onomatopoeia].’</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -266,7 +260,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The distributive sense could be explicit by reduplicated numerals, such as <em>unga-unga</em> (‘one by one’) in (15) and <em>dos-dos </em>(‘two by two’). It has the pattern of being in a preverbal position. The impact of Cantonese could play a role in it. As (16) has shown, the reduplicated phrase <em>jat1 go3 jat go3</em> (‘one by one’) is placed before the verb <em>lei4hoi1</em> (‘leave’).</p>
+<p>The distributive sense could be explicit by reduplicated numerals, such as <em>unga-unga</em> (‘one by one’) in (15) and <em>dos-dos </em>(‘two by two’). It has the pattern of being in a preverbal position. The impact of Cantonese could play a role in it. As (16) has shown, the reduplicated phrase <em>jat1 go3 jat1 go3</em> (‘one by one’) is placed before the verb <em>lei4hoi1</em> (‘leave’).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -278,7 +272,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>As Ansaldo (2009) suggested, the Macanese patois carried cultural and emotive functions of the identity of Makista. The speakers, however, had undergone a process of language shift to Cantonese in Macao (Noronha &amp; Chaplin, 2012) and later, diaspora during the post-colonial period. A recent interview with Makistas (Zhang, 2020) found that they no longer considered the Macanese patois as the essential bonding or symbol of their self-identities. Instead, the multilingual competence of Cantonese, Portuguese and English is valued much more. They viewed the patois as ‘laughable’ yet ‘interesting’. Under these circumstances, many believed that the path towards language death would be hard to reverse. Still, several new attempts emerged in the current decade to try to revive the language. A relatively successful one is the founding of the theatrical group Dóci Papiaçám di Macao. Its theatre performances in patois have raised local Macaneses’ awareness of the dying status of the language, and the organization has later become a member of the Macao Intangible Heritage. Zhang (2020) also proposed the salience of maintenance and inheritance within overseas speech communities. It could be the direction of upcoming language revival campaigns.</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>As Ansaldo (2009) suggested, the Macanese patois carried cultural and emotive functions of the identity of Makista. The speakers, however, had undergone a process of language shift to Cantonese in Macao (Noronha &amp; Chaplin, 2012) and later, diaspora during the post-colonial period. A recent interview with Makistas (Zhang, 2020) found that they no longer considered the Macanese patois as the essential bonding or symbol of their self-identities. Instead, the multilingual competence of Cantonese, Portuguese and English is valued much more. They viewed the patois as ‘laughable’ yet ‘interesting’. Under these circumstances, many believed that the path towards language death would be hard to reverse. Still, several new attempts emerged in the current decade to try to revive the language. A relatively successful one is the founding of the theatrical group Dóci Papiaçám di Macao. Its theatre performances in patois have raised local Macanese people’s awareness of the dying status of the language, and the organization has later become a member of the Macao Intangible Heritage. Zhang (2020) also proposed the salience of maintenance and inheritance within overseas speech communities. It could be the direction of upcoming language revival campaigns.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4,"anchor":"references"} -->
@@ -322,7 +316,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Santos Ferreira, J. dos. (1996). <em>Papiaçám di Macao</em>. Macao: Fudação Macao.</p>
+<p>Santos Ferreira, J. dos. (1996). <em>Papiaçám di Macao</em>. Macao: Fundação Macau.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -334,5 +328,5 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Zhang, J. (2020). Yinyu shequ shijiao xia de yuyin huoli: yi Aomen tusheng puyu wei li [Language Vitality in the Perspective of Speech Community: The Case of Patuá]. <em>Yunnan shifan daxue xuebao (Zhexue Shehui kexue ban)</em> [Journal of Yunnan Normal University (Philosophy and social science section]], 52(1), 32-39.</p>
+<p>Zhang, J. (2020). Yinyu shequ shijiao xia de yuyin huoli: yi Aomen tusheng puyu wei li [Language Vitality in the Perspective of Speech Community: The Case of Patuá]. <em>Yunnan shifan daxue xuebao (Zhexue Shehui kexue ban)</em> [Journal of Yunnan Normal University (Philosophy and social science section)], 52(1), 32-39.</p>
 <!-- /wp:paragraph -->
