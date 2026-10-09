@@ -46,7 +46,7 @@ kind: paper
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>東dōng ‘east’, 南nán ‘south’, 西xī&nbsp; ‘west’, 北bei ‘north’</li>
+<li>東dōng ‘east’, 南nán ‘south’, 西xī&nbsp; ‘west’, 北běi ‘north’</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -96,7 +96,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>那 個 蘋果 <strong>在 </strong>桌子 <strong>上</strong>。</li>
+<li>(1)&nbsp; 那 個 蘋果 <strong>在 </strong>桌子 <strong>上</strong>。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -109,7 +109,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In the above example (1), place word 在zài and localizer 上shàng are incorporated side to side to express the spatial relationship of the object apple (Trajector) physically contacted with and positioned above the table (Landmark). Attaching to the TR, the localizer 上shàng is then bounded to it and reconstructed into a place word. The sentence would be ungrammatical if lacking one of the spatial devices.</p>
+<p>In the above example (1), place word 在zài and localizer 上shàng are incorporated side by side to express the spatial relationship of the object apple (Trajector) physically contacted with and positioned above the table (Landmark). Attaching to the LM, the localizer 上shàng is then bound to it and reconstructed into a place word. The sentence would be ungrammatical if lacking one of the spatial devices.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -147,7 +147,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>Particles</td><td>English translations</td><td>Functions</td><td>Examples</td></tr><tr><td>にni</td><td>‘to/on/at/into’</td><td>Stative location, goal of motion, direction towards a place/object</td><td>リンゴを箱<strong>に</strong>入れた ‘put the apple <em>into</em> the box’</td></tr><tr><td>でde</td><td>‘at/in’</td><td>Both dynamic or stative location, location where an action takes place</td><td>図書館<strong>で</strong>勉強します ‘study <em>at</em> the librabary’</td></tr><tr><td>をo</td><td>‘along/on/around/through’</td><td>Location where the motion covers</td><td>空<strong>を</strong>飛ぶ ‘fly <em>on</em> the sky’</td></tr><tr><td>へ e</td><td>‘to/towards’</td><td>Goal of direction (conventionally used with から)</td><td>日本<strong>へ</strong>行きたいです ‘want to go <em>to</em> Japan’</td></tr><tr><td>からkara</td><td>‘from’</td><td>Starting point of motion</td><td>窓<strong>から</strong>海が見えます ‘see the sea <em>from</em> the window’</td></tr><tr><td>よりyori</td><td>‘from’</td><td>Starting point of motion (similar to から)</td><td>東京都<strong><u>より</u></strong>大阪<strong><u>まで</u></strong> ‘<em><u>from</u> </em>Tokyo <em><u>to</u></em> Osaka’</td></tr><tr><td>までmade</td><td>‘to/until’</td><td>Ending point of motion (conventionally used with から)</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td>Particles</td><td>English translations</td><td>Functions</td><td>Examples</td></tr><tr><td>にni</td><td>‘to/on/at/into’</td><td>Stative location, goal of motion, direction towards a place/object</td><td>リンゴを箱<strong>に</strong>入れた ‘put the apple <em>into</em> the box’</td></tr><tr><td>でde</td><td>‘at/in’</td><td>Both dynamic or stative location, location where an action takes place</td><td>図書館<strong>で</strong>勉強します ‘study <em>at</em> the library’</td></tr><tr><td>をo</td><td>‘along/on/around/through’</td><td>Location where the motion covers</td><td>空<strong>を</strong>飛ぶ ‘fly <em>on</em> the sky’</td></tr><tr><td>へ e</td><td>‘to/towards’</td><td>Goal of direction (conventionally used with から)</td><td>日本<strong>へ</strong>行きたいです ‘want to go <em>to</em> Japan’</td></tr><tr><td>からkara</td><td>‘from’</td><td>Starting point of motion</td><td>窓<strong>から</strong>海が見えます ‘see the sea <em>from</em> the window’</td></tr><tr><td>よりyori</td><td>‘from’</td><td>Starting point of motion (similar to から)</td><td>東京都<strong><u>より</u></strong>大阪<strong><u>まで</u></strong> ‘<em><u>from</u> </em>Tokyo <em><u>to</u></em> Osaka’</td></tr><tr><td>までmade</td><td>‘to/until’</td><td>Ending point of motion (conventionally used with から)</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
@@ -169,12 +169,12 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A specific feature of Japanese is the flexibility of word order (Kaiser et al., 2001). The inversion between words allows emphasis placed on different foregrounded and backgrounded entities under varied contexts. In (2), the entity apple is marked by topic maker はwa, and its position on the table is backgrounded. If the speaker needs to foreground the location, it could be an utterance like (3):</p>
+<p>A specific feature of Japanese is the flexibility of word order (Kaiser et al., 2001). The inversion between words allows emphasis placed on different foregrounded and backgrounded entities under varied contexts. In (2), the entity apple is marked by topic marker はwa, and its position on the table is backgrounded. If the speaker needs to foreground the location, it could be an utterance like (3):</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>テーブル の <strong>上</strong> <strong>に</strong> リンゴ が あります。</li>
+<li>(3)&nbsp; テーブル の <strong>上</strong> <strong>に</strong> リンゴ が あります。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -200,19 +200,19 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>The toy is in the box. (toy: TR; box: LM)</li>
+<li>(4)&nbsp; The toy is in the box. (toy: TR; box: LM)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>He has a scar on the face. (scar: foregrounded TR; face: backgrounded LM)</li>
+<li>(5)&nbsp; He has a scar on the face. (scar: foregrounded TR; face: backgrounded LM)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Peter is at the station.</li>
+<li>(6)&nbsp; Peter is at the station.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>He fell at the final hurdle. (He: TR; path: a hurdling race)</li>
+<li>(7)&nbsp; He fell at the final hurdle. (He: TR; path: a hurdling race)</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -259,11 +259,11 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><img class="wp-image-215" style="width:400px;" src="https://kathchangcm.files.wordpress.com/2021/12/picture-1.png" alt=""></td><td><img class="wp-image-216" style="width:400px;" src="https://kathchangcm.files.wordpress.com/2021/12/picture-2.png" alt=""></td></tr><tr><td><em>Figure 1 </em><em>Tokens of Prepositions in JEFLL Corpus</em></td><td><em>Figure 2 </em><em>Tokens of Prepositions in TECCL Corpus</em></td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><img class="wp-image-215" style="width:400px;" src="/images/posts/picture-1.png" alt=""></td><td><img class="wp-image-216" style="width:400px;" src="/images/posts/picture-2.png" alt=""></td></tr><tr><td><em>Figure 1 </em><em>Tokens of Prepositions in JEFLL Corpus</em></td><td><em>Figure 2 </em><em>Tokens of Prepositions in TECCL Corpus</em></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
-<p>The results made it evident that neither Japanese and Chinese L1 speakers of L2 English could fully acquire the spatial expressions. The observed errors related to the spatial devices could be divided into three main categories: unnecessary addition, omission and incorrect usage. Selected errors in ‘on’, ‘at’ and ‘in’ found from the two corpora are shown in tables 3, 4 and 5, respectively.</p>
+<p>The results made it evident that neither Japanese nor Chinese L1 speakers of L2 English could fully acquire the spatial expressions. The observed errors related to the spatial devices could be divided into three main categories: unnecessary addition, omission and incorrect usage. Selected errors in ‘on’, ‘at’ and ‘in’ found from the two corpora are shown in tables 3, 4 and 5, respectively.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -312,7 +312,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>私は 学校<strong>に</strong><strong> </strong>いました。</li>
+<li>(8)&nbsp; 私は 学校<strong>に</strong><strong> </strong>いました。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -322,7 +322,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>私は とても 高い ビル<strong>に</strong><strong> </strong>いました。</li>
+<li>(9)&nbsp; 私は とても 高い ビル<strong>に</strong><strong> </strong>いました。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -332,7 +332,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>教室<strong>で</strong><strong> </strong>友達を 見つけました。</li>
+<li>(10)&nbsp; 教室<strong>で</strong><strong> </strong>友達を 見つけました。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -342,7 +342,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>私は7時<strong>に </strong>家<strong>を </strong>出ます。</li>
+<li>(11)&nbsp; 私は7時<strong>に </strong>家<strong>を </strong>出ます。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -351,12 +351,12 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Chinese speakers are usually confused with the usage of ‘on’ and ‘in’. When ‘People are afforded to life (live) equally <em>on</em> (in) the world’ (from table 3) is manifested in Chinese (see sentence 12), the prepositional phrase ‘in the world’ is ‘on the world’ (<strong>在 </strong>世界<strong>上</strong>) by transliteration. To further explain, it could be deduced that in English, the world is conveyed as a container with human beings living inside it, while in Chinese, the world is conceptualized as a surface of a planet that supports human beings living on it. The error appeared in ‘… it’s still very useful <em><s>in</s></em> nowadays…’ (from table 5) could be owing to the learner’s misconception of the adverb ‘nowadays’ being a translation equivalent of ‘現在 xiànzài’. The word ‘現在 xiànzài’ is in fact closer to ‘now’, and it has to be preceded by the place word ‘到dào’ (see sentence 13) in this context, yet a preposition is unnecessary before the occurrence of an adverb in English. The mistake made in ‘There is a big beach <s>at</s> <s>there</s>’ (from table 4) could be interpreted as the student mixing up locative concepts within Chinese and also across Chinese and English. The expression could be translated to Chinese in two conventional ways (see sentences 14 and 15). The former only used the demonstrative ‘那nà’ plus the localizer ‘裏lǐ’ to refer to the expression of ‘there’; the latter incorporated place word ‘在zài’, demonstrative ‘那nà’ and localizer ‘裏lǐ’, forming a PP. It could be assumed that the student wanted to convey the meaning of sentence 15, as it foregrounded the location of the beach instead of simply indicating the existence via an additional place word. However, the student had doubled the demonstrative ‘there’. A better expression to foreground the locative element could be ‘the big beach is there’.</p>
+<p>Chinese speakers are usually confused with the usage of ‘on’ and ‘in’. When ‘People are afforded to life (live) equally <em>on</em> (in) the world’ (from table 3) is manifested in Chinese (see sentence 12), the prepositional phrase ‘in the world’ is ‘on the world’ (<strong>在 </strong>世界<strong>上</strong>) by literal translation. To further explain, it could be deduced that in English, the world is conveyed as a container with human beings living inside it, while in Chinese, the world is conceptualized as a surface of a planet that supports human beings living on it. The error appeared in ‘… it’s still very useful <em><s>in</s></em> nowadays…’ (from table 5) could be owing to the learner’s misconception of the adverb ‘nowadays’ being a translation equivalent of ‘現在 xiànzài’. The word ‘現在 xiànzài’ is in fact closer to ‘now’, and it has to be preceded by the place word ‘到dào’ (see sentence 13) in this context, yet a preposition is unnecessary before the occurrence of an adverb in English. The mistake made in ‘There is a big beach <s>at</s> <s>there</s>’ (from table 4) could be interpreted as the student mixing up locative concepts within Chinese and also across Chinese and English. The expression could be translated to Chinese in two conventional ways (see sentences 14 and 15). The former only used the demonstrative ‘那nà’ plus the localizer ‘裏lǐ’ to refer to the expression of ‘there’; the latter incorporated place word ‘在zài’, demonstrative ‘那nà’ and localizer ‘裏lǐ’, forming a PP. It could be assumed that the student wanted to convey the meaning of sentence 15, as it foregrounded the location of the beach instead of simply indicating the existence via an additional place word. However, the student had doubled the demonstrative ‘there’. A better expression to foreground the locative element could be ‘the big beach is there’.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>人們 有權 平等地 生活 <strong>在 </strong>世界<strong>上</strong>。</li>
+<li>(12)&nbsp; 人們 有權 平等地 生活 <strong>在 </strong>世界<strong>上</strong>。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -366,7 +366,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>到現在 還是 很 有用的</li>
+<li>(13)&nbsp; 到現在 還是 很 有用的</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -376,7 +376,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>那裏 有 一個 很 大 的 海灘。</li>
+<li>(14)&nbsp; 那裏 有 一個 很 大 的 海灘。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -386,7 +386,7 @@ kind: paper
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>在那裏 有 一個 很 大 的 海灘。</li>
+<li>(15)&nbsp; 在那裏 有 一個 很 大 的 海灘。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -395,7 +395,7 @@ kind: paper
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>There are some confinements of the research which could be further polished and advanced. The texts from JEFLL were mainly written by junior and senior high school students, while those from TECCL were composed mainly by undergraduates. The variation in writing prompts and language performances have displayed an enormous disparity that was not expected originally. The acquisitions by Japanese and Chinese L1 speakers could not be directly compared and contrasted in this way. The future investigation could section the students’ school grades for a more precise image of the acquiring progress. The study is also limited in terms of a lack of quantitative data analysis. If equipped with the outcomes of automatic error identification, for example, by using Dynamic Programming or accompanied by the corrected version of the corpora, the patterns in the findings would be more explicit and tangible; hence, the effect of L1 spatial construal on L2 acquisition of spatial devices would be more apparent statistically.</p>
+<p>There are some limitations of the research which could be further polished and advanced. The texts from JEFLL were mainly written by junior and senior high school students, while those from TECCL were composed mainly by undergraduates. The variation in writing prompts and language performances have displayed an enormous disparity that was not expected originally. The acquisitions by Japanese and Chinese L1 speakers could not be directly compared and contrasted in this way. The future investigation could section the students’ school grades for a more precise image of the acquiring progress. The study is also limited in terms of a lack of quantitative data analysis. If equipped with the outcomes of automatic error identification, for example, by using Dynamic Programming or accompanied by the corrected version of the corpora, the patterns in the findings would be more explicit and tangible; hence, the effect of L1 spatial construal on L2 acquisition of spatial devices would be more apparent statistically.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

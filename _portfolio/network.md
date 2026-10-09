@@ -1,6 +1,6 @@
 ---
 title: "Scale-free and Small-world Networks in Word Associations"
-excerpt: " The notable theoretical linguist Noam Chomsky (1957) described language as a set of infinite combinations constructed from a finite set of linguistic units. However, these combinations are not formed randomly or unsystematically due to the lexico-syntactical rules and collocations in real-life language use. Along with the rise of quantitative methodology in linguistics, more statistical evidence has proven the mutual information in the co-occurrence of words. This report aims to present a review of the article <em>The small world of human language</em> (Canchon &amp; Solé, 2001) and how the findings in physics interact with the disciplinary knowledge in linguistics."
+excerpt: " The notable theoretical linguist Noam Chomsky (1957) described language as a set of infinite combinations constructed from a finite set of linguistic units. However, these combinations are not formed randomly or unsystematically due to the lexico-syntactical rules and collocations in real-life language use. Along with the rise of quantitative methodology in linguistics, more statistical evidence has proven the mutual information in the co-occurrence of words. This report aims to present a review of the article <em>The small world of human language</em> (Ferrer i Cancho &amp; Solé, 2001) and how the findings in physics interact with the disciplinary knowledge in linguistics."
 collection: portfolio
 order: 4
 field: "Lexical networks · Quantitative"
@@ -17,7 +17,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The notable theoretical linguist Noam Chomsky (1957) described language as a set of infinite combinations constructed from a finite set of linguistic units. However, these combinations are not formed randomly or unsystematically due to the lexico-syntactical rules and collocations in real-life language use. Along with the rise of quantitative methodology in linguistics, more statistical evidence has proven the mutual information in the co-occurrence of words. This report aims to present a review of the article <em>The small world of human language</em> (Canchon &amp; Solé, 2001) and how the findings in physics interact with the disciplinary knowledge in linguistics.</p>
+<p>The notable theoretical linguist Noam Chomsky (1957) described language as a set of infinite combinations constructed from a finite set of linguistic units. However, these combinations are not formed randomly or unsystematically due to the lexico-syntactical rules and collocations in real-life language use. Along with the rise of quantitative methodology in linguistics, more statistical evidence has proven the mutual information in the co-occurrence of words. This report aims to present a review of the article <em>The small world of human language</em> (Ferrer i Cancho &amp; Solé, 2001) and how the findings in physics interact with the disciplinary knowledge in linguistics.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -25,7 +25,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Canchon and Solé (2001) proposed that the concept of word associations could be regarded as a graph of word interactions in complex systems, namely small-world (SW) networks and scale-free (SF) networks. The analyzed language data from British National Corpus have demonstrated identical statistical properties to the complex networks, including clustering coefficient and short average distance in SW networks, the growing property and the power-law degree distribution in SF networks (theoretically more commonly known as Zipf’s Law). The connectivity distribution for kernel word networks (KWN) has further discussed the word associations in smaller lexicons. They also predicted that the disconnection of most connected edges could indicate symptoms of both Broca’s aphasia and Wernicke’s aphasia.</p>
+<p>Ferrer i Cancho and Solé (2001) proposed that the concept of word associations could be regarded as a graph of word interactions in complex systems, namely small-world (SW) networks and scale-free (SF) networks. The analyzed language data from British National Corpus have demonstrated identical statistical properties to the complex networks, including clustering coefficient and short average distance in SW networks, the growing property and the power-law degree distribution in SF networks (theoretically more commonly known as Zipf’s Law). The connectivity distribution for kernel word networks (KWN) has further discussed the word associations in smaller lexicons. They also predicted that the disconnection of most connected edges could indicate symptoms of both Broca’s aphasia and Wernicke’s aphasia.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -41,11 +41,11 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Canchon and Solé (2001) reported that the feature corresponds to the robustness of randomly chosen nodes and the high fragility of highly connected nodes against perturbations. Their analysis has exhibited the exponents of the degree distribution in UWN and RWN as γ=-1.50 and γ=-2.70, respectively. The value of RWN connectivity could be aligned to the Barabási-Albert model (γ_BA=-3), which incorporated preferential attachment to scale-free distributions. With this rule, it could be supposed that new nodes/words are preferentially attached to an existing node/word proportional to that node/word’s degree. The phenomenon agrees with actual language use, as neologisms usually obey syntactic rules and still occur with highly collocated words like functional words. For example, the neologism that emerged during the COVID-19 pandemic ‘coronacation’ (blending of ‘corona’ and ‘vacation’) follows the constraints of its noun stem ‘vacation.’ Thus, the high-degree and frequently collocated verb ‘have’ would more probably connect to it than other verbs (e.g. ‘do’) or adverbials (e.g. ‘happily’), as in ‘I’m having a coronacation’.</p>
+<p>Ferrer i Cancho and Solé (2001) reported that the feature corresponds to the robustness of randomly chosen nodes and the high fragility of highly connected nodes against perturbations. Their analysis has exhibited the exponents of the degree distribution in UWN and RWN as γ=-1.50 and γ=-2.70, respectively. The value of RWN connectivity could be aligned to the Barabási-Albert model (γ_BA=-3), which incorporated preferential attachment to scale-free distributions. With this rule, it could be supposed that new nodes/words are preferentially attached to an existing node/word proportional to that node/word’s degree. The phenomenon agrees with actual language use, as neologisms usually obey syntactic rules and still occur with highly collocated words like functional words. For example, the neologism that emerged during the COVID-19 pandemic ‘coronacation’ (blending of ‘corona’ and ‘vacation’) follows the constraints of its noun stem ‘vacation.’ Thus, the high-degree and frequently collocated verb ‘have’ would more probably connect to it than other verbs (e.g. ‘do’) or adverbials (e.g. ‘happily’), as in ‘I’m having a coronacation’.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Canchon and Solé (2001) further proved the network properties using the kernel word network (KWN), which contains a smaller lexicon of general speakers in the community with high-frequency words. It consists of the 5000 most interconnected edges in RWN. The results would be more accurate as it principally agrees with the notion of Zipf’s Law, demonstrating real-life language use, and it excludes less commonly used terminologies and jargon. With the power-law tail exponent of γ_KWN=-3.07, every word in KWN is correlated to 24% of the remaining kernel words. They considered that this lexicon of a few thousand words could express everything or almost everything in everyday language. It is compatible with the typical saying in linguistics and language pedagogy that 20% of the words in a language make up 80% of the texts, based on this power-law relation in Zipf’s Law.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ferrer i Cancho and Solé (2001) further proved the network properties using the kernel word network (KWN), which contains a smaller lexicon of general speakers in the community with high-frequency words. It consists of the 5000 most interconnected words in RWN. The results would be more accurate as it principally agrees with the notion of Zipf’s Law, demonstrating real-life language use, and it excludes less commonly used terminologies and jargon. With the power-law tail exponent of γ_KWN=-3.07, every word in KWN is correlated to 24% of the remaining kernel words. They considered that this lexicon of a few thousand words could express everything or almost everything in everyday language. It is compatible with the typical saying in linguistics and language pedagogy that 20% of the words in a language make up 80% of the texts, based on this power-law relation in Zipf’s Law.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -61,11 +61,11 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With the quantitative evidence provided by the complex network properties, it could be deduced that the more small-degree words are used, the more complicated the discourse is to articulate or comprehend. The concept is practical for speakers or writers to produce speeches or texts that are mentally more accessible to the audience. For instance, the cause of why the literary genre stream of consciousnesses is often demanding to comprehend is the longer path length between concepts/nodes/words. The distance between ‘sofa’ and ‘house’ is undoubtedly shorter than between ‘sofa’ and ‘war.’</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With the quantitative evidence provided by the complex network properties, it could be deduced that the more small-degree words are used, the more complicated the discourse is to articulate or comprehend. The concept is practical for speakers or writers to produce speeches or texts that are mentally more accessible to the audience. For instance, the cause of why the literary genre stream of consciousness is often demanding to comprehend is the longer path length between concepts/nodes/words. The distance between ‘sofa’ and ‘house’ is undoubtedly shorter than between ‘sofa’ and ‘war.’</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finally, Canchon and Solé (2001) related the SW properties with the symptoms of aphasia. If the speech produced by an individual derives from a highly clustered and small pattern, it could be due to either self-conscious speed-up navigation or, in an unfortunate case, navigation deficits caused by aphasia. They could be characterized by removing highly connected words/nodes in speech, mainly functional words (e.g. ‘and,’ ‘the,’ ‘of’). Patients of Broca’s aphasia tend to omit those lexical items, leading to long pauses and influent speech. On the other hand, patients with Wernicke’s aphasia substitute high-degree words with ungrammatical or inappropriate lexical items despite being fluent. If an AI is developed to form a network of one’s speech, it could be possible to apply the SW properties in diagnosing aphasia.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finally, Ferrer i Cancho and Solé (2001) related the SW properties with the symptoms of aphasia. If the speech produced by an individual derives from a highly clustered and small pattern, it could be due to either self-conscious speed-up navigation or, in an unfortunate case, navigation deficits caused by aphasia. They could be characterized by removing highly connected words/nodes in speech, mainly functional words (e.g. ‘and,’ ‘the,’ ‘of’). Patients of Broca’s aphasia tend to omit those lexical items, leading to long pauses and non-fluent speech. On the other hand, patients with Wernicke’s aphasia substitute high-degree words with ungrammatical or inappropriate lexical items despite being fluent. If an AI is developed to form a network of one’s speech, it could be possible to apply the SW properties in diagnosing aphasia.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -73,7 +73,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To extend the study by Canchon and Solé (2001) using a corpus linguistic approach, a corpus of Mandarin Chinese, the Lancaster Corpus of Mandarin Chinese (LCMC) (McEnery et al., 2003), is incorporated instead of the BNC to examine if similar degree distribution would be found in a language with different topology, lexical composition and syntactic rules.</p>
+<p>To extend the study by Ferrer i Cancho and Solé (2001) using a corpus linguistic approach, a corpus of Mandarin Chinese, the Lancaster Corpus of Mandarin Chinese (LCMC) (McEnery et al., 2003), is incorporated instead of the BNC to examine if similar degree distribution would be found in a language with different typology, lexical composition and syntactic rules.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -81,7 +81,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>LCMC</td><td>BNC (Canchon &amp; Solé, 2001)</td></tr><tr><td>的,是,在,和,他,不,我,个,有,这</td><td>and, the, of, in, a, to, ’s, with, by, is</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td>LCMC</td><td>BNC (Ferrer i Cancho &amp; Solé, 2001)</td></tr><tr><td>的,是,在,和,他,不,我,个,有,这</td><td>and, the, of, in, a, to, ’s, with, by, is</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
@@ -93,7 +93,7 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":298,"width":399,"height":229,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://kathchangcm.files.wordpress.com/2023/01/image-7.png?w=536" alt="" class="wp-image-298" width="399" height="229"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/image-7.png" alt="" class="wp-image-298" width="399" height="229"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -109,11 +109,11 @@ kind: review
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Cancho, R. F. I., &amp; Solé, R. V. (2001). The small world of human language. <em>Proceedings of the Royal Society of London. Series B: Biological Sciences</em>, 268(1482), 2261-2265.</p>
+<p>Ferrer i Cancho, R., &amp; Solé, R. V. (2001). The small world of human language. <em>Proceedings of the Royal Society of London. Series B: Biological Sciences</em>, 268(1482), 2261-2265.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Chomsky, N. (1957). <em>Syntactic Structures </em>(Januar Linguarum, Series Minor 4). The Hague: Mouton.</p>
+<p>Chomsky, N. (1957). <em>Syntactic Structures </em>(Janua Linguarum, Series Minor 4). The Hague: Mouton.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
