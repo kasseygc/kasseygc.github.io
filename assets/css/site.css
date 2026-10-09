@@ -132,6 +132,7 @@ a.row:hover .row-title { text-decoration: underline; text-decoration-thickness: 
 .row-meta { font-size: 14px; color: var(--muted); text-align: right; white-space: nowrap; }
 .row-desc { grid-column: 1 / -1; max-width: 62ch; font-size: 15px; color: var(--muted); }
 .row-note { grid-column: 1 / -1; font-size: 13px; color: var(--muted); }
+.row-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 4px; font-size: 14px; }
 .ext { font-weight: 400; color: var(--muted); }
 .rows-compact .row { padding: 13px 0; }
 .rows-compact .row-title { font-weight: 400; }

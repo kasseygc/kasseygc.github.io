@@ -38,6 +38,7 @@
       desc: "Analysis of reading-comprehension shortcuts with adversarial training and a question-type-aware loss — a 1.4× robustness gain on ELECTRA-small."
       tech: "Python · PyTorch · ELECTRA"
       url: https://github.com/kasseygc/squad_artifacts
+      paper: /files/KasseyChang_SQuAD_artifacts.pdf
       id: beyond-pattern-matching-dataset-artifacts-in-squad
     - title: "Fact-Checking LLM Outputs with Textual Entailment"
       tag: "NLP · Entailment"
