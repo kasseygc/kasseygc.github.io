@@ -16,7 +16,7 @@ redirect_from:
 <ul class="rows rows-compact">
   {%- for post in site.posts %}
   <li><a class="row" href="{{ post.url | relative_url }}">
-    <span class="row-title">{{ post.title }}</span>
+    <span class="row-title"{% if post.text_lang %} lang="{{ post.text_lang }}"{% endif %}>{{ post.title }}</span>
     <span class="row-meta">{{ post.date | date: '%Y' }}</span>
   </a></li>
   {%- endfor %}
