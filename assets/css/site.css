@@ -33,6 +33,18 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.7s ease;
 }
+/* Film grain: a still noise layer over the tinted paper, behind the content */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncR type='linear' slope='3.5' intercept='-1.25'/%3E%3CfeFuncG type='linear' slope='3.5' intercept='-1.25'/%3E%3CfeFuncB type='linear' slope='3.5' intercept='-1.25'/%3E%3CfeFuncA type='linear' slope='0' intercept='1'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  opacity: 0.7;
+  mix-blend-mode: overlay;
+}
 a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; text-decoration-color: var(--line); transition: text-decoration-color 0.2s, color 0.2s; }
 a:hover { text-decoration-color: currentColor; }
 :focus-visible { outline: 1.5px solid var(--ink); outline-offset: 3px; }
@@ -223,5 +235,6 @@ a.row:hover .row-title { text-decoration: underline; text-decoration-thickness: 
 @media print {
   .site-header, .site-footer, .post-nav, .decor { display: none; }
   body { background: #fff; }
+  body::before { display: none; }
   .block, .page { display: block; padding-top: 24px; }
 }
