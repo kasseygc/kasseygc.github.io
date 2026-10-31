@@ -9,7 +9,8 @@ Personal site of Kassey Guertin-Chang. Jekyll 3.10 + [jekyll-polyglot](https://g
 | What | File |
 | --- | --- |
 | Home page: opening sentence (`intro`), About (`lead`), Now / Before / Education (`facts`), selected work | `_pages/about.md`, `about.fr-CA.md`, `about.de.md`, `about.zh-HK.md` |
-| CV, language services | `_pages/cv*.md`, `_pages/langservices*.md` |
+| Language services | `_pages/langservices*.md` |
+| Research contributions (Linguistics page) | `_data/contributions.yml` |
 | Engineering projects | `_data/tech_projects.yml` (a project without `url` is listed without a link) |
 | Linguistics papers | `_portfolio/*.md` (`field`, `studied`, `pdfs` in front matter) |
 | Essays | `_posts/*.md` |

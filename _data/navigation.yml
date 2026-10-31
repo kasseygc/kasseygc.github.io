@@ -20,8 +20,3 @@ main:
     title_de: "Sprachdienste"
     title_zh-HK: "語言服務"
     url: /langservices/
-  - title: "CV"
-    title_fr-CA: "CV"
-    title_de: "Lebenslauf"
-    title_zh-HK: "履歷"
-    url: /cv/

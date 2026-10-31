@@ -1,61 +1,8 @@
 ---
-lang: en
-title: "CV"
-eyebrow: "Curriculum Vitæ"
+# The CV page was retired; old /cv/ and /resume links go to LinkedIn.
 permalink: /cv/
+redirect_to: https://www.linkedin.com/in/kasseyc
 redirect_from:
- - /resume
+  - /resume
+sitemap: false
 ---
-
-## Professional Profile
-
-I specialize in NLP system architecture, multilingual infrastructure development, and machine learning pipelines. I apply engineering principles and linguistic knowledge to design, build, and optimize scalable language technologies for diverse applications.
-
-## Technical Skills
-
-### Software Engineering & Development
-* **Languages**: Python, Java, C/C++, Kotlin
-* **Backend**: Django, SQL, REST APIs, Docker
-* **Frontend**: HTML/CSS/JavaScript, Android Development
-* **Tools**: Git, AWS, Unix/Linux, Jupyter
-* **Text Processing**: Regex, Parsing Tools
-
-### NLP & Machine Learning
-* **Frameworks**: PyTorch, TensorFlow, BERT, Hugging Face
-* **Libraries**: scikit-learn, NLTK, spaCy, NumPy, Pandas
-* **Applications**: NLP Pipeline Development, Machine Translation, LLM Validation, Language Modeling
-
-### Multilingual Technologies & Research
-* **Analysis Tools**: ELAN, CLAN, Praat
-* **Data Tools**: R, Corpus Analysis Tools
-* **Research Methods**: Experimental Design, Statistical Modeling, Cross-linguistic Analysis
-
-## Professional Experience
-
-### Language Engineer | AWS
-* Built LLM evaluation, benchmarking, and validation workflows measuring accuracy, retrieval quality, and behavioral regressions across model versions — gating releases on task-specific quality thresholds; multilingual model evaluation and system optimization for LLMs; cross-functional leadership across data, engineering, and product, scaling and directing the data workstream, setting technical standards, and owning end-to-end delivery and stakeholder alignment
-
-### Machine Learning Data Linguist | AWS
-* Prompt engineering, machine learning data annotation, multilingual model training and evaluation, and optimization for large language models (LLMs); data-quality scoring and label-noise detection for annotation pipelines; annotation team leadership across the full task lifecycle (task design, workload assignment, quality standards, stakeholder delivery)
-
-### Software QA Specialist | Apple
-* Software UI/UX and localization testing, automation, and machine translation evaluation; hands-on quality control and debugging across the full release cycle
-  
-### Clinical Research Data Coordinator | UCSF Neurology
-* Automated data pipelines, validation systems, and multilingual data extraction; research participant coordination (scheduling, consent, follow-up) under IRB and HIPAA protocols
-* Related Publication: [Speaking in Tones: The role of lexical tones in Chinese-speaking Primary Progressive Aphasia](https://www.medrxiv.org/content/10.1101/2025.10.24.25338751v1)
-
-### ML Research Engineer | Columbia University
-* Machine learning pipelines, data visualization, and real-time data systems
-* Publication: [Probing the Imaginable: Shared and Distinct Processes Between Imagery and Perception Across Semantic Domains](https://journals.sagepub.com/doi/10.1177/02762366251382836)
-  
-### Research Data Analyst | City University of Hong Kong
-* Automation for linguistic annotation, cross-linguistic analysis, and transcription systems
-* Corpus: [CHILDES Mandarin-Cantonese-English EACMC Corpus](https://talkbank.org/childes/access/Biling/EACMC.html)
-* Related Publication: [Grammatical development of the native L1 in Cantonese–English bilingual children: early costs and long-term gains](https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/grammatical-development-of-the-native-l1-in-cantoneseenglish-bilingual-children-early-costs-and-longterm-gains/3C5CA01F25E0FEBAC2F2045298B7967D)
-  
-## Education
-* **MS Computer Science**, The University of Texas at Austin, 2026
-* **BA Linguistics and Computer Science**, Columbia University, 2024
-
-*Full version available upon request*
