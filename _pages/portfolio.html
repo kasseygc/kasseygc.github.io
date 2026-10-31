@@ -24,3 +24,15 @@ deck_zh-HK: "語義學、音系學、語言習得及多語現象方面的研究�
   </li>
   {%- endfor %}
 </ul>
+<h2 class="group-title">{{ t.contrib_title }}</h2>
+<ul class="rows">
+  {%- for c in site.data.contributions %}
+  {%- assign role_key = 'contrib_' | append: c.role %}
+  <li>
+    <a class="row" href="{{ c.url }}" target="_blank" rel="noopener">
+      <span class="row-title" lang="en">{{ c.title }} <span class="ext" aria-hidden="true">↗</span></span>
+      <span class="row-desc">{{ t[role_key] }} · {{ c.org }}</span>
+    </a>
+  </li>
+  {%- endfor %}
+</ul>
