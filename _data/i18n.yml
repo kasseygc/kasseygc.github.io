@@ -2,7 +2,7 @@
 
 en:
   say_name: "Pronounced like “Cassie”"
-  tagline: "Machine learning and NLP"
+  tagline: "NLP, evaluation & measurement"
   language_list: "English, French, Cantonese, Mandarin, German"
   skip: "Skip to content"
   menu: "Menu"
@@ -42,7 +42,7 @@ en:
 
 fr-CA:
   say_name: "Se prononce comme « Cassie »"
-  tagline: "Apprentissage automatique et TAL"
+  tagline: "TAL, évaluation et mesure"
   language_list: "anglais, français, cantonais, mandarin, allemand"
   skip: "Aller au contenu"
   menu: "Menu"
@@ -82,7 +82,7 @@ fr-CA:
 
 de:
   say_name: "Ausgesprochen wie „Cassie“"
-  tagline: "Maschinelles Lernen und NLP"
+  tagline: "NLP, Evaluation und Messung"
   language_list: "Englisch, Französisch, Kantonesisch, Mandarin, Deutsch"
   skip: "Zum Inhalt springen"
   menu: "Menü"
@@ -122,7 +122,7 @@ de:
 
 zh-HK:
   say_name: "讀音近似 Cassie"
-  tagline: "機器學習與自然語言處理"
+  tagline: "自然語言處理、評估與量度"
   language_list: "英文、法文、粵語、國語、德文"
   skip: "跳至內容"
   menu: "選單"

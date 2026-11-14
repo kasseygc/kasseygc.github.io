@@ -5,7 +5,8 @@
 {%- else -%}
   {%- capture doc_title -%}{{ page_title | strip_html }} · {{ site.title }}{%- endcapture -%}
 {%- endif -%}
-{%- assign desc = page.deck | default: page.role | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 180 -%}
+{%- assign deck_key = 'deck_' | append: lang -%}
+{%- assign desc = page[deck_key] | default: page.deck | default: page.role | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 180 -%}
 <title>{{ doc_title }}</title>
 <meta name="description" content="{{ desc | escape }}">
 <meta name="author" content="{{ site.author.name }}">

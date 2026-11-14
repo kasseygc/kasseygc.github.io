@@ -4,22 +4,22 @@ layout: home
 tint: "#e8eef2"
 lang: fr-CA
 title: "À propos"
-tagline: "Apprentissage automatique et TAL"
+tagline: "TAL, évaluation et mesure"
 
 # Hero: one sentence in your own voice (HTML links allowed); role = meta description
-intro: "Bonjour, je suis Kassey. Je conçois et évalue des <a href=\"/tech/\">modèles de langue</a>, ainsi que les garde-fous et les pratiques de données qui les gardent sûrs, équitables et responsables."
-role: "Kassey Guertin-Chang conçoit et évalue des modèles de langue, ainsi que les garde-fous et les pratiques de données qui les gardent sûrs, équitables et responsables."
+intro: "Bonjour, je suis Kassey. Je mesure la performance des <a href=\"/tech/\">modèles de langue</a> et des systèmes réels, et je transforme mes constats en décisions, avec une attention particulière à une IA sûre, équitable et responsable."
+role: "Kassey Guertin-Chang mesure la performance des modèles de langue et des systèmes réels, et transforme ses constats en décisions, avec une attention particulière à une IA sûre, équitable et responsable."
 
 # About: two sentences
-lead: "Je passe mon temps à relier la langue humaine et l’apprentissage automatique. Mon travail couvre tout le cycle de vie d’un système de TAL, de la validation de données multilingues désordonnées à l’ingénierie de pipelines d’apprentissage de bout en bout."
+lead: "Je passe mon temps à relier la langue humaine et l’apprentissage automatique. Mon travail couvre tout le cycle de vie d’un système de TAL, de la validation de données multilingues désordonnées à la mesure de la performance des modèles et des produits qui en dépendent."
 focus:
-  - "Entraînement et ajustement fin de modèles de langue"
   - "Évaluation de modèles, red-teaming et robustesse"
+  - "Mesures, points de référence et décisions fondées sur les données"
   - "Gouvernance de l'IA, sûreté et pratiques d'IA responsable"
   - "Qualité, provenance et pipelines de données pour le ML"
   - "Linguistique informatique et TAL multilingue"
 facts:
-  now: "AWS"
+  now: "Amazon"
   before: "Apple, UCSF, Columbia"
   education:
     - "M. Sc. en informatique, UT Austin"
@@ -27,6 +27,16 @@ facts:
 
 # Selected work, in display order. kind: eng | ling
 selected_work:
+  - title: "Beyond Pattern Matching: Dataset Artifacts in SQuAD"
+    tag: "TAL · Robustesse"
+    kind: eng
+    url: /tech/#beyond-pattern-matching-dataset-artifacts-in-squad
+    desc: "Repérer et corriger les raccourcis des modèles de compréhension de lecture."
+  - title: "Skill-Adjusted Expected Goals in the NHL: A Two-Phase Machine Learning Framework"
+    tag: "Apprentissage automatique · Analyse sportive"
+    kind: eng
+    url: /tech/#skill-adjusted-expected-goals-in-the-nhl-a-two-phase-machine-learning-framework
+    desc: "Prédire les buts à partir d’environ 2 M de tirs de la LNH, selon le talent des joueurs."
   - title: "Teaching Small Language Models to Reason: SFT and Rejection-Sampling Fine-Tuning"
     tag: "TAL · Ajustement fin et AR"
     kind: eng
@@ -37,16 +47,6 @@ selected_work:
     kind: eng
     url: https://github.com/kasseygc/efficient_llm
     desc: "Quantification, LoRA et QLoRA reconstruits de zéro en PyTorch."
-  - title: "Skill-Adjusted Expected Goals in the NHL: A Two-Phase Machine Learning Framework"
-    tag: "Apprentissage automatique · Analyse sportive"
-    kind: eng
-    url: /tech/#skill-adjusted-expected-goals-in-the-nhl-a-two-phase-machine-learning-framework
-    desc: "Prédire les buts à partir d’environ 2 M de tirs de la LNH, selon le talent des joueurs."
-  - title: "Beyond Pattern Matching: Dataset Artifacts in SQuAD"
-    tag: "TAL · Robustesse"
-    kind: eng
-    url: /tech/#beyond-pattern-matching-dataset-artifacts-in-squad
-    desc: "Repérer et corriger les raccourcis des modèles de compréhension de lecture."
   - title: "Vision-Based Autonomous Driving Agent"
     tag: "Vision par ordinateur · Apprentissage profond"
     kind: eng
